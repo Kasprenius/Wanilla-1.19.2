@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/cut_gold_slab"
+    },
+    "type=double": {
+      "model": "wanilla:block/cut_gold"
+    },
+    "type=top": {
+      "model": "wanilla:block/cut_gold_slab_top"
+    }
+  }
+}

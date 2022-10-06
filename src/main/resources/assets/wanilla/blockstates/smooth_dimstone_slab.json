@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/smooth_dimstone_slab"
+    },
+    "type=double": {
+      "model": "wanilla:block/smooth_dimstone"
+    },
+    "type=top": {
+      "model": "wanilla:block/smooth_dimstone_slab_top"
+    }
+  }
+}

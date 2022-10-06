@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wanilla:smooth_dullstone"
+    }
+  ],
+  "result": {
+    "item": "wanilla:smooth_dullstone_button"
+  }
+}

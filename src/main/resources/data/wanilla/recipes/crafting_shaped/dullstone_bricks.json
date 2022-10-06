@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:smooth_dullstone"
+    }
+  },
+  "result": {
+    "item": "wanilla:dullstone_bricks",
+    "count": 4
+  }
+}

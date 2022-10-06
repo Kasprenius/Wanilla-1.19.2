@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:glowstone"
+  },
+  "result": "wanilla:glowstone_wall",
+  "count": 1
+}

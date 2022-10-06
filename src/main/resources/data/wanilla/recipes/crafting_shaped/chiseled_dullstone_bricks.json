@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:dullstone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "wanilla:chiseled_dullstone_bricks",
+    "count": 1
+  }
+}

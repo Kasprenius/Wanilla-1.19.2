@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x  ",
+    "xx ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:smooth_dimstone"
+    }
+  },
+  "result": {
+    "item": "wanilla:smooth_dimstone_stairs",
+    "count": 6
+  }
+}

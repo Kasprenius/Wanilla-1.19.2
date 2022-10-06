@@ -1,0 +1,35 @@
+{
+  "block.dullstone.break": {
+    "sounds": [
+      "wanilla:block/dullstone/break1",
+      "wanilla:block/dullstone/break2"
+    ]
+  },
+  "block.dullstone.step": {
+    "sounds": [
+      "wanilla:block/dullstone/step1",
+      "wanilla:block/dullstone/step2",
+      "wanilla:block/dullstone/step3"
+    ]
+  },
+  "block.dullstone.place": {
+    "sounds": [
+      "wanilla:block/dullstone/step1",
+      "wanilla:block/dullstone/step2",
+      "wanilla:block/dullstone/step3"
+    ]
+  },
+  "block.dullstone.hit": {
+    "sounds": [
+      "wanilla:block/dullstone/step1",
+      "wanilla:block/dullstone/step2",
+      "wanilla:block/dullstone/step3"
+    ]
+  },
+  "block.dullstone.fall": {
+    "sounds": [
+      "wanilla:block/dullstone/break1",
+      "wanilla:block/dullstone/break2"
+    ]
+  }
+}

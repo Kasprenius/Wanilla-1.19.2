@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/smooth_glowstone_slab"
+    },
+    "type=double": {
+      "model": "wanilla:block/smooth_glowstone"
+    },
+    "type=top": {
+      "model": "wanilla:block/smooth_glowstone_slab_top"
+    }
+  }
+}

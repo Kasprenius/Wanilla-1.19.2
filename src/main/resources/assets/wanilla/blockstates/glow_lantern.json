@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "wanilla:block/glow_lantern"
+    },
+    "hanging=true": {
+      "model": "wanilla:block/glow_lantern_hanging"
+    }
+  }
+}

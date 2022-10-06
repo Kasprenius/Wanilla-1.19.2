@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:smooth_dimstone"
+  },
+  "result": "wanilla:smooth_dimstone_slab",
+  "count": 2
+}

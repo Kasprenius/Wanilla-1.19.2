@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wanilla:block/glow_torch_wall"
+    },
+    "facing=north": {
+      "model": "wanilla:block/glow_torch_wall",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "wanilla:block/glow_torch_wall",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "wanilla:block/glow_torch_wall",
+      "y": 180
+    }
+  }
+}

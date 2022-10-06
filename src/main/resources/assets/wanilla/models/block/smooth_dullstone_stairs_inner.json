@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "wanilla:block/smooth_dullstone",
+    "top": "wanilla:block/smooth_dullstone",
+    "side": "wanilla:block/smooth_dullstone"
+  }
+}

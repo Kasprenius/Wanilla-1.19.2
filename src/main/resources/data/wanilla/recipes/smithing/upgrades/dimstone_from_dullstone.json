@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:glowstone_dust"
+  },
+  "base": {
+    "item": "wanilla:dullstone"
+  },
+  "result": {
+    "item": "wanilla:dimstone"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wanilla:glowdust_sand"
+  },
+  "result": "wanilla:glow_glass",
+  "experience": 0.1,
+  "cookingtime": 200
+}

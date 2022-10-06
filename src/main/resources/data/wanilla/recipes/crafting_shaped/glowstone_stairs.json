@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x  ",
+    "xx ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:glowstone"
+    }
+  },
+  "result": {
+    "item": "wanilla:glowstone_stairs",
+    "count": 6
+  }
+}
