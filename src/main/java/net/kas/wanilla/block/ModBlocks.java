@@ -227,7 +227,9 @@ public class ModBlocks {
     public static final Block GLOW_CAMPFIRE = registerBlock("glow_campfire",
             new CampfireBlock(false, 2, FabricBlockSettings.copy(Blocks.CAMPFIRE)),
             ModItemGroup.WANILLA);
-
+    public static final Block GLOW_FIRE = registerBlock("glow_fire",
+            new GlowFireBlock(FabricBlockSettings.copy(Blocks.FIRE)),
+            ModItemGroup.WANILLA);
     /*
     Glass Set
     */
