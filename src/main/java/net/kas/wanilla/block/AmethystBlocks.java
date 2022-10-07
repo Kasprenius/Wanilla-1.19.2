@@ -16,20 +16,24 @@ public class AmethystBlocks {
 
 
     public static final Block AMETHYST_FENCE = registerBlock("amethyst_fence",
-            new FenceBlock(FabricBlockSettings.of(Material.METAL, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            new FenceBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block AMETHYST_WALL = registerBlock("amethyst_wall",
-            new WallBlock(FabricBlockSettings.of(Material.METAL, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            new WallBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block AMETHYST_SLAB = registerBlock("amethyst_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.METAL, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            new SlabBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block AMETHYST_STAIRS = registerBlock("amethyst_stairs",
-            new StairsBlock(Blocks.AMETHYST_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            new StairsBlock(Blocks.AMETHYST_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.WANILLA);
+
+    public static final Block AMETHYST_BRICKS = registerBlock("amethyst_bricks",
+            new SlabBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.WANILLA);
 
     public static final Block AMETHYST_PILLAR = registerBlock("amethyst_pillar",
-            new PillarBlock(FabricBlockSettings.of(Material.METAL, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            new PillarBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.WANILLA);
 
 
