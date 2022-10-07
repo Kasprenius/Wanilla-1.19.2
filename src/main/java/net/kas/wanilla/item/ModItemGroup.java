@@ -90,7 +90,6 @@ public class ModItemGroup {
                 stacks.add(new ItemStack(ModBlocks.GLOW_GLASS_PANE));
                 stacks.add(new ItemStack(ModBlocks.GLOW_CAMPFIRE));
                 stacks.add(new ItemStack(ModBlocks.GLOW_LANTERN));
-                stacks.add(new ItemStack(ModBlocks.SMOOTH_GLOWSTONE_PRESSURE_PLATE));
 
             })
             .build();

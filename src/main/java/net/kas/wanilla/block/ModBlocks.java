@@ -102,9 +102,6 @@ public class ModBlocks {
     public static final Block SMOOTH_GLOWSTONE_BUTTON = registerBlock("smooth_glowstone_button",
             new AbstractStoneButtonBlock(FabricBlockSettings.of(Material.DECORATION).strength(0.5F, 0.5F).sounds(BlockSoundGroup.GLASS).luminance(15).noCollision()),
             ModItemGroup.WANILLA);
-    public static final Block SMOOTH_GLOWSTONE_PRESSURE_PLATE = registerBlock("smooth_glowstone_pressure_plate",
-            new LightUpPressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS, FabricBlockSettings.copy(SMOOTH_GLOWSTONE).luminance(getLuminanceValueLit(15))),
-            ModItemGroup.WANILLA);
 
     /*
     Smooth Dimstone Set
@@ -213,10 +210,10 @@ public class ModBlocks {
     Glowdust Set
      */
     public static final Block GLOWDUST_SAND = registerBlock("glowdust_sand",
-            new SandBlock(0xFFC267, FabricBlockSettings.of(Material.SNOW_BLOCK, MapColor.PALE_YELLOW).requiresTool().strength(0.2F, 0.2F).sounds(BlockSoundGroup.SAND)),
+            new SandBlock(0xFFC267, FabricBlockSettings.of(Material.SNOW_BLOCK, MapColor.PALE_YELLOW).strength(0.2F, 0.2F).sounds(BlockSoundGroup.SAND)),
             ModItemGroup.WANILLA);
     public static final Block GLOWDUST = registerBlock("glowdust",
-            new GlowdustBlock(FabricBlockSettings.of(Material.SNOW_BLOCK, MapColor.PALE_YELLOW).requiresTool().strength(0.2F, 0.2F).sounds(BlockSoundGroup.SAND)),
+            new GlowdustBlock(FabricBlockSettings.of(Material.SNOW_BLOCK, MapColor.PALE_YELLOW).strength(0.2F, 0.2F).sounds(BlockSoundGroup.SAND)),
             ModItemGroup.WANILLA);
     /*
     Glow Set
@@ -225,7 +222,7 @@ public class ModBlocks {
             new LanternBlock(FabricBlockSettings.copy(Blocks.LANTERN)),
             ModItemGroup.WANILLA);
     public static final Block GLOW_CAMPFIRE = registerBlock("glow_campfire",
-            new CampfireBlock(false, 2, FabricBlockSettings.copy(Blocks.CAMPFIRE)),
+            new CampfireBlock(false, 0, FabricBlockSettings.copy(Blocks.CAMPFIRE)),
             ModItemGroup.WANILLA);
     public static final Block GLOW_FIRE = registerBlock("glow_fire",
             new GlowFireBlock(FabricBlockSettings.copy(Blocks.FIRE)),

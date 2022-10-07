@@ -28,7 +28,6 @@
     "wanilla:smooth_glowstone_slab",
     "wanilla:smooth_glowstone_stairs",
     "wanilla:smooth_glowstone_button",
-    "wanilla:smooth_glowstone_pressure_plate",
     "wanilla:smooth_glowstone_wall",
     "wanilla:smooth_dimstone_slab",
     "wanilla:smooth_dimstone_stairs",
@@ -47,7 +46,6 @@
     "wanilla:dullstone_brick_slab",
     "wanilla:dullstone_brick_stairs",
     "wanilla:dullstone_brick_wall",
-
     "wanilla:gold_fence",
     "wanilla:gold_wall",
     "wanilla:gold_slab",
@@ -56,6 +54,13 @@
     "wanilla:cut_gold_wall",
     "wanilla:cut_gold_slab",
     "wanilla:cut_gold_stairs",
-    "wanilla:gold_pillar"
+    "wanilla:gold_pillar",
+    "wanilla:amethyst_wall",
+    "wanilla:amethyst_fence",
+    "wanilla:amethyst_slab",
+    "wanilla:amethyst_stairs",
+    "wanilla:amethyst_pillar",
+    "wanilla:reinforced_deepslate_pillar",
+    "wanilla:reinforced_deepslate"
   ]
 }

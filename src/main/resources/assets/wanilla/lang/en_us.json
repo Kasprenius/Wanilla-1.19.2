@@ -15,7 +15,6 @@
       "block.wanilla.smooth_glowstone_stairs": "Smooth Glowstone Stairs",
       "block.wanilla.smooth_glowstone_button": "Smooth Glowstone Button",
       "block.wanilla.smooth_glowstone_wall": "Smooth Glowstone Wall",
-      "block.wanilla.smooth_glowstone_pressure_plate": "Smooth Glowstone Pressure Plate",
   "block.wanilla.smooth_dimstone": "Smooth Dimstone",
       "block.wanilla.smooth_dimstone_slab": "Smooth Dimstone Slab",
       "block.wanilla.smooth_dimstone_stairs": "Smooth Dimstone Stairs",
@@ -70,6 +69,9 @@
   "block.wanilla.amethyst_slab": "Amethyst Slab",
   "block.wanilla.amethyst_stairs": "Amethyst Stairs",
   "block.wanilla.amethyst_pillar": "Amethyst Pillar",
+
+  "block.wanilla.reinforced_deepslate": "Reinforced Deepslate",
+  "block.wanilla.reinforced_deepslate_pillar": "Reinforced Deepslate Pillar",
 
   "itemGroup.wanilla.wanilla": "Wanilla",
   "itemGroup.wanilla.glowstuff": "Wanilla: Glowstuff"

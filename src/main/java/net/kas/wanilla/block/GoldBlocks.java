@@ -15,33 +15,33 @@ public class GoldBlocks {
 
 
     public static final Block GOLD_FENCE = registerBlock("gold_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)),
+            new FenceBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
     public static final Block GOLD_WALL = registerBlock("gold_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)),
+            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
     public static final Block GOLD_SLAB = registerBlock("gold_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)),
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
     public static final Block GOLD_STAIRS = registerBlock("gold_stairs",
-            new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)),
+            new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
 
     public static final Block CUT_GOLD = registerBlock("cut_gold",
-            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)),
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
     public static final Block CUT_GOLD_WALL = registerBlock("cut_gold_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)),
+            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
     public static final Block CUT_GOLD_SLAB = registerBlock("cut_gold_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)),
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
     public static final Block CUT_GOLD_STAIRS = registerBlock("cut_gold_stairs",
-            new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)),
+            new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
 
     public static final Block GOLD_PILLAR = registerBlock("gold_pillar",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)),
+            new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
 
 

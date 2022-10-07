@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "wanilla:block/reinforced_deepslate_top",
+		"side": "wanilla:block/reinforced_deepslate_side"
+	}
+}
