@@ -68,9 +68,15 @@
   "block.wanilla.amethyst_wall": "Amethyst Wall",
   "block.wanilla.amethyst_slab": "Amethyst Slab",
   "block.wanilla.amethyst_stairs": "Amethyst Stairs",
+  "block.wanilla.amethyst_bricks": "Amethyst Bricks",
+  "block.wanilla.amethyst_brick_wall": "Amethyst Brick Wall",
+  "block.wanilla.amethyst_brick_slab": "Amethyst Bricks Slab",
+  "block.wanilla.amethyst_brick_stairs": "Amethyst Brick Stairs",
   "block.wanilla.amethyst_pillar": "Amethyst Pillar",
 
   "block.wanilla.reinforced_deepslate": "Reinforced Deepslate",
+  "block.wanilla.reinforced_deepslate_slab": "Reinforced Deepslate Slab",
+  "block.wanilla.reinforced_deepslate_stairs": "Reinforced Deepslate Stairs",
   "block.wanilla.reinforced_deepslate_pillar": "Reinforced Deepslate Pillar",
 
   "itemGroup.wanilla.wanilla": "Wanilla",

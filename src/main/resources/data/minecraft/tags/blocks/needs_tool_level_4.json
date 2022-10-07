@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "wanilla:reinforced_deepslate_pillar",
-    "wanilla:reinforced_deepslate"
+    "wanilla:reinforced_deepslate",
+    "wanilla:reinforced_deepslate_slab",
+    "wanilla:reinforced_deepslate_stairs"
   ]
 }

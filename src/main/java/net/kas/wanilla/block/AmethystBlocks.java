@@ -29,7 +29,16 @@ public class AmethystBlocks {
             ModItemGroup.WANILLA);
 
     public static final Block AMETHYST_BRICKS = registerBlock("amethyst_bricks",
+            new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block AMETHYST_BRICK_WALL = registerBlock("amethyst_brick_wall",
+            new WallBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
             new SlabBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block AMETHYST_BRICKS_STAIRS = registerBlock("amethyst_brick_stairs",
+            new StairsBlock(Blocks.AMETHYST_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.WANILLA);
 
     public static final Block AMETHYST_PILLAR = registerBlock("amethyst_pillar",

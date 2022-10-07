@@ -1,6 +1,7 @@
 package net.kas.wanilla.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kas.wanilla.Wanilla;
 import net.kas.wanilla.item.ModItemGroup;
 import net.minecraft.block.*;
@@ -15,6 +16,12 @@ public class ReinforcedDeepslate {
 
     public static final Block REINFORCED_DEEPSLATE = registerBlock("reinforced_deepslate",
             new Block(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block REINFORCED_DEEPSLATE_SLAB = registerBlock("reinforced_deepslate_slab",
+            new SlabBlock(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block REINFORCED_DEEPSLATE_STAIRS = registerBlock("reinforced_deepslate_stairs",
+            new StairsBlock(REINFORCED_DEEPSLATE.getDefaultState(), AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block REINFORCED_DEEPSLATE_PILLAR = registerBlock("reinforced_deepslate_pillar",
             new PillarBlock(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
