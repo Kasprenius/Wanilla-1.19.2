@@ -1,10 +1,10 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "wanilla:block/gold_slab"
+      "model": "wanilla:block/gold_slab_bottom"
     },
     "type=double": {
-      "model": "minecraft:block/gold_block"
+      "model": "wanilla:block/gold_slab_double"
     },
     "type=top": {
       "model": "wanilla:block/gold_slab_top"
