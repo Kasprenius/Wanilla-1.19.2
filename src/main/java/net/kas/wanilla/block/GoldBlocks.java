@@ -4,10 +4,12 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kas.wanilla.Wanilla;
 import net.kas.wanilla.item.ModItemGroup;
+import net.kas.wanilla.registry.IEBlockSoundGroups;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -43,8 +45,9 @@ public class GoldBlocks {
     public static final Block GOLD_PILLAR = registerBlock("gold_pillar",
             new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f)),
             ModItemGroup.WANILLA);
-
-
+    public static final Block GOLD_BRAZIER = registerBlock("gold_brazier",
+            new BrazierBlock(FabricBlockSettings.of(Material.METAL).strength(3.0F).requiresTool().luminance(12), false),
+            ModItemGroup.WANILLA);
 
 
 

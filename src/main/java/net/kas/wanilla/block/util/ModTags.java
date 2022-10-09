@@ -12,6 +12,7 @@ public final class ModTags {
 
     public static class Blocks {
         public static final TagKey<Block> GLOW_FIRE_BASE_BLOCKS = createTag("glow_fire_base_blocks");
+        public static final TagKey<Block> BRAZIERS = createTag("braziers");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(Registry.BLOCK_KEY, new Identifier(Wanilla.MOD_ID, name));
