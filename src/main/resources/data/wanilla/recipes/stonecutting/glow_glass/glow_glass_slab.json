@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:glow_glass"
+  },
+  "result": "wanilla:glow_glass_slab",
+  "count": 2
+}

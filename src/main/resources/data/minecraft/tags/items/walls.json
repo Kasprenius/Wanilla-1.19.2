@@ -10,10 +10,12 @@
     "wanilla:smooth_glowstone_wall",
     "wanilla:smooth_dimstone_wall",
     "wanilla:smooth_dullstone_wall",
-
+    "wanilla:glow_glass_wall",
+    "wanilla:glass_wall",
     "wanilla:gold_wall",
     "wanilla:cut_gold_wall",
-
-    "wanilla:amethyst_wall"
+    "wanilla:amethyst_wall",
+    "wanilla:amethyst_brick_wall",
+    "wanilla:reinforced_deepslate_wall"
   ]
 }

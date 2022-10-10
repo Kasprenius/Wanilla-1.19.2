@@ -1,0 +1,6 @@
+{
+	"parent": "wanilla:block/glass/glass_wall_inventory",
+	"textures": {
+		"wall": "wanilla:block/pink_stained_glass_wall"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "wanilla:block/glass/glass_wall_low_all",
+	"textures": {
+		"wall": "wanilla:block/blue_stained_glass_wall",
+		"particle": "block/blue_stained_glass"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_wall_side",
+	"textures": {
+		"0": "wanilla:block/glass/tinted_glass/regular/tinted_glass_wall_side_low",
+		"1": "wanilla:block/glass/tinted_glass/regular/tinted_glass_wall_side_top",
+		"2": "wanilla:block/glass/tinted_glass/regular/tinted_glass_wall_side_low_side",
+		"particle": "minecraft:block/tinted_glass"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 0],
+			"to": [11, 14, 8],
+			"faces": {
+				"north": {"uv": [10, 0, 16, 14], "texture": "#2"},
+				"east": {"uv": [8, 2, 16, 16], "texture": "#0"},
+				"south": {"uv": [10, 0, 16, 14], "texture": "#2"},
+				"west": {"uv": [0, 2, 8, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 6], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [8, 0, 16, 6], "rotation": 90, "texture": "#1"}
+			}
+		}
+	]
+}

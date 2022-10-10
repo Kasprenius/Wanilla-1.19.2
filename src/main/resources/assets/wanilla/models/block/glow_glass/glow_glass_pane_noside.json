@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "wanilla:block/glass/glow_glass/glow_glass"
+  }
+}

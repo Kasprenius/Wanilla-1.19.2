@@ -50,8 +50,13 @@
 
   "block.wanilla.glow_lantern": "Glowlight Lantern",
   "block.wanilla.glow_campfire": "Glowlight Campfire",
+
   "block.wanilla.glow_glass": "Glowlight Glass",
   "block.wanilla.glow_glass_pane": "Glowlight Glass Pane",
+  "block.wanilla.glow_glass_slab": "Glowlight Glass Slab",
+  "block.wanilla.glow_glass_stairs": "Glowlight Glass Stairs",
+  "block.wanilla.glow_glass_wall": "Glowlight Glass Wall",
+
   "block.wanilla.glow_fire": "Glow Fire",
 
   "block.wanilla.gold_fence": "Gold Fence",
@@ -72,14 +77,22 @@
   "block.wanilla.amethyst_stairs": "Amethyst Stairs",
   "block.wanilla.amethyst_bricks": "Amethyst Bricks",
   "block.wanilla.amethyst_brick_wall": "Amethyst Brick Wall",
-  "block.wanilla.amethyst_brick_slab": "Amethyst Bricks Slab",
+  "block.wanilla.amethyst_brick_slab": "Amethyst Brick Slab",
   "block.wanilla.amethyst_brick_stairs": "Amethyst Brick Stairs",
   "block.wanilla.amethyst_pillar": "Amethyst Pillar",
+  "block.wanilla.chiseled_amethyst": "Chiseled Amethyst",
+  "block.wanilla.carved_amethyst": "Carved Amethyst",
+  "block.wanilla.melted_amethyst": "Melted Amethyst",
 
   "block.wanilla.reinforced_deepslate": "Reinforced Deepslate",
   "block.wanilla.reinforced_deepslate_slab": "Reinforced Deepslate Slab",
   "block.wanilla.reinforced_deepslate_stairs": "Reinforced Deepslate Stairs",
   "block.wanilla.reinforced_deepslate_pillar": "Reinforced Deepslate Pillar",
+  "block.wanilla.reinforced_deepslate_wall": "Reinforced Deepslate Wall",
+
+  "block.wanilla.polished_stone_pillar": "Polished Stone Pillar",
+
+  "block.wanilla.glass_wall": "Glass Wall",
 
   "itemGroup.wanilla.wanilla": "Wanilla",
   "itemGroup.wanilla.glowstuff": "Wanilla: Glowstuff"

@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [40, 16],
+	"textures": {
+		"glass": "wanilla:block/glass/glow_glass/glow_glass",
+		"wall": "wanilla:block/glass/glow_glass/glow_glass_wall",
+		"particle": "wanilla:block/glass/glow_glass/glow_glass"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 0],
+			"to": [11, 16, 16],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"down": {"uv": [2.8, 0, 5.2, 16], "texture": "#wall"}
+			}
+		}
+	]
+}

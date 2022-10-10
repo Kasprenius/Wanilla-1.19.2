@@ -1,0 +1,6 @@
+{
+  "parent": "wanilla:block/glass/glass_wall_side_tall",
+  "textures": {
+    "wall": "minecraft:block/purple_stained_glass"
+  }
+}

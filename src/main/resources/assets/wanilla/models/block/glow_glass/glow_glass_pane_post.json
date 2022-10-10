@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_post",
+  "textures": {
+    "pane": "wanilla:block/glass/glow_glass/glow_glass",
+    "edge": "wanilla:block/glass/glow_glass/glow_glass_pane_top"
+  }
+}

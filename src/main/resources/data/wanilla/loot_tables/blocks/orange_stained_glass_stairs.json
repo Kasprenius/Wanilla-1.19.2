@@ -1,0 +1,1 @@
+{"type": "minecraft:block", "pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": "wanilla:orange_stained_glass_stairs"}], "conditions": [{"condition": "minecraft:survives_explosion"}]}]}

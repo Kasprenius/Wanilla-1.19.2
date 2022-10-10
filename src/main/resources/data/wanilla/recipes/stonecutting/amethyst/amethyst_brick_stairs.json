@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+	{
+	  "item": "wanilla:amethyst_bricks"
+	}
+  ],
+  "result": "wanilla:amethyst_brick_stairs",
+  "count": 1
+}

@@ -44,6 +44,15 @@ public class AmethystBlocks {
     public static final Block AMETHYST_PILLAR = registerBlock("amethyst_pillar",
             new PillarBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.WANILLA);
+    public static final Block CHISELED_AMETHYST = registerBlock("chiseled_amethyst",
+            new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block CARVED_AMETHYST = registerBlock("carved_amethyst",
+            new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block MELTED_AMETHYST = registerBlock("melted_amethyst",
+            new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.WANILLA);
 
 
 

@@ -26,6 +26,9 @@ public class ReinforcedDeepslate {
     public static final Block REINFORCED_DEEPSLATE_PILLAR = registerBlock("reinforced_deepslate_pillar",
             new PillarBlock(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
             ModItemGroup.WANILLA);
+    public static final Block REINFORCED_DEEPSLATE_WALL = registerBlock("reinforced_deepslate_wall",
+            new WallBlock(FabricBlockSettings.copy(REINFORCED_DEEPSLATE)),
+            ModItemGroup.WANILLA);
 
 
 

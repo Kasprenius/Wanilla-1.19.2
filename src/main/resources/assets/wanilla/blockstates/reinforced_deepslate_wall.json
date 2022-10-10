@@ -1,0 +1,82 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_post_3d"
+      }
+    },
+    {
+      "when": {
+        "north": "low"
+      },
+      "apply": {
+        "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_side_3d"
+      }
+    },
+    {
+      "when": {
+        "east": "low"
+      },
+      "apply": {
+        "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_side_3d",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "low"
+      },
+      "apply": {
+        "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_side_3d",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "low"
+      },
+      "apply": {
+        "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_side_3d",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "north": "tall"
+      },
+      "apply": {
+        "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_side_tall_3d"
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_side_tall_3d",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_side_tall_3d",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_side_tall_3d",
+        "y": 270
+      }
+    }
+  ]
+}

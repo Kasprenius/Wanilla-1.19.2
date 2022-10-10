@@ -1,5 +1,5 @@
 {
-  "parent": "wanilla:custom/brazier",
+  "parent": "wanilla:block/brazier",
   "textures": {
     "all": "wanilla:block/gold/gold_brazier_base",
     "particle": "wanilla:block/gold/gold_brazier_base",

@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "wanilla:block/glass/glass_wall_low_full",
+	"textures": {
+		"wall": "wanilla:block/yellow_stained_glass_wall"
+	}
+}

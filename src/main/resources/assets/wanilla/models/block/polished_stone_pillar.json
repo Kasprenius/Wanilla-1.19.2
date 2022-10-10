@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "wanilla:block/polished_stone/polished_stone_pillar_top",
+    "side": "wanilla:block/polished_stone/polished_stone_pillar"
+  }
+}

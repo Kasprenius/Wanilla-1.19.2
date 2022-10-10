@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "wanilla:block/amethyst_brick_slab"
+      "model": "wanilla:block/amethyst/amethyst_brick_slab"
     },
     "type=double": {
-      "model": "minecraft:block/amethyst_block"
+      "model": "wanilla:block/amethyst/amethyst_bricks"
     },
     "type=top": {
-      "model": "wanilla:block/amethyst_brick_slab_top"
+      "model": "wanilla:block/amethyst/amethyst_brick_slab_top"
     }
   }
 }

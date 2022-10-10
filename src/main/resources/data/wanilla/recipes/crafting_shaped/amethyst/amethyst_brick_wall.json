@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:amethyst_bricks"
+    }
+  },
+  "result": {
+    "item": "wanilla:amethyst_brick_wall",
+    "count": 6
+  }
+}

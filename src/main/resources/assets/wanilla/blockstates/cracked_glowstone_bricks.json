@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "wanilla:block/cracked_glowstone_bricks" }
+    "": { "model": "wanilla:block/glowstone/cracked_glowstone_bricks" }
   }
 }

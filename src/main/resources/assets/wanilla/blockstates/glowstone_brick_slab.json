@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "wanilla:block/glowstone_brick_slab"
+      "model": "wanilla:block/glowstone/glowstone_brick_slab"
     },
     "type=double": {
-      "model": "wanilla:block/glowstone_bricks"
+      "model": "wanilla:block/glowstone/glowstone_bricks"
     },
     "type=top": {
-      "model": "wanilla:block/glowstone_brick_slab_top"
+      "model": "wanilla:block/glowstone/glowstone_brick_slab_top"
     }
   }
 }

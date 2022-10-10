@@ -227,14 +227,9 @@ public class ModBlocks {
     public static final Block GLOW_FIRE = registerBlock("glow_fire",
             new GlowFireBlock(FabricBlockSettings.copy(Blocks.FIRE)),
             ModItemGroup.WANILLA);
-    /*
-    Glass Set
-    */
-    public static final Block GLOW_GLASS = registerBlock("glow_glass",
-            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(10)),
-            ModItemGroup.WANILLA);
-    public static final Block GLOW_GLASS_PANE = registerBlock("glow_glass_pane",
-            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(10)),
+
+    public static final Block POLISHED_STONE_PILLAR = registerBlock("polished_stone_pillar",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STONE).requiresTool()),
             ModItemGroup.WANILLA);
 
 

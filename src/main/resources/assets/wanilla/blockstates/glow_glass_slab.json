@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "wanilla:block/glow_glass/glow_glass_slab" },
+    "type=top": { "model": "wanilla:block/glow_glass/glow_glass_slab_top" },
+    "type=double": { "model": "wanilla:block/glow_glass/glow_glass" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "wanilla:block/glass/glow_glass/glow_glass",
+    "top": "wanilla:block/glass/glow_glass/glow_glass",
+    "side": "wanilla:block/glass/glow_glass/glow_glass_slab_top"
+  }
+}

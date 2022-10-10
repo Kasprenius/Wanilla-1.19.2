@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:glow_glass"
+    }
+  },
+  "result": {
+    "item": "wanilla:glow_glass_wall",
+    "count": 6
+  }
+}

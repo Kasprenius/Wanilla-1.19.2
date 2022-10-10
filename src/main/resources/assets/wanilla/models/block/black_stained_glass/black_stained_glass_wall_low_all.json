@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "wanilla:block/glass/glass_wall_low_all",
+	"textures": {
+		"wall": "wanilla:block/black_stained_glass_wall",
+		"particle": "block/black_stained_glass"
+	}
+}

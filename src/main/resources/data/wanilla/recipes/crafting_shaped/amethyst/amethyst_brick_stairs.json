@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "wanilla:amethyst_bricks"
+    }
+  },
+  "result": {
+    "item": "wanilla:amethyst_brick_stairs",
+    "count": 6
+  }
+}

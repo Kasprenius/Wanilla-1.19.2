@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "wanilla:block/glow_glass"
+      "model": "wanilla:block/glow_glass/glow_glass"
     }
   }
 }

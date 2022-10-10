@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "wanilla:block/glowlight_glass"
+    "layer0": "wanilla:block/glass/glow_glass/glow_glass"
   }
 }

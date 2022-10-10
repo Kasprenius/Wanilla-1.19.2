@@ -1,5 +1,5 @@
 {
-  "parent": "wanilla:custom/brazier_extinguished",
+  "parent": "wanilla:block/brazier_extinguished",
   "textures": {
     "all": "wanilla:block/gold/gold_brazier_base",
     "particle": "wanilla:block/gold/gold_brazier_base",

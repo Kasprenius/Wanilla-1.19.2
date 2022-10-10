@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:amethyst_brick_slab"
+    }
+  },
+  "result": {
+    "item": "wanilla:chiseled_amethyst",
+    "count": 1
+  }
+}
