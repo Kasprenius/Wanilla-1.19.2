@@ -210,7 +210,7 @@ public class ModBlocks {
     Glowdust Set
      */
     public static final Block GLOWDUST_SAND = registerBlock("glowdust_sand",
-            new SandBlock(0xFFC267, FabricBlockSettings.of(Material.SNOW_BLOCK, MapColor.PALE_YELLOW).strength(0.2F, 0.2F).sounds(BlockSoundGroup.SAND)),
+            new SandBlock(0xFFC267, FabricBlockSettings.of(Material.SNOW_BLOCK, MapColor.PALE_YELLOW).strength(0.2F, 0.2F).luminance(4).sounds(BlockSoundGroup.SAND)),
             ModItemGroup.WANILLA);
     public static final Block GLOWDUST = registerBlock("glowdust",
             new GlowdustBlock(FabricBlockSettings.of(Material.SNOW_BLOCK, MapColor.PALE_YELLOW).strength(0.2F, 0.2F).sounds(BlockSoundGroup.SAND)),
