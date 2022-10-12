@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "wanilla:block/gold/chains/gold_anchor_bottom"
+    },
+    "half=upper": {
+      "model": "wanilla:block/gold/chains/gold_anchor_top"
+    }
+  }
+}

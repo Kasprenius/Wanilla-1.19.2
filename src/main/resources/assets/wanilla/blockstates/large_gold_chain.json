@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wanilla:block/gold/chains/large_gold_chain",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "wanilla:block/gold/chains/large_gold_chain"
+    },
+    "axis=z": {
+      "model": "wanilla:block/gold/chains/large_gold_chain",
+      "x": 90
+    }
+  }
+}

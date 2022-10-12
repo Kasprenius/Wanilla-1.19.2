@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "wanilla:block/dustrial/anchor_bottom"
+    },
+    "half=upper": {
+      "model": "wanilla:block/dustrial/anchor_top"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "wanilla:block/dustrial/large_redstone_lantern_top",
+    "north": "wanilla:block/dustrial/large_redstone_lantern",
+    "south": "wanilla:block/dustrial/large_redstone_lantern",
+    "east": "wanilla:block/dustrial/large_redstone_lantern",
+    "west": "wanilla:block/dustrial/large_redstone_lantern",
+    "up": "wanilla:block/dustrial/large_redstone_lantern_top",
+    "down": "wanilla:block/dustrial/large_lantern_bottom"
+  }
+}

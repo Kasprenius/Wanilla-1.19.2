@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "wanilla:block/gold/lanterns/large_gold_ender_lantern_top",
+    "north": "wanilla:block/gold/lanterns/large_gold_ender_lantern",
+    "south": "wanilla:block/gold/lanterns/large_gold_ender_lantern",
+    "east": "wanilla:block/gold/lanterns/large_gold_ender_lantern",
+    "west": "wanilla:block/gold/lanterns/large_gold_ender_lantern",
+    "up": "wanilla:block/gold/lanterns/large_gold_ender_lantern_top",
+    "down": "wanilla:block/gold/lanterns/large_gold_lantern_bottom"
+  }
+}

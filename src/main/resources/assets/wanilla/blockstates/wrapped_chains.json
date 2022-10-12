@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y":  { "model": "wanilla:block/dustrial/wrapped_chains" },
+    "axis=z":   { "model": "wanilla:block/dustrial/wrapped_chains", "x": 90 },
+    "axis=x":   { "model": "wanilla:block/dustrial/wrapped_chains", "x": 90, "y": 90 }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "wanilla:block/dustrial/hook"
+      },
+      {
+        "model": "wanilla:block/dustrial/hook",
+        "y": 180
+      }
+    ]
+  }
+}

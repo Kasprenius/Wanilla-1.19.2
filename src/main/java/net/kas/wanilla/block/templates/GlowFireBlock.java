@@ -1,8 +1,9 @@
 /*
  * Decompiled with CFR 0.1.1 (FabricMC 57d88659).
  */
-package net.kas.wanilla.block;
+package net.kas.wanilla.block.templates;
 
+import net.kas.wanilla.block.ModBlocks;
 import net.kas.wanilla.block.util.ModTags;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemPlacementContext;

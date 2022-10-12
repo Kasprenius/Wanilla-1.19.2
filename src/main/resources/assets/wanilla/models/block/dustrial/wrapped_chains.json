@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "wanilla:block/dustrial/wrapped_chains_top",
+        "side": "wanilla:block/dustrial/wrapped_chains"
+    }
+}

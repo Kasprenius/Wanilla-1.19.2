@@ -1,7 +1,9 @@
 package net.kas.wanilla;
 
+import com.sun.net.httpserver.Filter;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.kas.wanilla.block.ChainBlocks;
 import net.kas.wanilla.block.GlassBlocks;
 import net.kas.wanilla.block.GlowGlass;
 import net.kas.wanilla.block.ModBlocks;
@@ -21,6 +23,7 @@ public class WanillaClient implements ClientModInitializer {
                 GlowGlass.GLOW_GLASS_STAIRS,
                 GlowGlass.GLOW_GLASS_WALL,
                 GlassBlocks.GLASS_WALL
+
         );
 
         /*
@@ -28,7 +31,14 @@ public class WanillaClient implements ClientModInitializer {
          */
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
                 ModBlocks.GLOW_LANTERN,
-                ModBlocks.GLOW_CAMPFIRE
+                ModBlocks.GLOW_CAMPFIRE,
+                ChainBlocks.GOLD_CHAIN,
+                ChainBlocks.LARGE_GOLD_CHAIN,
+                ChainBlocks.GOLD_ANCHOR,
+                ChainBlocks.GOLD_HOOK,
+                ChainBlocks.LARGE_CHAIN,
+                ChainBlocks.HOOK,
+                ChainBlocks.ANCHOR
         );
     }
 }

@@ -4,7 +4,9 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kas.wanilla.Wanilla;
 import net.kas.wanilla.block.templates.AbstractStoneButtonBlock;
-import net.kas.wanilla.block.templates.LightUpPressurePlateBlock;
+import net.kas.wanilla.block.templates.GlowFireBlock;
+import net.kas.wanilla.block.templates.GlowdustBlock;
+import net.kas.wanilla.block.templates.Glowstones;
 import net.kas.wanilla.item.ModItemGroup;
 import net.kas.wanilla.registry.IEBlockSoundGroups;
 import net.minecraft.block.*;
@@ -227,6 +229,15 @@ public class ModBlocks {
     public static final Block GLOW_FIRE = registerBlock("glow_fire",
             new GlowFireBlock(FabricBlockSettings.copy(Blocks.FIRE)),
             ModItemGroup.WANILLA);
+
+
+    public static final Block GLOWSTONES = registerBlock("glowstones",
+            new Glowstones(FabricBlockSettings.copy(Blocks.CANDLE).luminance(Glowstones.STATE_TO_LUMINANCE)),
+            ModItemGroup.WANILLA);
+
+
+
+
 
     public static final Block POLISHED_STONE_PILLAR = registerBlock("polished_stone_pillar",
             new PillarBlock(FabricBlockSettings.copy(Blocks.STONE).requiresTool()),

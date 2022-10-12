@@ -1,7 +1,6 @@
-package net.kas.wanilla.block;
+package net.kas.wanilla.block.templates;
 
 import net.kas.wanilla.block.entities.GlowCampfireBlockEntity;
-
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CampfireBlock;
 import net.minecraft.block.entity.BlockEntity;

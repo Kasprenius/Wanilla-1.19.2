@@ -1,4 +1,4 @@
-package net.kas.wanilla.block;
+package net.kas.wanilla.block.templates;
 
 
 import net.kas.wanilla.block.ModBlocks;

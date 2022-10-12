@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "candles=1,lit=true": {
+      "model": "wanilla:block/glowstones/one_glowstone"
+    },
+    "candles=2,lit=true": {
+      "model": "wanilla:block/glowstones/two_glowstones"
+    },
+    "candles=3,lit=true": {
+      "model": "wanilla:block/glowstones/three_glowstones"
+    },
+    "candles=4,lit=true": {
+      "model": "wanilla:block/glowstones/four_glowstones"
+    }
+  }
+}

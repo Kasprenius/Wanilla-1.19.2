@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wanilla:block/gold/chains/gold_anchor_bottom"
+  }
+}
