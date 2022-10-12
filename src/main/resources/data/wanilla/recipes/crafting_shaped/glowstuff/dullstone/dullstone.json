@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ox",
+    "oo"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:glowdust_sand"
+    },
+    "o": {
+      "item": "wanilla:glowstones"
+    }
+  },
+  "result": {
+    "item": "wanilla:dullstone",
+    "count": 3
+  }
+}

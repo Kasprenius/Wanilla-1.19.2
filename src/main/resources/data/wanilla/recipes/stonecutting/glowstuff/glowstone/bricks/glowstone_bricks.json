@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:smooth_glowstone"
+  },
+  "result": "wanilla:glowstone_bricks",
+  "count": 1
+}

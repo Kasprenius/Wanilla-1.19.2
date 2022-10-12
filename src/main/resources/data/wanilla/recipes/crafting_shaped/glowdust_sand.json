@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " xx",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "wanilla:glowdust_sand",
+    "count": 1
+  }
+}

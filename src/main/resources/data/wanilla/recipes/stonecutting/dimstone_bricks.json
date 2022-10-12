@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "wanilla:dimstone"
-  },
-  "result": "wanilla:dimstone_bricks",
-  "count": 1
-}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xo",
+    "ox"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:glowdust_sand"
+    },
+    "o": {
+      "item": "wanilla:glowstones"
+    }
+  },
+  "result": {
+    "item": "wanilla:dimstone",
+    "count": 2
+  }
+}

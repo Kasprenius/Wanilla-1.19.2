@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:smooth_dullstone"
+  },
+  "result": "wanilla:dullstone_bricks",
+  "count": 1
+}

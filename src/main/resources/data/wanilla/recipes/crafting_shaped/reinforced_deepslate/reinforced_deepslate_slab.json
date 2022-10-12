@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:reinforced_deepslate"
+    }
+  },
+  "result": {
+    "item": "wanilla:reinforced_deepslate_slab",
+    "count": 6
+  }
+}

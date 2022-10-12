@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:reinforced_deepslate"
+  },
+  "result": "wanilla:reinforced_deepslate_stairs",
+  "count": 1
+}
