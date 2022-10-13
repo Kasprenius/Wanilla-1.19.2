@@ -22,5 +22,6 @@ public class Wanilla implements ModInitializer {
 		ReinforcedDeepslate.registerBlocks();
 		ChainBlocks.registerBlocks();
 		LanternBlocks.registerBlocks();
+
 	}
 }

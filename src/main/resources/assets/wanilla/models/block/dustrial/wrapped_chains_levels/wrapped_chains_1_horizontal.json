@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "wanilla:block/dustrial/wrapped_chains",
+		"1": "wanilla:block/dustrial/wrapped_chains_top",
+		"particle": "wanilla:block/dustrial/wrapped_chains"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 16, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 16], "texture": "#0"},
+				"east": {"uv": [10, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 10, 16], "texture": "#0"},
+				"west": {"uv": [5, 0, 11, 16], "texture": "#0"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#1"},
+				"down": {"uv": [5, 11, 11, 5], "texture": "#1"}
+			}
+		}
+	]
+}

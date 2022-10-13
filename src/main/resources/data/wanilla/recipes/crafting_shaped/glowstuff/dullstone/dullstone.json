@@ -5,15 +5,15 @@
     "oo"
   ],
   "key": {
-    "x": {
+    "o": {
       "item": "wanilla:glowdust_sand"
     },
-    "o": {
+    "x": {
       "item": "wanilla:glowstones"
     }
   },
   "result": {
     "item": "wanilla:dullstone",
-    "count": 3
+    "count": 1
   }
 }

@@ -45,13 +45,11 @@ public class GoldBlocks {
     public static final Block GOLD_PILLAR = registerBlock("gold_pillar",
             new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
             ModItemGroup.WANILLA);
-    /*
+
     public static final Block GOLD_BRAZIER = registerBlock("gold_brazier",
             new BrazierBlock(FabricBlockSettings.of(Material.METAL).strength(3.0F).requiresTool().luminance(12), false),
             ModItemGroup.WANILLA);
 
-
-     */
 
 
     //-------------------------------------------------------------------------------------------------------------------

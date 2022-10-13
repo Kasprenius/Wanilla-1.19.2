@@ -64,6 +64,8 @@
     "wanilla:cut_gold_slab",
     "wanilla:cut_gold_stairs",
     "wanilla:gold_pillar",
+    "wanilla:wrapped_gold_chains",
+    "wanilla:wrapped_chains",
     "wanilla:polished_stone_pillar"
   ]
 }

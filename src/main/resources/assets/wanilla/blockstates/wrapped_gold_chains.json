@@ -1,7 +1,112 @@
 {
   "variants": {
-    "axis=y":  { "model": "wanilla:block/gold/chains/wrapped_gold_chains" },
-    "axis=z":   { "model": "wanilla:block/gold/chains/wrapped_gold_chains", "x": 90 },
-    "axis=x":   { "model": "wanilla:block/gold/chains/wrapped_gold_chains", "x": 90, "y": 90 }
+    "axis=y,runs=0": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_1_vertical"
+    },
+    "axis=z,runs=0": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_1_horizontal",
+      "x": 90
+    },
+    "axis=x,runs=0": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_1_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,runs=1": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_2_vertical"
+    },
+    "axis=z,runs=1": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_2_horizontal",
+      "x": 90
+    },
+    "axis=x,runs=1": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_2_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,runs=2": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_3_vertical"
+    },
+    "axis=z,runs=2": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_3_horizontal",
+      "x": 90
+    },
+    "axis=x,runs=2": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_3_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,runs=3": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_4_vertical"
+    },
+    "axis=z,runs=3": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_4_horizontal",
+      "x": 90
+    },
+    "axis=x,runs=3": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_4_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,runs=4": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_5_vertical"
+    },
+    "axis=z,runs=4": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_5_horizontal",
+      "x": 90
+    },
+    "axis=x,runs=4": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_5_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,runs=5": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_6_vertical"
+    },
+    "axis=z,runs=5": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_6_horizontal",
+      "x": 90
+    },
+    "axis=x,runs=5": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_6_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,runs=6": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_7_vertical"
+    },
+    "axis=z,runs=6": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_7_horizontal",
+      "x": 90
+    },
+    "axis=x,runs=6": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_7_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,runs=7": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_8_vertical"
+    },
+    "axis=z,runs=7": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_8_horizontal",
+      "x": 90
+    },
+    "axis=x,runs=7": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains_levels/wrapped_gold_chains_8_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,runs=8": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains"
+    },
+    "axis=z,runs=8": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains",
+      "x": 90
+    },
+    "axis=x,runs=8": {
+      "model": "wanilla:block/gold/chains/wrapped_gold_chains",
+      "x": 90,
+      "y": 90
+    }
   }
 }

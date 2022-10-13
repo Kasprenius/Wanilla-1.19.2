@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wanilla:wrapped_gold_chain"
+    }
+  ],
+  "result": {
+    "item": "wanilla:gold_chain",
+    "count": 9
+  }
+}
