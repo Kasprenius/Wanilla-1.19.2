@@ -21,6 +21,9 @@ public class ChainBlocks {
     public static final Block GOLD_CHAIN = registerBlock("gold_chain",
             new ChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN)),
             ModItemGroup.WANILLA);
+    public static final Block BIG_GOLD_CHAIN = registerBlock("big_gold_chain",
+            new BigChain(FabricBlockSettings.copyOf(ChainBlocks.GOLD_CHAIN)),
+            ModItemGroup.WANILLA);
     public static final Block LARGE_GOLD_CHAIN = registerBlock("large_gold_chain",
             new LargeChain(FabricBlockSettings.copyOf(ChainBlocks.GOLD_CHAIN)),
             ModItemGroup.WANILLA);
@@ -36,6 +39,9 @@ public class ChainBlocks {
 
     public static final Block LARGE_CHAIN = registerBlock("large_chain",
             new LargeChain(FabricBlockSettings.copyOf(Blocks.CHAIN)),
+            ModItemGroup.WANILLA);
+    public static final Block BIG_CHAIN = registerBlock("big_chain",
+            new BigChain(FabricBlockSettings.copyOf(Blocks.CHAIN)),
             ModItemGroup.WANILLA);
     public static final Block ANCHOR = registerBlock("anchor",
             new DoubleBlock(FabricBlockSettings.copyOf(Blocks.CHAIN)),

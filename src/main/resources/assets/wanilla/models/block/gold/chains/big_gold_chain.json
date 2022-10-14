@@ -1,0 +1,7 @@
+{
+  "parent": "wanilla:custom/big_chain",
+  "textures": {
+    "particle": "wanilla:block/gold/chains/big_gold_chain",
+    "texture": "wanilla:block/gold/chains/big_gold_chain"
+  }
+}
