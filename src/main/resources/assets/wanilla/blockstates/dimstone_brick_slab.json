@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "wanilla:block/dimstone_brick_slab"
+      "model": "wanilla:block/dimstone/bricks/dimstone_brick_slab"
     },
     "type=double": {
-      "model": "wanilla:block/dimstone_bricks"
+      "model": "wanilla:block/dimstone/bricks/dimstone_bricks"
     },
     "type=top": {
-      "model": "wanilla:block/dimstone_brick_slab_top"
+      "model": "wanilla:block/dimstone/bricks/dimstone_brick_slab_top"
     }
   }
 }

@@ -1,7 +1,8 @@
 {
+	"credit": "Made with Blockbench",
 	"parent": "block/cube_column",
 	"textures": {
-		"end": "wanilla:block/reinforced_deepslate_top",
-		"side": "wanilla:block/reinforced_deepslate_side"
+		"end": "wanilla:block/reinforced_deepslate/reinforced_deepslate_top",
+		"side": "wanilla:block/reinforced_deepslate/reinforced_deepslate_side"
 	}
 }

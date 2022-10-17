@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wanilla:block/blast_iron/blast_iron_block"
+  }
+}

@@ -18,38 +18,36 @@ public class GoldBlocks {
 
     public static final Block GOLD_FENCE = registerBlock("gold_fence",
             new FenceBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);
+            ModItemGroup.WANILLA);  //G
     public static final Block GOLD_WALL = registerBlock("gold_wall",
             new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);
+            ModItemGroup.WANILLA);  //G
     public static final Block GOLD_SLAB = registerBlock("gold_slab",
             new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);
+            ModItemGroup.WANILLA);  //G
     public static final Block GOLD_STAIRS = registerBlock("gold_stairs",
             new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);
+            ModItemGroup.WANILLA);  //G
 
     public static final Block CUT_GOLD = registerBlock("cut_gold",
             new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);
+            ModItemGroup.WANILLA);  //G
     public static final Block CUT_GOLD_WALL = registerBlock("cut_gold_wall",
             new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);
+            ModItemGroup.WANILLA);  //G
     public static final Block CUT_GOLD_SLAB = registerBlock("cut_gold_slab",
             new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);
+            ModItemGroup.WANILLA);  //G
     public static final Block CUT_GOLD_STAIRS = registerBlock("cut_gold_stairs",
             new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);
+            ModItemGroup.WANILLA);  //G
 
     public static final Block GOLD_PILLAR = registerBlock("gold_pillar",
             new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);
-
-    public static final Block GOLD_BRAZIER = registerBlock("gold_brazier",
-            new BrazierBlock(FabricBlockSettings.of(Material.METAL).strength(3.0F).requiresTool().luminance(12), false),
-            ModItemGroup.WANILLA);
-
+            ModItemGroup.WANILLA);  //G
+    public static final Block GOLD_BARS = registerBlock("gold_bars",
+            new PaneBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.WANILLA);  //G
 
 
     //-------------------------------------------------------------------------------------------------------------------

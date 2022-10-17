@@ -1,7 +1,0 @@
-{
-  "parent": "wanilla:custom/big_chain",
-  "textures": {
-    "particle": "wanilla:block/big_chain",
-    "texture": "wanilla:block/big_chain"
-  }
-}

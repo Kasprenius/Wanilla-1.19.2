@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "wanilla:block/chiseled_dimstone_bricks" }
+    "": { "model": "wanilla:block/dimstone/chiseled_dimstone_bricks" }
   }
 }

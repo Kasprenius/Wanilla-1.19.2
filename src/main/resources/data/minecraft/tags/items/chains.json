@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "wanilla:gold_chain",
-    "minecraft:chain"
+    "wanilla:big_gold_chain",
+    "minecraft:chain",
+    "wanilla:big_blast_iron_chain",
+    "wanilla:netherite_chain",
+    "wanilla:big_netherite_chain"
   ]
 }

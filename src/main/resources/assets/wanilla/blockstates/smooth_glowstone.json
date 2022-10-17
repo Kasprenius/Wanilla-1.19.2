@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "wanilla:block/glowstone/smooth_glowstone" }
+    "": { "model": "wanilla:block/glowstone/smooth/smooth_glowstone" }
   }
 }

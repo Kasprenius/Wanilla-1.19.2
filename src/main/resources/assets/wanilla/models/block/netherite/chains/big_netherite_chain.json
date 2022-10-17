@@ -1,0 +1,7 @@
+{
+  "parent": "wanilla:custom/big_chain",
+  "textures": {
+    "particle": "wanilla:block/netherite/big_netherite_chain",
+    "texture": "wanilla:block/netherite/big_netherite_chain"
+  }
+}

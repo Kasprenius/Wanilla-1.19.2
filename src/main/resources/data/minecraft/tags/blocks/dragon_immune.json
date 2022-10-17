@@ -1,0 +1,17 @@
+{
+  "values": [
+    "wanilla:reinforced_deepslate",
+    "wanilla:reinforced_deepslate_pillar",
+    "wanilla:reinforced_deepslate_slab",
+    "wanilla:reinforced_deepslate_stairs",
+    "wanilla:reinforced_deepslate_wall",
+    "wanilla:blast_iron_block",
+    "wanilla:blast_iron_bars",
+    "minecraft:chain",
+    "wanilla:big_blast_iron_chain",
+    "minecraft:netherite_block",
+    "wanilla:netherite_bars",
+    "wanilla:netherite_chain",
+    "wanilla:big_netherite_chain"
+  ]
+}

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "wanilla:netherite_bars",
+    "wanilla:netherite_chain",
+    "wanilla:big_netherite_chain"
   ]
 }

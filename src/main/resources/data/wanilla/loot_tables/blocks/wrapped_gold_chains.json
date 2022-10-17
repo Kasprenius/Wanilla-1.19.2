@@ -1,0 +1,146 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wanilla:gold_chain",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "runs": "0"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wanilla:gold_chain",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "runs": "1"
+                  }
+                }
+              ],
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wanilla:gold_chain",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "runs": "2"
+                  }
+                }
+              ],
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wanilla:gold_chain",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "runs": "3"
+                  }
+                }
+              ],
+              "count": 4.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wanilla:gold_chain",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "runs": "4"
+                  }
+                }
+              ],
+              "count": 5.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wanilla:gold_chain",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "runs": "5"
+                  }
+                }
+              ],
+              "count": 6.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wanilla:gold_chain",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "runs": "6"
+                  }
+                }
+              ],
+              "count": 7.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wanilla:gold_chain",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "runs": "7"
+                  }
+                }
+              ],
+              "count": 8.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "wanilla:wrapped_gold_chains",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "runs": "8"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "wanilla:wrapped_gold_chains"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

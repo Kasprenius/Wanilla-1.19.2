@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wanilla:block/blast_iron/big_blast_iron_chain",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "wanilla:block/blast_iron/big_blast_iron_chain"
+    },
+    "axis=z": {
+      "model": "wanilla:block/blast_iron/big_blast_iron_chain",
+      "x": 90
+    }
+  }
+}

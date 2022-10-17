@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/slab",
 	"textures": {
-		"end": "wanilla:block/reinforced_deepslate_top",
-		"side": "wanilla:block/reinforced_deepslate_side"
+		"end": "wanilla:block/reinforced_deepslate/reinforced_deepslate_top",
+		"side": "wanilla:block/reinforced_deepslate/reinforced_deepslate_side"
 	},
 	"elements": [
 		{

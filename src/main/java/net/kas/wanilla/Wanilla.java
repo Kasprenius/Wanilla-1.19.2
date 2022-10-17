@@ -18,6 +18,8 @@ public class Wanilla implements ModInitializer {
 		GlassBlocks.registerBlocks();
 		GlowGlass.registerBlocks();
 		GoldBlocks.registerBlocks();
+		BlastIronBlocks.registerBlocks();
+		NetheriteBlocks.registerBlocks();
 		AmethystBlocks.registerBlocks();
 		ReinforcedDeepslate.registerBlocks();
 		ChainBlocks.registerBlocks();

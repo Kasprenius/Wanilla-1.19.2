@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "wanilla:block/dullstone_brick_slab"
+      "model": "wanilla:block/dullstone/bricks/dullstone_brick_slab"
     },
     "type=double": {
-      "model": "wanilla:block/dullstone_bricks"
+      "model": "wanilla:block/dullstone/bricks/dullstone_bricks"
     },
     "type=top": {
-      "model": "wanilla:block/dullstone_brick_slab_top"
+      "model": "wanilla:block/dullstone/bricks/dullstone_brick_slab_top"
     }
   }
 }

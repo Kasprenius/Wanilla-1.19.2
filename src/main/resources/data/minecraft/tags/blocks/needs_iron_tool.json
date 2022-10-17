@@ -1,6 +1,35 @@
 {
   "replace": false,
   "values": [
+    "wanilla:gold_fence",
+    "wanilla:gold_wall",
+    "wanilla:gold_slab",
+    "wanilla:gold_stairs",
+    "wanilla:cut_gold",
+    "wanilla:cut_gold_wall",
+    "wanilla:cut_gold_slab",
+    "wanilla:cut_gold_stairs",
+    "wanilla:gold_pillar",
+    "wanilla:gold_bars",
+    "wanilla:wrapped_gold_chains",
+    "wanilla:gold_chain",
+    "wanilla:big_gold_chain",
+    "wanilla:wrapped_blast_iron_chains",
+    "wanilla:blast_iron_block",
+    "wanilla:blast_iron_bars",
+    "wanilla:big_blast_iron_chain",
+    "wanilla:large_lantern",
+    "wanilla:large_soul_lantern",
+    "wanilla:large_redstone_lantern",
+    "wanilla:large_ender_lantern",
+    "wanilla:large_cursed_lantern",
+    "wanilla:large_glow_lantern",
+    "wanilla:large_gold_lantern",
+    "wanilla:large_gold_soul_lantern",
+    "wanilla:large_gold_redstone_lantern",
+    "wanilla:large_gold_ender_lantern",
+    "wanilla:large_gold_cursed_lantern",
+    "wanilla:large_gold_glow_lantern"
 
   ]
 }

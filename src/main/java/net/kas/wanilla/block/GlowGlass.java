@@ -44,7 +44,7 @@ public class GlowGlass {
                     .blockVision(GlowGlass::never)),
             ModItemGroup.WANILLA);
     public static final Block GLOW_GLASS_WALL = registerBlock("glow_glass_wall",
-            new WallBlock(AbstractBlock.Settings.copy(GLOW_GLASS).requiresTool()),
+            new WallBlock(AbstractBlock.Settings.copy(GLOW_GLASS)),
             ModItemGroup.WANILLA);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {

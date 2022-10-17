@@ -1,0 +1,43 @@
+{
+    "multipart": [
+      {
+        "apply": {
+          "model": "wanilla:block/gold/gold_bars_post"
+        }
+      },
+      {
+        "when": {
+          "north": "true"
+        },
+        "apply": {
+          "model": "wanilla:block/gold/gold_bars_side"
+        }
+      },
+      {
+        "when": {
+          "west": "true"
+        },
+        "apply": {
+          "model": "wanilla:block/gold/gold_bars_side",
+          "y": -90
+        }
+      },
+      {
+        "when": {
+          "south": "true"
+        },
+        "apply": {
+          "model": "wanilla:block/gold/gold_bars_side_alt"
+        }
+      },
+      {
+        "when": {
+          "east": "true"
+        },
+        "apply": {
+          "model": "wanilla:block/gold/gold_bars_side_alt",
+          "y": -90
+        }
+      }
+    ]
+  }

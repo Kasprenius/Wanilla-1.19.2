@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "wanilla:block/gold_slab_bottom"
+      "model": "wanilla:block/gold/gold_slab_bottom"
     },
     "type=double": {
-      "model": "wanilla:block/gold_slab_double"
+      "model": "wanilla:block/gold/gold_slab_double"
     },
     "type=top": {
-      "model": "wanilla:block/gold_slab_top"
+      "model": "wanilla:block/gold/gold_slab_top"
     }
   }
 }

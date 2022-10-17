@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "wanilla:block/chiseled_dullstone_bricks" }
+    "": { "model": "wanilla:block/dullstone/chiseled_dullstone_bricks" }
   }
 }

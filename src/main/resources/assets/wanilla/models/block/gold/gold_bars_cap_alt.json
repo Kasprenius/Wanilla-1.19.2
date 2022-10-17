@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/iron_bars_cap_alt",
+    "textures": {
+        "particle": "wanilla:block/gold/gold_bars",
+        "bars": "wanilla:block/gold/gold_bars",
+        "edge": "wanilla:block/gold/gold_bars"
+    }
+}

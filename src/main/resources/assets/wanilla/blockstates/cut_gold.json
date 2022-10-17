@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "wanilla:block/cut_gold"
+      "model": "wanilla:block/gold/cut/cut_gold"
     }
   }
 }

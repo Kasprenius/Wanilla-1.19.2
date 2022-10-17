@@ -20,41 +20,41 @@ import java.util.function.ToIntFunction;
 public class LanternBlocks {
 
     public static final Block LARGE_LANTERN = registerBlock("large_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_SOUL_LANTERN = registerBlock("large_soul_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_REDSTONE_LANTERN = registerBlock("large_redstone_lantern",
-            new RedstoneLampBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(getLightValueLit(12))),
+            new RedstoneLampBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(getLightValueLit(12)).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_ENDER_LANTERN = registerBlock("large_ender_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_CURSED_LANTERN = registerBlock("large_cursed_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_GLOW_LANTERN = registerBlock("large_glow_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
 
     public static final Block LARGE_GOLD_LANTERN = registerBlock("large_gold_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_GOLD_SOUL_LANTERN = registerBlock("large_gold_soul_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_GOLD_REDSTONE_LANTERN = registerBlock("large_gold_redstone_lantern",
-            new RedstoneLampBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(getLightValueLit(12))),
+            new RedstoneLampBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(getLightValueLit(12)).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_GOLD_ENDER_LANTERN = registerBlock("large_gold_ender_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_GOLD_CURSED_LANTERN = registerBlock("large_gold_cursed_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block LARGE_GOLD_GLOW_LANTERN = registerBlock("large_gold_glow_lantern",
-            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15)),
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
 
 
