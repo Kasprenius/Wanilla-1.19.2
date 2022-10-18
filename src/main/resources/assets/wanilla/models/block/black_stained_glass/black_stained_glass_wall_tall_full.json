@@ -2,7 +2,7 @@
 	"parent": "wanilla:block/glass/glass_wall_tall_full",
 	"textures": {
 		"glass": "minecraft:block/black_stained_glass",
-		"wall": "wanilla:block/black_stained_glass_wall",
+		"wall": "wanilla:block/glass/stained/black/black_stained_glass_wall",
 		"particle": "#glass"
 	}
 }

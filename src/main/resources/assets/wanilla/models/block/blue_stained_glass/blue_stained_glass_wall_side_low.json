@@ -1,7 +1,7 @@
 {
 	"parent": "wanilla:block/glass/glass_wall_side_low",
 	"textures": {
-		"wall": "wanilla:block/blue_stained_glass_wall",
+		"wall": "wanilla:block/glass/stained/blue/blue_stained_glass_wall",
 		"particle": "minecraft:block/blue_stained_glass"
 	}
 }

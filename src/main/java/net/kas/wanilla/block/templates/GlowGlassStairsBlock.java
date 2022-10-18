@@ -10,7 +10,7 @@ package net.kas.wanilla.block.templates;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.kas.wanilla.block.GlowGlass;
+import net.kas.wanilla.block.GlowGlassBlocks;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.BlockHalf;
 import net.minecraft.block.enums.SlabType;
@@ -27,20 +27,14 @@ public final class GlowGlassStairsBlock extends StairsBlock
         super(Blocks.GLASS.getDefaultState(), block$Settings_1);
     }
 
-    /**
-     * isSideInvisible() seems to be deprecated for no good reason. It is still
-     * used in
-     * {@link Block#shouldDrawSide(BlockState, BlockView, BlockPos, Direction, BlockPos)}
-     * and there is no replacement.
-     */
     @SuppressWarnings("deprecation")
     @Override
     @Environment(EnvType.CLIENT)
     public boolean isSideInvisible(BlockState blockState_1, BlockState blockState_2, Direction direction_1) {
-        if(blockState_2.getBlock() == GlowGlass.GLOW_GLASS)
+        if(blockState_2.getBlock() == GlowGlassBlocks.GLOW_GLASS)
             return true;
 
-        if(blockState_2.getBlock() == GlowGlass.GLOW_GLASS_SLAB)
+        if(blockState_2.getBlock() == GlowGlassBlocks.GLOW_GLASS_SLAB)
             if(isInvisibleToGlassSlab(blockState_1, blockState_2, direction_1))
                 return true;
 

@@ -1,6 +1,6 @@
 {
 	"parent": "wanilla:block/glass/glass_wall_inventory",
 	"textures": {
-		"wall": "wanilla:block/gray_stained_glass_wall"
+		"wall": "wanilla:block/glass/stained/gray/gray_stained_glass_wall"
 	}
 }

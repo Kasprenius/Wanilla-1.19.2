@@ -17,7 +17,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.BlockView;
 
-public class GlowGlass {
+public class GlowGlassBlocks {
 
     public static final Block GLOW_GLASS = registerBlock("glow_glass",
             new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(10)),
@@ -29,19 +29,19 @@ public class GlowGlass {
             new GlowGlassSlabBlock(FabricBlockSettings.of(Material.GLASS)
                     .luminance(10)
                     .strength(0.3F).sounds(BlockSoundGroup.GLASS).nonOpaque()
-                    .allowsSpawning(GlowGlass::never)
-                    .solidBlock(GlowGlass::never).
-                    suffocates(GlowGlass::never)
-                    .blockVision(GlowGlass::never)),
+                    .allowsSpawning(GlowGlassBlocks::never)
+                    .solidBlock(GlowGlassBlocks::never).
+                    suffocates(GlowGlassBlocks::never)
+                    .blockVision(GlowGlassBlocks::never)),
             ModItemGroup.WANILLA);
     public static final Block GLOW_GLASS_STAIRS = registerBlock("glow_glass_stairs",
             new GlowGlassStairsBlock(FabricBlockSettings.of(Material.GLASS)
                     .luminance(10)
                     .strength(0.3F).sounds(BlockSoundGroup.GLASS).nonOpaque()
-                    .allowsSpawning(GlowGlass::never)
-                    .solidBlock(GlowGlass::never)
-                    .suffocates(GlowGlass::never)
-                    .blockVision(GlowGlass::never)),
+                    .allowsSpawning(GlowGlassBlocks::never)
+                    .solidBlock(GlowGlassBlocks::never)
+                    .suffocates(GlowGlassBlocks::never)
+                    .blockVision(GlowGlassBlocks::never)),
             ModItemGroup.WANILLA);
     public static final Block GLOW_GLASS_WALL = registerBlock("glow_glass_wall",
             new WallBlock(AbstractBlock.Settings.copy(GLOW_GLASS)),
@@ -64,15 +64,11 @@ public class GlowGlass {
     // Copies of the Blocks.never() methods because the originals are not
     // accessible from here.
 
-    private static Boolean never(BlockState blockState, BlockView blockView,
-                                 BlockPos blockPos, EntityType<?> entityType)
-    {
+    private static Boolean never(BlockState blockState, BlockView blockView, BlockPos blockPos, EntityType<?> entityType) {
         return false;
     }
 
-    private static boolean never(BlockState blockState, BlockView blockView,
-                                 BlockPos blockPos)
-    {
+    private static boolean never(BlockState blockState, BlockView blockView, BlockPos blockPos) {
         return false;
     }
 }

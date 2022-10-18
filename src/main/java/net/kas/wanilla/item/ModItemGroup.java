@@ -2,7 +2,7 @@ package net.kas.wanilla.item;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.kas.wanilla.Wanilla;
-import net.kas.wanilla.block.GlowGlass;
+import net.kas.wanilla.block.GlowGlassBlocks;
 import net.kas.wanilla.block.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
@@ -87,8 +87,8 @@ public class ModItemGroup {
 
                 stacks.add(new ItemStack(ModBlocks.GLOWDUST_SAND));
                 stacks.add(new ItemStack(ModBlocks.GLOWDUST));
-                stacks.add(new ItemStack(GlowGlass.GLOW_GLASS));
-                stacks.add(new ItemStack(GlowGlass.GLOW_GLASS_PANE));
+                stacks.add(new ItemStack(GlowGlassBlocks.GLOW_GLASS));
+                stacks.add(new ItemStack(GlowGlassBlocks.GLOW_GLASS_PANE));
                 stacks.add(new ItemStack(ModBlocks.GLOW_CAMPFIRE));
                 stacks.add(new ItemStack(ModBlocks.GLOW_LANTERN));
 

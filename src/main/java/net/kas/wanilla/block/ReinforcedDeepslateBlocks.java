@@ -12,7 +12,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ReinforcedDeepslate {
+public class ReinforcedDeepslateBlocks {
 
     public static final Block REINFORCED_DEEPSLATE = registerBlock("reinforced_deepslate",
             new Block(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),

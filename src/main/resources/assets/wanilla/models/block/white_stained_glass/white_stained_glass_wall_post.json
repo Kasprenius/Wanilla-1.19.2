@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "wanilla:block/glass/glass_wall_post",
 	"textures": {
-		"wall": "wanilla:block/white_stained_glass_wall",
+		"wall": "wanilla:block/glass/stained/white/white_stained_glass_wall",
 		"particle": "block/white_stained_glass"
 	}
 }

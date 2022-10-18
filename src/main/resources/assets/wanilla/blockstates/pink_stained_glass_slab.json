@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/pink_stained_glass/pink_stained_glass_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/pink_stained_glass"
+    },
+    "type=top": {
+      "model": "wanilla:block/pink_stained_glass/pink_stained_glass_slab_top"
+    }
+  }
+}
