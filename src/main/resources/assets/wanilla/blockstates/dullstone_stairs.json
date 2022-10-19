@@ -194,13 +194,13 @@
       "uvlock": true
     },
     "facing=west,half=top,shape=outer_right": {
-      "model": "wanilla:block/dullstone_stairs_outer",
+      "model": "wanilla:block/dullstone/dullstone_stairs_outer",
       "x": 180,
       "y": 270,
       "uvlock": true
     },
     "facing=west,half=top,shape=straight": {
-      "model": "wanilla:block/dullstone_stairs",
+      "model": "wanilla:block/dullstone/dullstone_stairs",
       "x": 180,
       "y": 180,
       "uvlock": true

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "wanilla:block/reinforced_deepslate" }
+    "": { "model": "wanilla:block/reinforced_deepslate/reinforced_deepslate" }
   }
 }

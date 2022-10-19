@@ -43,12 +43,9 @@ public class ChainBlocks {
     public static final Block BIG_IRON_CHAIN = registerBlock("big_iron_chain",
             new BigChain(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).requiresTool()),
             ModItemGroup.WANILLA);  //G
-    /*
     public static final Block WRAPPED_IRON_CHAINS = registerBlock("wrapped_iron_chains",
-            new WrappedGoldChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN), ChainBlocks.IRON_CHAIN),
+            new WrappedIronChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN), ChainBlocks.IRON_CHAIN),
             ModItemGroup.WANILLA);
-
-     */
 
 
     public static final Block NETHERITE_CHAIN = registerBlock("netherite_chain",

@@ -63,22 +63,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "rolls": 1.0,
-          "type": "minecraft:item",
-          "name": "wanilla:glowsand_dust"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
     }
   ]
 }

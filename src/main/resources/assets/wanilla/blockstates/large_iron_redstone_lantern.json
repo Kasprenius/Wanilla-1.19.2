@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "wanilla:block/iron/lanterns/large_iron_redstone_lantern_off"
+    },
+    "lit=true": {
+      "model": "wanilla:block/iron/lanterns/large_iron_redstone_lantern"
+    }
+  }
+}

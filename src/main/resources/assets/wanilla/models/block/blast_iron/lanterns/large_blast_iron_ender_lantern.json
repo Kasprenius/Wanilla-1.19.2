@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "wanilla:block/blast_iron/lanterns/large_blast_iron_ender_lantern_top",
+    "north": "wanilla:block/blast_iron/lanterns/large_blast_iron_ender_lantern",
+    "south": "wanilla:block/blast_iron/lanterns/large_blast_iron_ender_lantern",
+    "east": "wanilla:block/blast_iron/lanterns/large_blast_iron_ender_lantern",
+    "west": "wanilla:block/blast_iron/lanterns/large_blast_iron_ender_lantern",
+    "up": "wanilla:block/blast_iron/lanterns/large_blast_iron_ender_lantern_top",
+    "down": "wanilla:block/blast_iron/lanterns/large_blast_iron_lantern_bottom"
+  }
+}

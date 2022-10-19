@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "wanilla:block/iron/lanterns/large_iron_glow_lantern_top",
+    "north": "wanilla:block/iron/lanterns/large_iron_glow_lantern",
+    "south": "wanilla:block/iron/lanterns/large_iron_glow_lantern",
+    "east": "wanilla:block/iron/lanterns/large_iron_glow_lantern",
+    "west": "wanilla:block/iron/lanterns/large_iron_glow_lantern",
+    "up": "wanilla:block/iron/lanterns/large_iron_glow_lantern_top",
+    "down": "wanilla:block/iron/lanterns/large_iron_lantern_bottom"
+  }
+}

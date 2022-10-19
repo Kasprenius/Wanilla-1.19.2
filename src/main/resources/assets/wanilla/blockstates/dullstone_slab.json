@@ -4,7 +4,7 @@
       "model": "wanilla:block/dullstone/dullstone_slab"
     },
     "type=double": {
-      "model": "wanilla:block/dullstone"
+      "model": "wanilla:block/dullstone/dullstone"
     },
     "type=top": {
       "model": "wanilla:block/dullstone/dullstone_slab_top"

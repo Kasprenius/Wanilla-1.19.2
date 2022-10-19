@@ -4,7 +4,7 @@
       "model": "wanilla:block/dimstone/dimstone_slab"
     },
     "type=double": {
-      "model": "wanilla:block/dimstone/dimstone"
+      "model": "wanilla:block/dimstone/dimstone_block/18"
     },
     "type=top": {
       "model": "wanilla:block/dimstone/dimstone_slab_top"

@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": [
 	{
-	  "item": "minecraft:amethyst_block"
+	  "item": "wanilla:melted_amethyst"
 	}
   ],
   "result": "wanilla:chiseled_amethyst",

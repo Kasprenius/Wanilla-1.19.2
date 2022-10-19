@@ -4,7 +4,7 @@
       "model": "wanilla:block/glowstone/glowstone_slab"
     },
     "type=double": {
-      "model": "wanilla:block/glowstone"
+      "model": "minecraft:block/glowstone"
     },
     "type=top": {
       "model": "wanilla:block/glowstone/glowstone_slab_top"

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "wanilla:block/tinted_glass/tinted_glass_slab" },
+    "type=top": { "model": "wanilla:block/tinted_glass/tinted_glass_slab_top" },
+    "type=double": { "model": "block/tinted_glass" }
+  }
+}

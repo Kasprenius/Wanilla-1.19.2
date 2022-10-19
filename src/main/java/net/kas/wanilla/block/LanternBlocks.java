@@ -19,22 +19,40 @@ import java.util.function.ToIntFunction;
 
 public class LanternBlocks {
 
-    public static final Block LARGE_LANTERN = registerBlock("large_lantern",
+    public static final Block LARGE_IRON_LANTERN = registerBlock("large_iron_lantern",
             new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block LARGE_SOUL_LANTERN = registerBlock("large_soul_lantern",
+    public static final Block LARGE_IRON_SOUL_LANTERN = registerBlock("large_iron_soul_lantern",
             new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block LARGE_REDSTONE_LANTERN = registerBlock("large_redstone_lantern",
+    public static final Block LARGE_IRON_REDSTONE_LANTERN = registerBlock("large_iron_redstone_lantern",
             new RedstoneLampBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(getLightValueLit(12)).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block LARGE_ENDER_LANTERN = registerBlock("large_ender_lantern",
+    public static final Block LARGE_IRON_ENDER_LANTERN = registerBlock("large_iron_ender_lantern",
             new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block LARGE_CURSED_LANTERN = registerBlock("large_cursed_lantern",
+    public static final Block LARGE_IRON_CURSED_LANTERN = registerBlock("large_iron_cursed_lantern",
             new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block LARGE_GLOW_LANTERN = registerBlock("large_glow_lantern",
+    public static final Block LARGE_IRON_GLOW_LANTERN = registerBlock("large_iron_glow_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block LARGE_BLAST_IRON_LANTERN = registerBlock("large_blast_iron_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block LARGE_BLAST_IRON_SOUL_LANTERN = registerBlock("large_blast_iron_soul_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block LARGE_BLAST_IRON_REDSTONE_LANTERN = registerBlock("large_blast_iron_redstone_lantern",
+            new RedstoneLampBlock(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(getLightValueLit(12)).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block LARGE_BLAST_IRON_ENDER_LANTERN = registerBlock("large_blast_iron_ender_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block LARGE_BLAST_IRON_CURSED_LANTERN = registerBlock("large_blast_iron_cursed_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block LARGE_BLAST_IRON_GLOW_LANTERN = registerBlock("large_blast_iron_glow_lantern",
             new Block(FabricBlockSettings.copyOf(Blocks.LANTERN).luminance(blockState -> 15).requiresTool()),
             ModItemGroup.WANILLA);
 

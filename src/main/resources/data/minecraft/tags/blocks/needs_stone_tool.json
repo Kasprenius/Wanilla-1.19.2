@@ -9,8 +9,6 @@
     "wanilla:dimstone_bricks",
     "wanilla:dullstone_bricks",
     "wanilla:carved_glowstone_bricks",
-    "wanilla:carved_dimstone_bricks",
-    "wanilla:carved_dullstone_bricks",
     "wanilla:cracked_glowstone_bricks",
     "wanilla:cracked_dimstone_bricks",
     "wanilla:cracked_dullstone_bricks",
@@ -37,6 +35,13 @@
     "wanilla:carved_amethyst",
     "wanilla:melted_amethyst",
     "wanilla:iron_chain",
-    "wanilla:big_iron_chain"
+    "wanilla:big_iron_chain",
+    "wanilla:wrapped_iron_chains",
+    "wanilla:large_iron_lantern",
+    "wanilla:large_iron_soul_lantern",
+    "wanilla:large_iron_redstone_lantern",
+    "wanilla:large_iron_ender_lantern",
+    "wanilla:large_iron_cursed_lantern",
+    "wanilla:large_iron_glow_lantern"
   ]
 }

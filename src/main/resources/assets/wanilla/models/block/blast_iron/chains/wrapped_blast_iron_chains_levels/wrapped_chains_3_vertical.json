@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "wanilla:block/blast_iron/chains/wrapped_blast_iron_chains",
+		"1": "wanilla:block/blast_iron/chains/wrapped_blast_iron_chains_top",
+		"particle": "wanilla:block/blast_iron/chains/wrapped_blast_iron_chains"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 16, 13],
+			"faces": {
+				"north": {"uv": [2, 0, 12, 16], "texture": "#0"},
+				"east": {"uv": [3, 0, 13, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 10, 16], "texture": "#0"},
+				"west": {"uv": [1, 0, 11, 16], "texture": "#0"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#1"},
+				"down": {"uv": [3, 13, 13, 3], "texture": "#1"}
+			}
+		}
+	]
+}
