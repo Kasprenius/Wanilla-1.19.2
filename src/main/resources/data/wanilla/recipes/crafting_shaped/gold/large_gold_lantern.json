@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "big_gold_lanterns",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    "###",
+    "GIG",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "wanilla:large_gold_lantern"
+  }
+}

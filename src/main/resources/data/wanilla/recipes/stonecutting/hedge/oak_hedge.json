@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:oak_leaves"
+  },
+  "result": "wanilla:oak_hedge",
+  "count": 1
+}

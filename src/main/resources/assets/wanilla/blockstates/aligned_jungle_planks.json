@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wanilla:block/aligned_planks/vertical_jungle_planks_horizontal_x"
+    },
+    "axis=y": {
+      "model": "wanilla:block/aligned_planks/vertical_jungle_planks"
+    },
+    "axis=z": {
+      "model": "wanilla:block/aligned_planks/vertical_jungle_planks_horizontal_z"
+    }
+  }
+}

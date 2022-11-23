@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wanilla:large_iron_redstone_lantern"
+  },
+  "result": "wanilla:large_blast_iron_redstone_lantern",
+  "experience": 1.0,
+  "cookingtime": 200
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "wanilla:block/polished_dimstone"
-  }
-}

@@ -3,6 +3,8 @@ package net.kas.wanilla.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kas.wanilla.Wanilla;
+import net.kas.wanilla.block.templates.BigChain;
+import net.kas.wanilla.block.templates.WrappedGoldChainBlock;
 import net.kas.wanilla.item.ModItemGroup;
 import net.kas.wanilla.registry.IEBlockSoundGroups;
 import net.minecraft.block.*;
@@ -15,39 +17,58 @@ import net.minecraft.util.registry.Registry;
 
 public class GoldBlocks {
 
-
-    public static final Block GOLD_FENCE = registerBlock("gold_fence",
-            new FenceBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
-    public static final Block GOLD_WALL = registerBlock("gold_wall",
-            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
-    public static final Block GOLD_SLAB = registerBlock("gold_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
     public static final Block GOLD_STAIRS = registerBlock("gold_stairs",
             new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block GOLD_SLAB = registerBlock("gold_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block GOLD_WALL = registerBlock("gold_wall",
+            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block GOLD_FENCE = registerBlock("gold_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
 
     public static final Block CUT_GOLD = registerBlock("cut_gold",
             new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
-    public static final Block CUT_GOLD_WALL = registerBlock("cut_gold_wall",
-            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
-    public static final Block CUT_GOLD_SLAB = registerBlock("cut_gold_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
     public static final Block CUT_GOLD_STAIRS = registerBlock("cut_gold_stairs",
             new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block CUT_GOLD_SLAB = registerBlock("cut_gold_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block CUT_GOLD_WALL = registerBlock("cut_gold_wall",
+            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
+
+    public static final Block BEVELED_GOLD = registerBlock("beveled_gold",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.SHINYSTUFF);
+
+    public static final Block GOLD_BRICKS = registerBlock("gold_bricks",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.SHINYSTUFF);
 
     public static final Block GOLD_PILLAR = registerBlock("gold_pillar",
             new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
+
     public static final Block GOLD_BARS = registerBlock("gold_bars",
             new PaneBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
+
+
+    public static final Block WRAPPED_GOLD_CHAINS = registerBlock("wrapped_gold_chains",
+            new WrappedGoldChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(3.0f, 6.0f).requiresTool(), GoldBlocks.GOLD_CHAIN),
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block GOLD_CHAIN = registerBlock("gold_chain",
+            new ChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block BIG_GOLD_CHAIN = registerBlock("big_gold_chain",
+            new BigChain(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).strength(3.0f, 6.0f).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
 
 
     //-------------------------------------------------------------------------------------------------------------------

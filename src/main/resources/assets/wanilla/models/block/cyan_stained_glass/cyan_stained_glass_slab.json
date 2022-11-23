@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "minecraft:block/cyan_stained_glass",
-    "top": "minecraft:block/cyan_stained_glass",
-    "side": "wanilla:block/glass/stained/cyan/cyan_stained_glass_slab"
-  }
-}

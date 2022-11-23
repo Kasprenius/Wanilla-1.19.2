@@ -7,9 +7,9 @@
     "wanilla:glowstone_wall",
     "wanilla:dimstone_wall",
     "wanilla:dullstone_wall",
-    "wanilla:smooth_glowstone_wall",
-    "wanilla:smooth_dimstone_wall",
-    "wanilla:smooth_dullstone_wall",
+    "wanilla:polished_glowstone_wall",
+    "wanilla:polished_dimstone_wall",
+    "wanilla:polished_dullstone_wall",
     "wanilla:glow_glass_wall",
     "wanilla:gold_wall",
     "wanilla:cut_gold_wall",
@@ -32,6 +32,7 @@
     "wanilla:brown_stained_glass_wall",
     "wanilla:green_stained_glass_wall",
     "wanilla:red_stained_glass_wall",
-    "wanilla:black_stained_glass_wall"
+    "wanilla:black_stained_glass_wall",
+    "wanilla:sandstone_brick_wall"
   ]
 }

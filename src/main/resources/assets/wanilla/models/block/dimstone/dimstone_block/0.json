@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "wanilla:block/dimstone/0"
+    "all": "wanilla:block/dimstone/variation/0"
   }
 }

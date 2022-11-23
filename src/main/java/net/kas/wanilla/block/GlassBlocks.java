@@ -10,6 +10,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.registry.Registry;
@@ -17,6 +18,63 @@ import net.minecraft.world.BlockView;
 
 public class GlassBlocks {
 
+    public static final Block FRAMED_BLACK_STAINED_GLASS = registerBlock("framed_black_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.BLACK_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_BLUE_STAINED_GLASS = registerBlock("framed_blue_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_BROWN_STAINED_GLASS = registerBlock("framed_brown_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.BROWN_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_CYAN_STAINED_GLASS = registerBlock("framed_cyan_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+            public static final Block FRAMED_CYAN_STAINED_GLASS_PANE = registerBlock("framed_cyan_stained_glass_pane",
+                    new StainedGlassPaneBlock(DyeColor.CYAN, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS_PANE)),
+                    ModItemGroup.WANILLA);
+            public static final Block FRAMED_CYAN_STAINED_GLASS_FLOOR = registerBlock("framed_cyan_stained_glass_floor",
+                    new CarpetBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS_PANE)),
+                    ModItemGroup.WANILLA);
+    public static final Block FRAMED_GRAY_STAINED_GLASS = registerBlock("framed_gray_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.GRAY_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_GREEN_STAINED_GLASS = registerBlock("framed_green_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_LIGHT_BLUE_STAINED_GLASS = registerBlock("framed_light_blue_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_LIGHT_GRAY_STAINED_GLASS = registerBlock("framed_light_gray_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_LIME_STAINED_GLASS = registerBlock("framed_lime_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_MAGENTA_STAINED_GLASS = registerBlock("framed_magenta_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_ORANGE_STAINED_GLASS = registerBlock("framed_orange_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_PINK_STAINED_GLASS = registerBlock("framed_pink_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_PURPLE_STAINED_GLASS = registerBlock("framed_purple_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_RED_STAINED_GLASS = registerBlock("framed_red_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.RED_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_WHITE_STAINED_GLASS = registerBlock("framed_white_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.WHITE_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block FRAMED_YELLOW_STAINED_GLASS = registerBlock("framed_yellow_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
+    public static final Block GILDED_CYAN_STAINED_GLASS = registerBlock("gilded_cyan_stained_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)),
+            ModItemGroup.WANILLA);
     public static final Block GLASS_WALL = registerBlock("glass_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.GLASS)),
             ModItemGroup.WANILLA);

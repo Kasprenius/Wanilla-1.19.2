@@ -10,7 +10,7 @@ import net.minecraft.item.WallStandingBlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModItems {
+public class  ModItems {
 
 
     private static Item registerItem(String name, Item item) {

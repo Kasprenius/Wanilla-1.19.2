@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "wanilla:block/glass/stained/gilded/gilded_cyan/1"},
+      { "model": "wanilla:block/glass/stained/gilded/gilded_cyan/2"},
+      { "model": "wanilla:block/glass/stained/gilded/gilded_cyan/3"},
+      { "model": "wanilla:block/glass/stained/gilded/gilded_cyan/4"}
+    ]
+  }
+}

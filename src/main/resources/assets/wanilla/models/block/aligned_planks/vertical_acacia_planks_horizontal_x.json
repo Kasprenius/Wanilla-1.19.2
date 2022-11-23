@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_column",
+	"textures": {
+		"3": "wanilla:block/planks/acacia/shaped_acacia_planks_end",
+		"particle": "wanilla:block/planks/acacia/shaped_acacia_planks_end",
+		"all": "wanilla:block/planks/acacia/acacia_planks_vertical"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#all"},
+				"east": {"uv": [16, 16, 0, 0], "rotation": 270, "texture": "#3"},
+				"south": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#all"},
+				"west": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#3"},
+				"up": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#all"},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 90, "texture": "#all"}
+			}
+		}
+	]
+}

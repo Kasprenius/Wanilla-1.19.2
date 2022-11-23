@@ -10,9 +10,21 @@
     "wanilla:blast_iron_bars",
     "minecraft:chain",
     "wanilla:big_blast_iron_chain",
+    "wanilla:large_blast_iron_lantern",
+    "wanilla:large_blast_iron_soul_lantern",
+    "wanilla:large_blast_iron_redstone_lantern",
+    "wanilla:large_blast_iron_ender_lantern",
+    "wanilla:large_blast_iron_amethyst_lantern",
+    "wanilla:large_blast_iron_glow_lantern",
     "minecraft:netherite_block",
     "wanilla:netherite_bars",
     "wanilla:netherite_chain",
-    "wanilla:big_netherite_chain"
+    "wanilla:big_netherite_chain",
+    "wanilla:large_netherite_lantern",
+    "wanilla:large_netherite_soul_lantern",
+    "wanilla:large_netherite_redstone_lantern",
+    "wanilla:large_netherite_ender_lantern",
+    "wanilla:large_netherite_amethyst_lantern",
+    "wanilla:large_netherite_glow_lantern"
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "wanilla:block/glass/stained/framed/framed_cyan_stained_glass"
+  }
+}

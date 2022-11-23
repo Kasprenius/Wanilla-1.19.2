@@ -14,46 +14,44 @@ import net.minecraft.util.registry.Registry;
 
 public class AmethystBlocks {
 
-
-    public static final Block AMETHYST_FENCE = registerBlock("amethyst_fence",
-            new FenceBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);
-    public static final Block AMETHYST_WALL = registerBlock("amethyst_wall",
-            new WallBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);
-    public static final Block AMETHYST_SLAB = registerBlock("amethyst_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);
     public static final Block AMETHYST_STAIRS = registerBlock("amethyst_stairs",
             new StairsBlock(Blocks.AMETHYST_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);
+            ModItemGroup.SHINYSTUFF);
+    public static final Block AMETHYST_SLAB = registerBlock("amethyst_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.SHINYSTUFF);
+    public static final Block AMETHYST_WALL = registerBlock("amethyst_wall",
+            new WallBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.SHINYSTUFF);
 
     public static final Block AMETHYST_BRICKS = registerBlock("amethyst_bricks",
             new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);  //G
-    public static final Block AMETHYST_BRICK_WALL = registerBlock("amethyst_brick_wall",
-            new WallBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);  //G
-    public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
     public static final Block AMETHYST_BRICKS_STAIRS = registerBlock("amethyst_brick_stairs",
             new StairsBlock(Blocks.AMETHYST_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block AMETHYST_BRICK_WALL = registerBlock("amethyst_brick_wall",
+            new WallBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
 
     public static final Block AMETHYST_PILLAR = registerBlock("amethyst_pillar",
             new PillarBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
     public static final Block CHISELED_AMETHYST = registerBlock("chiseled_amethyst",
             new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
     public static final Block CARVED_AMETHYST = registerBlock("carved_amethyst",
             new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);  //G
+            ModItemGroup.SHINYSTUFF);  //G
     public static final Block MELTED_AMETHYST = registerBlock("melted_amethyst",
             new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.WANILLA);  //G
-
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block POLISHED_AMETHYST = registerBlock("polished_amethyst",
+            new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.SHINYSTUFF);
 
 
 

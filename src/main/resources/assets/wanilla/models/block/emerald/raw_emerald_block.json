@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wanilla:block/emerald/raw_emerald_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/sandstone/sandstone_bricks/sandstone_brick_slab"
+    },
+    "type=top": {
+      "model": "wanilla:block/sandstone/sandstone_bricks/sandstone_brick_slab_top"
+    },
+    "type=double": {
+      "model": "wanilla:block/sandstone/sandstone_bricks/sandstone_bricks"
+    }
+  }
+}
+

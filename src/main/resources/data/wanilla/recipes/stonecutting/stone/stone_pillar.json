@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:polished_stone"
+  },
+  "result": "wanilla:stone_pillar",
+  "count": 1
+}

@@ -3,16 +3,18 @@
 	"parent": "block/block",
 	"texture_size": [40, 16],
 	"textures": {
+		"particle": "block/gold_block",
 		"gold": "block/gold_block",
-		"wall": "wanilla:block/gold/gold_wall",
-		"particle": "block/gold_block"
+		"wall": "wanilla:block/gold/gold_wall"
 	},
 	"elements": [
 		{
 			"from": [5, 0, 0],
 			"to": [11, 16, 16],
 			"faces": {
+				"north": {"uv": [2.8, 0, 5.2, 16], "texture": "#wall"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#gold"},
+				"south": {"uv": [2.8, 0, 5.2, 16], "texture": "#wall"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#gold"},
 				"down": {"uv": [2.8, 0, 5.2, 16], "texture": "#wall"}
 			}

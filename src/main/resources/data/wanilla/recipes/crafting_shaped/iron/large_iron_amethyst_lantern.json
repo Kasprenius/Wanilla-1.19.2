@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "big_iron_lanterns",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "I": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    "###",
+    "GIG",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "wanilla:large_iron_amethyst_lantern"
+  }
+}

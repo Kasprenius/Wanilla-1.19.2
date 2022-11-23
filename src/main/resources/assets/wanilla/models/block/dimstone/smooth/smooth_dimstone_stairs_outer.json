@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "wanilla:block/smooth_dimstone",
-    "top": "wanilla:block/smooth_dimstone",
-    "side": "wanilla:block/smooth_dimstone"
-  }
-}

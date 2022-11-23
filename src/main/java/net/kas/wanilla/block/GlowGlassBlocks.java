@@ -25,15 +25,6 @@ public class GlowGlassBlocks {
     public static final Block GLOW_GLASS_PANE = registerBlock("glow_glass_pane",
             new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(10)),
             ModItemGroup.WANILLA);
-    public static final Block GLOW_GLASS_SLAB = registerBlock("glow_glass_slab",
-            new GlowGlassSlabBlock(FabricBlockSettings.of(Material.GLASS)
-                    .luminance(10)
-                    .strength(0.3F).sounds(BlockSoundGroup.GLASS).nonOpaque()
-                    .allowsSpawning(GlowGlassBlocks::never)
-                    .solidBlock(GlowGlassBlocks::never).
-                    suffocates(GlowGlassBlocks::never)
-                    .blockVision(GlowGlassBlocks::never)),
-            ModItemGroup.WANILLA);
     public static final Block GLOW_GLASS_STAIRS = registerBlock("glow_glass_stairs",
             new GlowGlassStairsBlock(FabricBlockSettings.of(Material.GLASS)
                     .luminance(10)
@@ -41,6 +32,15 @@ public class GlowGlassBlocks {
                     .allowsSpawning(GlowGlassBlocks::never)
                     .solidBlock(GlowGlassBlocks::never)
                     .suffocates(GlowGlassBlocks::never)
+                    .blockVision(GlowGlassBlocks::never)),
+            ModItemGroup.WANILLA);
+    public static final Block GLOW_GLASS_SLAB = registerBlock("glow_glass_slab",
+            new GlowGlassSlabBlock(FabricBlockSettings.of(Material.GLASS)
+                    .luminance(10)
+                    .strength(0.3F).sounds(BlockSoundGroup.GLASS).nonOpaque()
+                    .allowsSpawning(GlowGlassBlocks::never)
+                    .solidBlock(GlowGlassBlocks::never).
+                    suffocates(GlowGlassBlocks::never)
                     .blockVision(GlowGlassBlocks::never)),
             ModItemGroup.WANILLA);
     public static final Block GLOW_GLASS_WALL = registerBlock("glow_glass_wall",

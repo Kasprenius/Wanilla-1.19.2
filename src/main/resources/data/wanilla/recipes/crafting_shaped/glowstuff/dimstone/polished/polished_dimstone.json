@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wanilla:dimstone"
+  },
+  "result": "wanilla:polished_dimstone",
+  "experience": 0.1,
+  "cookingtime": 200
+}

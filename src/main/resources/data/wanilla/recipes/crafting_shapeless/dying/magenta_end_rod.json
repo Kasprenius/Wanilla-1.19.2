@@ -1,0 +1,31 @@
+{
+  "type": "crafting_shapeless",
+  "result": {
+    "item": "wanilla:magenta_end_rod",
+    "count": 1
+  },
+  "group": "rods",
+  "ingredients": [
+    [
+      {"item": "minecraft:end_rod"},
+      {"item": "wanilla:white_end_rod"},
+      {"item": "wanilla:orange_end_rod"},
+      {"item": "wanilla:light_blue_end_rod"},
+      {"item": "wanilla:yellow_end_rod"},
+      {"item": "wanilla:lime_end_rod"},
+      {"item": "wanilla:pink_end_rod"},
+      {"item": "wanilla:gray_end_rod"},
+      {"item": "wanilla:light_gray_end_rod"},
+      {"item": "wanilla:cyan_end_rod"},
+      {"item": "wanilla:purple_end_rod"},
+      {"item": "wanilla:blue_end_rod"},
+      {"item": "wanilla:brown_end_rod"},
+      {"item": "wanilla:green_end_rod"},
+      {"item": "wanilla:red_end_rod"},
+      {"item": "wanilla:black_end_rod"}
+    ],
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ]
+}

@@ -10,11 +10,12 @@ import net.minecraft.util.registry.Registry;
 
 public final class ModTags {
 
+    public static final TagKey<Block> HEDGES = ModTags.Blocks.createTag("hedges");
 
     public static class Blocks {
         public static final TagKey<Block> GLOW_FIRE_BASE_BLOCKS = createTag("glow_fire_base_blocks");
-        public static final TagKey<Block> BRAZIERS = createTag("braziers");
         public static final TagKey<Block> CHAINS = createTag("chains");
+        public static final TagKey<Block> HEDGES = createTag("hedges");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(Registry.BLOCK_KEY, new Identifier(Wanilla.MOD_ID, name));

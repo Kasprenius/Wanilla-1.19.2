@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "minecraft:block/tinted_glass",
-    "top": "minecraft:block/tinted_glass",
-    "side": "wanilla:block/glass/tinted/regular/tinted_glass_slab_top"
-  }
-}

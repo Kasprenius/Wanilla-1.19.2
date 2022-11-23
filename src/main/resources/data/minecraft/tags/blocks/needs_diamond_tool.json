@@ -3,6 +3,12 @@
   "values": [
     "wanilla:netherite_bars",
     "wanilla:netherite_chain",
-    "wanilla:big_netherite_chain"
+    "wanilla:big_netherite_chain",
+    "wanilla:large_netherite_lantern",
+    "wanilla:large_netherite_soul_lantern",
+    "wanilla:large_netherite_redstone_lantern",
+    "wanilla:large_netherite_ender_lantern",
+    "wanilla:large_netherite_amethyst_lantern",
+    "wanilla:large_netherite_glow_lantern"
   ]
 }

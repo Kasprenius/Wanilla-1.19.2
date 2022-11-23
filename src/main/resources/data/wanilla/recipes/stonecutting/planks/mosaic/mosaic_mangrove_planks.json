@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:mangrove_planks"},
+    {"item": "wanilla:aligned_mangrove_planks"}
+  ],
+  "result": "wanilla:mosaic_mangrove_planks",
+  "count": 1
+}

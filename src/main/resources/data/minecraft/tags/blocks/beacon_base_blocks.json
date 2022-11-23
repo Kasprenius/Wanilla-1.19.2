@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "wanilla:iron_pillar",
+    "wanilla:blast_iron_block",
+    "wanilla:cut_blast_iron",
+    "wanilla:gold_pillar",
+    "wanilla:cut_gold",
+    "wanilla:beveled_gold",
+    "wanilla:gold_bricks",
+    "wanilla:beveled_diamond",
+    "wanilla:diamond_pillar",
+    "wanilla:emerald_pillar",
+    "wanilla:cut_emerald"
+  ]
+}

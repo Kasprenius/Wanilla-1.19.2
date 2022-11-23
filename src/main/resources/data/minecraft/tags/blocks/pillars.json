@@ -2,8 +2,13 @@
   "replace": false,
   "values": [
     "wanilla:amethyst_pillar",
+    "wanilla:iron_pillar",
     "wanilla:gold_pillar",
+    "wanilla:iron_pillar",
+    "wanilla:diamond_pillar",
+    "wanilla:emerald_pillar",
     "wanilla:reinforced_deepslate_pillar",
-    "wanilla:polished_stone_pillar"
+    "wanilla:stone_pillar",
+    "wanilla:sandstone_pillar"
   ]
 }

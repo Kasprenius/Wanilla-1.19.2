@@ -17,18 +17,19 @@ public class ReinforcedDeepslateBlocks {
     public static final Block REINFORCED_DEEPSLATE = registerBlock("reinforced_deepslate",
             new Block(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block REINFORCED_DEEPSLATE_SLAB = registerBlock("reinforced_deepslate_slab",
-            new SlabBlock(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
-            ModItemGroup.WANILLA);
     public static final Block REINFORCED_DEEPSLATE_STAIRS = registerBlock("reinforced_deepslate_stairs",
             new StairsBlock(REINFORCED_DEEPSLATE.getDefaultState(), AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block REINFORCED_DEEPSLATE_PILLAR = registerBlock("reinforced_deepslate_pillar",
-            new PillarBlock(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
+    public static final Block REINFORCED_DEEPSLATE_SLAB = registerBlock("reinforced_deepslate_slab",
+            new SlabBlock(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block REINFORCED_DEEPSLATE_WALL = registerBlock("reinforced_deepslate_wall",
             new WallBlock(FabricBlockSettings.copy(REINFORCED_DEEPSLATE)),
             ModItemGroup.WANILLA);
+    public static final Block REINFORCED_DEEPSLATE_PILLAR = registerBlock("reinforced_deepslate_pillar",
+            new PillarBlock(AbstractBlock.Settings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).sounds(BlockSoundGroup.DEEPSLATE).strength(50.0f, 1200.0f).requiresTool()),
+            ModItemGroup.WANILLA);
+
 
 
 

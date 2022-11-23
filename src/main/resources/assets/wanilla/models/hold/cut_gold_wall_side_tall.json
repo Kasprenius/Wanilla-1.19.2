@@ -1,0 +1,6 @@
+{
+  "parent": "wanilla:custom/cut_wall_side_tall",
+  "textures": {
+    "wall": "wanilla:block/gold/cut_gold"
+  }
+}

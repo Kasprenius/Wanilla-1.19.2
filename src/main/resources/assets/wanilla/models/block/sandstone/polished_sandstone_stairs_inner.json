@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"1": "wanilla:block/sandstone/polished_sandstone_stairs",
+		"particle": "wanilla:block/sandstone/polished_sandstone_stairs",
+		"bottom": "wanilla:block/sandstone/polished_sandstone"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"west": {"uv": [16, 8, 0, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0, 7.999, 8],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8.001], "texture": "#bottom"},
+				"east": {"uv": [0, 0, 8, 8.001], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 16, 8.001], "texture": "#bottom"},
+				"west": {"uv": [8, 0, 0, 8.001], "texture": "#1"},
+				"up": {"uv": [0, 8, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [8, 7.999, 0],
+			"to": [16, 16, 8.001],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8.001], "texture": "#1"},
+				"east": {"uv": [8, 0, 16, 8.001], "texture": "#bottom"},
+				"west": {"uv": [0, 0, 8, 8.001], "texture": "#bottom"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#bottom"}
+			}
+		}
+	]
+}

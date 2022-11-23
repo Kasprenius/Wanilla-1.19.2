@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "wanilla:aligned_oak_planks",
+    "wanilla:aligned_spruce_planks",
+    "wanilla:aligned_birch_planks",
+    "wanilla:aligned_jungle_planks",
+    "wanilla:aligned_acacia_planks",
+    "wanilla:aligned_dark_oak_planks",
+    "wanilla:aligned_crimson_planks",
+    "wanilla:aligned_warped_planks",
+    "wanilla:aligned_mangrove_planks",
+    "wanilla:mosaic_oak_planks",
+    "wanilla:mosaic_spruce_planks",
+    "wanilla:mosaic_birch_planks",
+    "wanilla:mosaic_jungle_planks",
+    "wanilla:mosaic_acacia_planks",
+    "wanilla:mosaic_dark_oak_planks",
+    "wanilla:mosaic_crimson_planks",
+    "wanilla:mosaic_warped_planks",
+    "wanilla:mosaic_mangrove_planks"
+  ]
+}

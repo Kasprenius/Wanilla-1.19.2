@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "minecraft:block/pink_stained_glass",
-    "top": "minecraft:block/pink_stained_glass",
-    "side": "wanilla:block/glass/stained/pink/pink_stained_glass_slab_top"
-  }
-}

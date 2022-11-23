@@ -2,15 +2,17 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "wanilla:block/gold/gold_wall",
-		"wall": "block/gold_block",
-		"particle": "block/gold_block"
+		"particle": "block/gold_block",
+		"wall": "block/gold_block"
 	},
 	"elements": [
 		{
 			"from": [5, 0, 0],
-			"to": [11, 15.99, 4],
+			"to": [11, 16, 4],
 			"faces": {
+				"north": {"uv": [5, 0.01, 11, 16], "texture": "#wall"},
 				"east": {"uv": [12, 0.01, 16, 16], "texture": "#wall"},
+				"south": {"uv": [5, 0.01, 11, 16], "texture": "#wall"},
 				"west": {"uv": [0, 0.01, 4, 16], "texture": "#wall"},
 				"down": {"uv": [13.6, 16, 16, 12], "rotation": 180, "texture": "#1", "cullface": "down"}
 			}

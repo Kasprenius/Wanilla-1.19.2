@@ -29,15 +29,15 @@ public class ModBlocks {
             ModItemGroup.WANILLA);
 
     /*
-    Smooth Base Set
+    Polished Base Set
      */
-    public static final Block SMOOTH_GLOWSTONE = registerBlock("smooth_glowstone",
+    public static final Block POLISHED_GLOWSTONE = registerBlock("polished_glowstone",
             new Block(FabricBlockSettings.of(Material.GLASS).strength(1.5F, 6.0F).sounds(BlockSoundGroup.GLASS).requiresTool().luminance(15)),
             ModItemGroup.WANILLA);
-    public static final Block SMOOTH_DIMSTONE = registerBlock("smooth_dimstone",
+    public static final Block POLISHED_DIMSTONE = registerBlock("polished_dimstone",
             new Block(FabricBlockSettings.copy(DIMSTONE).strength(1.5F, 6.0F).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block SMOOTH_DULLSTONE = registerBlock("smooth_dullstone",
+    public static final Block POLISHED_DULLSTONE = registerBlock("polished_dullstone",
             new Block(FabricBlockSettings.copy(DULLSTONE).strength(1.5F, 6.0F).requiresTool()),
             ModItemGroup.WANILLA);
 
@@ -45,13 +45,13 @@ public class ModBlocks {
     Brick Base Set
      */
     public static final Block GLOWSTONE_BRICKS = registerBlock("glowstone_bricks",
-            new Block(FabricBlockSettings.copy(SMOOTH_GLOWSTONE).requiresTool()),
+            new Block(FabricBlockSettings.copy(POLISHED_GLOWSTONE).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block DIMSTONE_BRICKS = registerBlock("dimstone_bricks",
-            new Block(FabricBlockSettings.copy(SMOOTH_DIMSTONE).requiresTool()),
+            new Block(FabricBlockSettings.copy(POLISHED_DIMSTONE).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block DULLSTONE_BRICKS = registerBlock("dullstone_bricks",
-            new Block(FabricBlockSettings.copy(SMOOTH_DULLSTONE).requiresTool()),
+            new Block(FabricBlockSettings.copy(POLISHED_DULLSTONE).requiresTool()),
             ModItemGroup.WANILLA);
 
 
@@ -59,26 +59,26 @@ public class ModBlocks {
     Cracked Brick Base Set
      */
     public static final Block CRACKED_GLOWSTONE_BRICKS = registerBlock("cracked_glowstone_bricks",
-            new Block(FabricBlockSettings.copy(SMOOTH_GLOWSTONE).requiresTool()),
+            new Block(FabricBlockSettings.copy(POLISHED_GLOWSTONE).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block CRACKED_DIMSTONE_BRICKS = registerBlock("cracked_dimstone_bricks",
-            new Block(FabricBlockSettings.copy(SMOOTH_DIMSTONE).requiresTool()),
+            new Block(FabricBlockSettings.copy(POLISHED_DIMSTONE).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block CRACKED_DULLSTONE_BRICKS = registerBlock("cracked_dullstone_bricks",
-            new Block(FabricBlockSettings.copy(SMOOTH_DULLSTONE).requiresTool()),
+            new Block(FabricBlockSettings.copy(POLISHED_DULLSTONE).requiresTool()),
             ModItemGroup.WANILLA);
 
     /*
     Chiseled Brick Base Set
      */
     public static final Block CHISELED_GLOWSTONE_BRICKS = registerBlock("chiseled_glowstone_bricks",
-            new Block(FabricBlockSettings.copy(SMOOTH_GLOWSTONE).requiresTool()),
+            new Block(FabricBlockSettings.copy(POLISHED_GLOWSTONE).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block CHISELED_DIMSTONE_BRICKS = registerBlock("chiseled_dimstone_bricks",
-            new Block(FabricBlockSettings.copy(SMOOTH_DIMSTONE).requiresTool()),
+            new Block(FabricBlockSettings.copy(POLISHED_DIMSTONE).requiresTool()),
             ModItemGroup.WANILLA);
     public static final Block CHISELED_DULLSTONE_BRICKS = registerBlock("chiseled_dullstone_bricks",
-            new Block(FabricBlockSettings.copy(SMOOTH_DULLSTONE).requiresTool()),
+            new Block(FabricBlockSettings.copy(POLISHED_DULLSTONE).requiresTool()),
             ModItemGroup.WANILLA);
 
     /*
@@ -89,51 +89,42 @@ public class ModBlocks {
             ModItemGroup.WANILLA);
 
     /*
-    Smooth Glowstone Set
+    Polished Glowstone Set
      */
-    public static final Block SMOOTH_GLOWSTONE_SLAB = registerBlock("smooth_glowstone_slab",
-            new SlabBlock(FabricBlockSettings.copy(SMOOTH_GLOWSTONE).requiresTool()),
+    public static final Block POLISHED_GLOWSTONE_SLAB = registerBlock("polished_glowstone_slab",
+            new SlabBlock(FabricBlockSettings.copy(POLISHED_GLOWSTONE).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block SMOOTH_GLOWSTONE_STAIRS = registerBlock("smooth_glowstone_stairs",
-            new StairsBlock(SMOOTH_GLOWSTONE.getDefaultState(), FabricBlockSettings.copy(SMOOTH_GLOWSTONE).requiresTool()),
+    public static final Block POLISHED_GLOWSTONE_STAIRS = registerBlock("polished_glowstone_stairs",
+            new StairsBlock(POLISHED_GLOWSTONE.getDefaultState(), FabricBlockSettings.copy(POLISHED_GLOWSTONE).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block SMOOTH_GLOWSTONE_WALL = registerBlock("smooth_glowstone_wall",
+    public static final Block POLISHED_GLOWSTONE_WALL = registerBlock("polished_glowstone_wall",
             new WallBlock(FabricBlockSettings.copy(GLOWSTONE_BRICKS).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block SMOOTH_GLOWSTONE_BUTTON = registerBlock("smooth_glowstone_button",
-            new AbstractStoneButtonBlock(FabricBlockSettings.of(Material.DECORATION).strength(0.5F, 0.5F).sounds(BlockSoundGroup.GLASS).luminance(15).noCollision()),
+
+    /*
+    Polished Dimstone Set
+     */
+    public static final Block POLISHED_DIMSTONE_SLAB = registerBlock("polished_dimstone_slab",
+            new SlabBlock(FabricBlockSettings.copy(POLISHED_DIMSTONE).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block POLISHED_DIMSTONE_STAIRS = registerBlock("polished_dimstone_stairs",
+            new StairsBlock(POLISHED_DIMSTONE.getDefaultState(), FabricBlockSettings.copy(POLISHED_DIMSTONE).requiresTool()),
+            ModItemGroup.WANILLA);
+    public static final Block POLISHED_DIMSTONE_WALL = registerBlock("polished_dimstone_wall",
+            new WallBlock(FabricBlockSettings.copy(POLISHED_DIMSTONE).requiresTool()),
             ModItemGroup.WANILLA);
 
     /*
-    Smooth Dimstone Set
+    Polished Dullstone Set
      */
-    public static final Block SMOOTH_DIMSTONE_SLAB = registerBlock("smooth_dimstone_slab",
-            new SlabBlock(FabricBlockSettings.copy(SMOOTH_DIMSTONE).requiresTool()),
+    public static final Block POLISHED_DULLSTONE_SLAB = registerBlock("polished_dullstone_slab",
+            new SlabBlock(FabricBlockSettings.copy(POLISHED_DULLSTONE).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block SMOOTH_DIMSTONE_STAIRS = registerBlock("smooth_dimstone_stairs",
-            new StairsBlock(SMOOTH_DIMSTONE.getDefaultState(), FabricBlockSettings.copy(SMOOTH_DIMSTONE).requiresTool()),
+    public static final Block POLISHED_DULLSTONE_STAIRS = registerBlock("polished_dullstone_stairs",
+            new StairsBlock(POLISHED_DULLSTONE.getDefaultState(), FabricBlockSettings.copy(POLISHED_DULLSTONE).requiresTool()),
             ModItemGroup.WANILLA);
-    public static final Block SMOOTH_DIMSTONE_WALL = registerBlock("smooth_dimstone_wall",
-            new WallBlock(FabricBlockSettings.copy(DIMSTONE_BRICKS).requiresTool()),
-            ModItemGroup.WANILLA);
-    public static final Block SMOOTH_DIMSTONE_BUTTON = registerBlock("smooth_dimstone_button",
-            new AbstractStoneButtonBlock(FabricBlockSettings.of(Material.DECORATION).strength(0.5F, 0.5F).sounds(BlockSoundGroup.GLASS).luminance(12).noCollision()),
-            ModItemGroup.WANILLA);
-
-    /*
-    Smooth Dullstone Set
-     */
-    public static final Block SMOOTH_DULLSTONE_SLAB = registerBlock("smooth_dullstone_slab",
-            new SlabBlock(FabricBlockSettings.copy(SMOOTH_DULLSTONE).requiresTool()),
-            ModItemGroup.WANILLA);
-    public static final Block SMOOTH_DULLSTONE_STAIRS = registerBlock("smooth_dullstone_stairs",
-            new StairsBlock(SMOOTH_DULLSTONE.getDefaultState(), FabricBlockSettings.copy(SMOOTH_DULLSTONE).requiresTool()),
-            ModItemGroup.WANILLA);
-    public static final Block SMOOTH_DULLSTONE_WALL = registerBlock("smooth_dullstone_wall",
-            new WallBlock(FabricBlockSettings.copy(DULLSTONE_BRICKS).requiresTool()),
-            ModItemGroup.WANILLA);
-    public static final Block SMOOTH_DULLSTONE_BUTTON = registerBlock("smooth_dullstone_button",
-            new AbstractStoneButtonBlock(FabricBlockSettings.of(Material.DECORATION).strength(0.5F, 0.5F).sounds(IEBlockSoundGroups.DULLSTONE).noCollision()),
+    public static final Block POLISHED_DULLSTONE_WALL = registerBlock("polished_dullstone_wall",
+            new WallBlock(FabricBlockSettings.copy(POLISHED_DULLSTONE).requiresTool()),
             ModItemGroup.WANILLA);
 
     /*
@@ -231,18 +222,8 @@ public class ModBlocks {
             ModItemGroup.WANILLA);
 
      */
-
-
     public static final Block GLOWSTONES = registerBlock("glowstones",
             new Glowstones(FabricBlockSettings.copy(Blocks.CANDLE).luminance(Glowstones.STATE_TO_LUMINANCE)),
-            ModItemGroup.WANILLA);
-
-
-
-
-
-    public static final Block POLISHED_STONE_PILLAR = registerBlock("polished_stone_pillar",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STONE).requiresTool()),
             ModItemGroup.WANILLA);
 
 

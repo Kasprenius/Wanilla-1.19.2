@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "wanilla:block/end_rod/cyan_end_rod",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "wanilla:block/end_rod/cyan_end_rod",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wanilla:block/end_rod/cyan_end_rod",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "wanilla:block/end_rod/cyan_end_rod",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "wanilla:block/end_rod/cyan_end_rod"
+    },
+    "facing=west": {
+      "model": "wanilla:block/end_rod/cyan_end_rod",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

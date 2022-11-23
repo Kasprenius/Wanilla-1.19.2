@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": [
+    {"item": "wanilla:large_gold_soul_lantern"},
+    {"item": "wanilla:large_iron_soul_lantern"},
+    {"item": "wanilla:large_blast_iron_soul_lantern"}
+  ],
+  "result": {
+    "item": "wanilla:large_netherite_soul_lantern"
+  }
+}

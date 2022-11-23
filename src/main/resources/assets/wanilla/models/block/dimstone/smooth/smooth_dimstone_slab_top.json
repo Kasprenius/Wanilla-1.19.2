@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "wanilla:block/smooth_dimstone",
-    "top": "wanilla:block/smooth_dimstone",
-    "side": "wanilla:block/smooth_dimstone"
-  }
-}

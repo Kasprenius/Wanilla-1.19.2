@@ -1,6 +1,6 @@
 {
   "parent": "block/wall_inventory",
   "textures": {
-    "wall": "wanilla:block/dimstone_bricks"
+    "wall": "wanilla:block/dimstone/dimstone_bricks"
   }
 }

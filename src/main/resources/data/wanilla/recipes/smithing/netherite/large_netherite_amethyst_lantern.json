@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": [
+    {"item": "wanilla:large_gold_amethyst_lantern"},
+    {"item": "wanilla:large_iron_amethyst_lantern"},
+    {"item": "wanilla:large_blast_iron_amethyst_lantern"}
+  ],
+  "result": {
+    "item": "wanilla:large_netherite_amethyst_lantern"
+  }
+}
