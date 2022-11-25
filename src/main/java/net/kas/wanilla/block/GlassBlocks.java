@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kas.wanilla.Wanilla;
 import net.kas.wanilla.block.templates.GlowGlassSlabBlock;
+import net.kas.wanilla.block.templates.StainedGlassSlabBlock;
 import net.kas.wanilla.item.ModItemGroup;
 import net.minecraft.block.*;
 import net.minecraft.entity.EntityType;
@@ -23,7 +24,7 @@ public class GlassBlocks {
             new GlassBlock(AbstractBlock.Settings.copy(Blocks.BLACK_STAINED_GLASS)),
             ModItemGroup.WANILLA);
             public static final Block FRAMED_BLACK_STAINED_GLASS_SLAB = registerBlock("framed_black_stained_glass_slab",
-                    new GlowGlassSlabBlock(AbstractBlock.Settings.copy(Blocks.BLACK_STAINED_GLASS)),
+                    new StainedGlassSlabBlock(DyeColor.BLACK, AbstractBlock.Settings.copy(Blocks.BLACK_STAINED_GLASS)),
                     ModItemGroup.WANILLA);
             public static final Block FRAMED_BLACK_STAINED_GLASS_PANE = registerBlock("framed_black_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.BLACK, AbstractBlock.Settings.copy(Blocks.BLACK_STAINED_GLASS_PANE)),
@@ -35,7 +36,7 @@ public class GlassBlocks {
             new GlassBlock(AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)),
             ModItemGroup.WANILLA);
             public static final Block FRAMED_BLUE_STAINED_GLASS_SLAB = registerBlock("framed_blue_stained_glass_slab",
-                    new GlowGlassSlabBlock(AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)),
+                    new StainedGlassSlabBlock(DyeColor.BLUE, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS)),
                     ModItemGroup.WANILLA);
             public static final Block FRAMED_BLUE_STAINED_GLASS_PANE = registerBlock("framed_blue_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.BLUE, AbstractBlock.Settings.copy(Blocks.BLUE_STAINED_GLASS_PANE)),
@@ -47,7 +48,7 @@ public class GlassBlocks {
             new GlassBlock(AbstractBlock.Settings.copy(Blocks.BROWN_STAINED_GLASS)),
             ModItemGroup.WANILLA);
             public static final Block FRAMED_BROWN_STAINED_GLASS_SLAB = registerBlock("framed_brown_stained_glass_slab",
-                    new GlowGlassSlabBlock(AbstractBlock.Settings.copy(Blocks.BROWN_STAINED_GLASS)),
+                    new StainedGlassSlabBlock(DyeColor.BROWN, AbstractBlock.Settings.copy(Blocks.BROWN_STAINED_GLASS)),
                     ModItemGroup.WANILLA);
             public static final Block FRAMED_BROWN_STAINED_GLASS_PANE = registerBlock("framed_brown_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.BROWN, AbstractBlock.Settings.copy(Blocks.BROWN_STAINED_GLASS_PANE)),
@@ -59,7 +60,7 @@ public class GlassBlocks {
             new GlassBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)),
             ModItemGroup.WANILLA);
             public static final Block FRAMED_CYAN_STAINED_GLASS_SLAB = registerBlock("framed_cyan_stained_glass_slab",
-                    new GlowGlassSlabBlock(AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)),
+                    new StainedGlassSlabBlock(DyeColor.CYAN, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS)),
                     ModItemGroup.WANILLA);
             public static final Block FRAMED_CYAN_STAINED_GLASS_PANE = registerBlock("framed_cyan_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.CYAN, AbstractBlock.Settings.copy(Blocks.CYAN_STAINED_GLASS_PANE)),
