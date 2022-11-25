@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"wall": "wanilla:block/gold/gold_bricks"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [3, 0, 11, 16], "texture": "#wall"},
+				"east": {"uv": [3, 0, 11, 16], "texture": "#wall"},
+				"south": {"uv": [3, 0, 11, 16], "texture": "#wall"},
+				"west": {"uv": [3, 0, 11, 16], "texture": "#wall"},
+				"up": {"uv": [1, 8, 9, 16], "rotation": 90, "texture": "#wall"},
+				"down": {"uv": [1, 8, 9, 16], "rotation": 90, "texture": "#wall"}
+			}
+		},
+		{
+			"name": "Full wall",
+			"from": [5, 0.01, 0],
+			"to": [11, 14.01, 16],
+			"faces": {
+				"north": {"uv": [8, 2, 14, 16], "texture": "#wall", "cullface": "north"},
+				"east": {"uv": [0, 2, 16, 16], "texture": "#wall"},
+				"south": {"uv": [8, 2, 14, 16], "texture": "#wall", "cullface": "north"},
+				"west": {"uv": [0, 2, 16, 16], "texture": "#wall"},
+				"up": {"uv": [0, 10, 16, 16], "rotation": 90, "texture": "#wall"},
+				"down": {"uv": [0, 10, 16, 16], "rotation": 90, "texture": "#wall"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

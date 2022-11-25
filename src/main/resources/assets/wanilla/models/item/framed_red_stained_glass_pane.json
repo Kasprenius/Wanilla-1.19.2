@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "wanilla:block/glass/stained/framed/framed_red_stained_glass"
+    }
+}

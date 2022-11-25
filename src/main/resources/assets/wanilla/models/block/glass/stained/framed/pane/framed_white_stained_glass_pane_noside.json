@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "wanilla:block/glass/stained/framed/framed_white_stained_glass"
+  }
+}

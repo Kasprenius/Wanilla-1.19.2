@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "wanilla:block/gilded_blackstone/gilded_blackstone_door_sides_v",
+		"particle": "wanilla:block/gilded_blackstone/gilded_blackstone_door_bottom",
+		"bottom": "wanilla:block/gilded_blackstone/gilded_blackstone_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [3, 0, 0, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [7, 0, 10, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"down": {"uv": [10, 0, 13, 16], "texture": "#2", "cullface": "down"}
+			}
+		}
+	]
+}
