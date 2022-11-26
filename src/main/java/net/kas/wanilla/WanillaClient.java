@@ -57,6 +57,8 @@ public class WanillaClient implements ClientModInitializer {
 
 
                 GlassBlocks.FRAMED_GLASS,
+                GlassBlocks.FRAMED_GLASS_SLAB,
+                GlassBlocks.FRAMED_GLASS_STAIRS,
                 GlassBlocks.FRAMED_BLACK_STAINED_GLASS,
                     GlassBlocks.FRAMED_BLACK_STAINED_GLASS_SLAB,
                     GlassBlocks.FRAMED_BLACK_STAINED_GLASS_PANE,
