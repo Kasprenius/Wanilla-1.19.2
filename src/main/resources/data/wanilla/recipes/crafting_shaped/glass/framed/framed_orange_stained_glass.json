@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "framed_glass",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:orange_stained_glass"
+    },
+    "B": {
+      "item": "wanilla:blast_iron_bars"
+    }
+  },
+  "result": {
+    "item": "wanilla:framed_orange_stained_glass",
+    "count": 8
+  }
+}

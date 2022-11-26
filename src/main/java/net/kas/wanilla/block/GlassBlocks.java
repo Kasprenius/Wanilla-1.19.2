@@ -19,6 +19,9 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.world.BlockView;
 
 public class GlassBlocks {
+    public static final Block FRAMED_GLASS = registerBlock("framed_glass",
+            new GlassBlock(AbstractBlock.Settings.copy(Blocks.GLASS).strength(2.0F, 12.0F)),
+            ModItemGroup.WANILLA);
 
     public static final Block FRAMED_BLACK_STAINED_GLASS = registerBlock("framed_black_stained_glass",
             new GlassBlock(AbstractBlock.Settings.copy(Blocks.BLACK_STAINED_GLASS).strength(2.0F, 12.0F)),

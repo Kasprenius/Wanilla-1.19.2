@@ -1,0 +1,31 @@
+{
+  "type": "crafting_shapeless",
+  "result": {
+    "item": "wanilla:framed_green_stained_glass",
+    "count": 1
+  },
+  "group": "framed_dying",
+  "ingredients": [
+    [
+      {"item": "wanilla:framed_glass"},
+      {"item": "wanilla:framed_white_stained_glass"},
+      {"item": "wanilla:framed_orange_stained_glass"},
+      {"item": "wanilla:framed_magenta_stained_glass"},
+      {"item": "wanilla:framed_light_blue_stained_glass"},
+      {"item": "wanilla:framed_yellow_stained_glass"},
+      {"item": "wanilla:framed_lime_stained_glass"},
+      {"item": "wanilla:framed_pink_stained_glass"},
+      {"item": "wanilla:framed_black_stained_glass"},
+      {"item": "wanilla:framed_light_gray_stained_glass"},
+      {"item": "wanilla:framed_cyan_stained_glass"},
+      {"item": "wanilla:framed_purple_stained_glass"},
+      {"item": "wanilla:framed_blue_stained_glass"},
+      {"item": "wanilla:framed_brown_stained_glass"},
+      {"item": "wanilla:framed_gray_stained_glass"},
+      {"item": "wanilla:framed_red_stained_glass"}
+    ],
+    {
+      "item": "minecraft:green_dye"
+    }
+  ]
+}
