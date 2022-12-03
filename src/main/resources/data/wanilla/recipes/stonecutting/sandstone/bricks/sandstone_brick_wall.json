@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:sandstone_bricks"
+  },
+  "result": "wanilla:sandstone_brick_wall",
+  "count": 1
+}

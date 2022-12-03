@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"1": "wanilla:block/glass/stained/framed/framed_glass_stairs",
+		"2": "wanilla:block/glass/stained/framed/framed_glass_slabs",
+		"particle": "wanilla:block/glass/stained/framed/framed_glass_stairs",
+		"bottom": "wanilla:block/glass/stained/framed/framed_glass"
+	},
+	"elements": [
+		{
+			"from": [8, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#bottom"},
+				"south": {"uv": [8, 0, 0, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#2"},
+				"up": {"uv": [0, 0, 16, 8], "rotation": 90, "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [8, 8, 16],
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"south": {"uv": [16, 8, 8, 16], "texture": "#1"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#1"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [8, 8, 0, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 8], "rotation": 90, "texture": "#bottom"}
+			}
+		}
+	]
+}

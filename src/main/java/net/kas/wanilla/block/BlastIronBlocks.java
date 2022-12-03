@@ -19,6 +19,9 @@ public class BlastIronBlocks {
     public static final Block BLAST_IRON_BLOCK = registerBlock("blast_iron_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(25.0F, 600.0F).requiresTool()),
             ModItemGroup.SHINYSTUFF);
+            public static final Block BLAST_IRON_SLAB = registerBlock("blast_iron_slab",
+                    new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(25.0F, 600.0F).requiresTool()),
+                    ModItemGroup.SHINYSTUFF);
     public static final Block CUT_BLAST_IRON = registerBlock("cut_blast_iron",
             new Block(FabricBlockSettings.of(Material.METAL).strength(25.0F, 600.0F).requiresTool()),
             ModItemGroup.SHINYSTUFF);

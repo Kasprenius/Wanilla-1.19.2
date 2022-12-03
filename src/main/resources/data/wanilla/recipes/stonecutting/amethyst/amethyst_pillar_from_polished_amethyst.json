@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "wanilla:melted_amethyst"
+    "item": "wanilla:polished_amethyst"
   },
   "result": "wanilla:amethyst_pillar",
   "count": 1

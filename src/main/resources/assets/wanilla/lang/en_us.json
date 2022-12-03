@@ -185,6 +185,7 @@
   "block.wanilla.large_gold_glow_lantern": "Big Gold Glow Lantern",
 
   "block.wanilla.blast_iron_block": "Blast Iron Block",
+  "block.wanilla.blast_iron_slab": "Blast Iron Slab",
   "block.wanilla.cut_blast_iron": "Cut Blast Iron",
   "block.wanilla.blast_iron_bars": "Blast Iron Bars",
   "block.wanilla.big_blast_iron_chain": "Big Blast Iron Chain",
@@ -231,13 +232,13 @@
   "block.wanilla.melted_amethyst": "Melted Amethyst",
   "block.wanilla.polished_amethyst": "Polished Amethyst",
 
-  "block.wanilla.raw_diamond_block": "Block of Raw Diamond",
+  "block.wanilla.raw_diamond_block": "Block of Diamonds",
   "block.wanilla.diamond_slab": "Diamond Slab",
   "block.wanilla.diamond_stairs": "Diamond Stairs",
   "block.wanilla.beveled_diamond": "Beveled Diamond",
   "block.wanilla.diamond_pillar": "Diamond Pillar",
 
-  "block.wanilla.raw_emerald_block": "Block of Raw Emerald",
+  "block.wanilla.raw_emerald_block": "Block of Emeralds",
   "block.wanilla.emerald_slab": "Emerald Slab",
   "block.wanilla.emerald_stairs": "Emerald Stairs",
   "block.wanilla.cut_emerald": "Cut Emerald",

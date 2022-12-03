@@ -30,6 +30,12 @@ public class GlassBlocks {
             public static final Block FRAMED_GLASS_SLAB = registerBlock("framed_glass_slab",
                     new FramedGlassSlabBlock(AbstractBlock.Settings.copy(FRAMED_GLASS).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
+            public static final Block FRAMED_GLASS_PANE = registerBlock("framed_glass_pane",
+                    new PaneBlock(AbstractBlock.Settings.copy(Blocks.GLASS_PANE).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
+            public static final Block FRAMED_GLASS_FLOOR = registerBlock("framed_glass_floor",
+                    new CarpetBlock(AbstractBlock.Settings.copy(Blocks.GLASS_PANE).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
 
     public static final Block FRAMED_BLACK_STAINED_GLASS = registerBlock("framed_black_stained_glass",
             new StainedGlassBlock(DyeColor.BLACK, AbstractBlock.Settings.copy(Blocks.BLACK_STAINED_GLASS).strength(2.0F, 12.0F)),
@@ -82,6 +88,9 @@ public class GlassBlocks {
     public static final Block FRAMED_GRAY_STAINED_GLASS = registerBlock("framed_gray_stained_glass",
             new StainedGlassBlock(DyeColor.GRAY, AbstractBlock.Settings.copy(Blocks.GRAY_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_GRAY_STAINED_GLASS_SLAB = registerBlock("framed_gray_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.GRAY, AbstractBlock.Settings.copy(FRAMED_GRAY_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_GRAY_STAINED_GLASS_PANE = registerBlock("framed_gray_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.GRAY, AbstractBlock.Settings.copy(Blocks.GRAY_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -91,6 +100,9 @@ public class GlassBlocks {
     public static final Block FRAMED_GREEN_STAINED_GLASS = registerBlock("framed_green_stained_glass",
             new StainedGlassBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_GREEN_STAINED_GLASS_SLAB = registerBlock("framed_green_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(FRAMED_GREEN_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_GREEN_STAINED_GLASS_PANE = registerBlock("framed_green_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -100,6 +112,9 @@ public class GlassBlocks {
     public static final Block FRAMED_LIGHT_BLUE_STAINED_GLASS = registerBlock("framed_light_blue_stained_glass",
             new StainedGlassBlock(DyeColor.LIGHT_BLUE, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_LIGHT_BLUE_STAINED_GLASS_SLAB = registerBlock("framed_light_blue_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.LIGHT_BLUE, AbstractBlock.Settings.copy(FRAMED_LIGHT_BLUE_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_LIGHT_BLUE_STAINED_GLASS_PANE = registerBlock("framed_light_blue_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.LIGHT_BLUE, AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -109,6 +124,9 @@ public class GlassBlocks {
     public static final Block FRAMED_LIGHT_GRAY_STAINED_GLASS = registerBlock("framed_light_gray_stained_glass",
             new StainedGlassBlock(DyeColor.LIGHT_GRAY, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_LIGHT_GRAY_STAINED_GLASS_SLAB = registerBlock("framed_light_gray_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.LIGHT_GRAY, AbstractBlock.Settings.copy(FRAMED_LIGHT_GRAY_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_LIGHT_GRAY_STAINED_GLASS_PANE = registerBlock("framed_light_gray_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.LIGHT_GRAY, AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -118,6 +136,9 @@ public class GlassBlocks {
     public static final Block FRAMED_LIME_STAINED_GLASS = registerBlock("framed_lime_stained_glass",
             new StainedGlassBlock(DyeColor.LIME, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_LIME_STAINED_GLASS_SLAB = registerBlock("framed_lime_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.LIME, AbstractBlock.Settings.copy(FRAMED_LIME_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_LIME_STAINED_GLASS_PANE = registerBlock("framed_lime_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.LIME, AbstractBlock.Settings.copy(Blocks.LIME_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -127,6 +148,9 @@ public class GlassBlocks {
     public static final Block FRAMED_MAGENTA_STAINED_GLASS = registerBlock("framed_magenta_stained_glass",
             new StainedGlassBlock(DyeColor.MAGENTA, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_MAGENTA_STAINED_GLASS_SLAB = registerBlock("framed_magenta_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.MAGENTA, AbstractBlock.Settings.copy(FRAMED_MAGENTA_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_MAGENTA_STAINED_GLASS_PANE = registerBlock("framed_magenta_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.MAGENTA, AbstractBlock.Settings.copy(Blocks.MAGENTA_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -136,6 +160,9 @@ public class GlassBlocks {
     public static final Block FRAMED_ORANGE_STAINED_GLASS = registerBlock("framed_orange_stained_glass",
             new StainedGlassBlock(DyeColor.ORANGE, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_ORANGE_STAINED_GLASS_SLAB = registerBlock("framed_orange_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.ORANGE, AbstractBlock.Settings.copy(FRAMED_ORANGE_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_ORANGE_STAINED_GLASS_PANE = registerBlock("framed_orange_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.ORANGE, AbstractBlock.Settings.copy(Blocks.ORANGE_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -145,6 +172,9 @@ public class GlassBlocks {
     public static final Block FRAMED_PINK_STAINED_GLASS = registerBlock("framed_pink_stained_glass",
             new StainedGlassBlock(DyeColor.PINK, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_PINK_STAINED_GLASS_SLAB = registerBlock("framed_pink_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.PINK, AbstractBlock.Settings.copy(FRAMED_PINK_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_PINK_STAINED_GLASS_PANE = registerBlock("framed_pink_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.PINK, AbstractBlock.Settings.copy(Blocks.PINK_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -154,6 +184,9 @@ public class GlassBlocks {
     public static final Block FRAMED_PURPLE_STAINED_GLASS = registerBlock("framed_purple_stained_glass",
             new StainedGlassBlock(DyeColor.PURPLE, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_PURPLE_STAINED_GLASS_SLAB = registerBlock("framed_purple_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.PURPLE, AbstractBlock.Settings.copy(FRAMED_PURPLE_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_PURPLE_STAINED_GLASS_PANE = registerBlock("framed_purple_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.PURPLE, AbstractBlock.Settings.copy(Blocks.PURPLE_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -163,6 +196,9 @@ public class GlassBlocks {
     public static final Block FRAMED_RED_STAINED_GLASS = registerBlock("framed_red_stained_glass",
             new StainedGlassBlock(DyeColor.RED, AbstractBlock.Settings.copy(Blocks.RED_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_RED_STAINED_GLASS_SLAB = registerBlock("framed_red_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.RED, AbstractBlock.Settings.copy(FRAMED_RED_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_RED_STAINED_GLASS_PANE = registerBlock("framed_red_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.RED, AbstractBlock.Settings.copy(Blocks.RED_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -172,6 +208,9 @@ public class GlassBlocks {
     public static final Block FRAMED_WHITE_STAINED_GLASS = registerBlock("framed_white_stained_glass",
             new StainedGlassBlock(DyeColor.WHITE, AbstractBlock.Settings.copy(Blocks.WHITE_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_WHITE_STAINED_GLASS_SLAB = registerBlock("framed_white_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.WHITE, AbstractBlock.Settings.copy(FRAMED_WHITE_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_WHITE_STAINED_GLASS_PANE = registerBlock("framed_white_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.WHITE, AbstractBlock.Settings.copy(Blocks.WHITE_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);
@@ -181,6 +220,9 @@ public class GlassBlocks {
     public static final Block FRAMED_YELLOW_STAINED_GLASS = registerBlock("framed_yellow_stained_glass",
             new StainedGlassBlock(DyeColor.YELLOW, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS).strength(2.0F, 12.0F)),
             ModItemGroup.WANILLA);
+            public static final Block FRAMED_YELLOW_STAINED_GLASS_SLAB = registerBlock("framed_yellow_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.YELLOW, AbstractBlock.Settings.copy(FRAMED_YELLOW_STAINED_GLASS).strength(2.0F, 12.0F)),
+                    ModItemGroup.WANILLA);
             public static final Block FRAMED_YELLOW_STAINED_GLASS_PANE = registerBlock("framed_yellow_stained_glass_pane",
                     new StainedGlassPaneBlock(DyeColor.YELLOW, AbstractBlock.Settings.copy(Blocks.YELLOW_STAINED_GLASS_PANE).strength(2.0F, 12.0F)),
                     ModItemGroup.WANILLA);

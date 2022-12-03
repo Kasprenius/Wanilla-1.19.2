@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:blast_iron_slab"
+    }
+  },
+  "result": {
+    "item": "wanilla:blast_iron_block",
+    "count": 1
+  }
+}

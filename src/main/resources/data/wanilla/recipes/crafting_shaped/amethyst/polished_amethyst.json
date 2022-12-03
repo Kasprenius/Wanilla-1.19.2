@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:melted_amethyst"
+    }
+  },
+  "result": {
+    "item": "wanilla:polished_amethyst",
+    "count": 4
+  }
+}

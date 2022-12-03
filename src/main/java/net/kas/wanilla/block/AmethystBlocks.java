@@ -24,6 +24,13 @@ public class AmethystBlocks {
             new WallBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.SHINYSTUFF);
 
+    public static final Block MELTED_AMETHYST = registerBlock("melted_amethyst",
+            new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.SHINYSTUFF);  //G
+    public static final Block POLISHED_AMETHYST = registerBlock("polished_amethyst",
+            new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
+            ModItemGroup.SHINYSTUFF);
+
     public static final Block AMETHYST_BRICKS = registerBlock("amethyst_bricks",
             new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.SHINYSTUFF);  //G
@@ -46,12 +53,7 @@ public class AmethystBlocks {
     public static final Block CARVED_AMETHYST = registerBlock("carved_amethyst",
             new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
             ModItemGroup.SHINYSTUFF);  //G
-    public static final Block MELTED_AMETHYST = registerBlock("melted_amethyst",
-            new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.SHINYSTUFF);  //G
-    public static final Block POLISHED_AMETHYST = registerBlock("polished_amethyst",
-            new Block(FabricBlockSettings.of(Material.AMETHYST, MapColor.PURPLE).strength(3.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()),
-            ModItemGroup.SHINYSTUFF);
+
 
 
 

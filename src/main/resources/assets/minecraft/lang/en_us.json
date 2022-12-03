@@ -1,3 +1,5 @@
 {
-  "block.minecraft.chain": "Blast Iron Chain"
+  "block.minecraft.chain": "Blast Iron Chain",
+  "block.minecraft.diamond_block": "Diamond Block",
+  "block.minecraft.emerald_block": "Emerald Block"
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:polished_sandstone"
+  },
+  "result": "wanilla:sandstone_pillar",
+  "count": 1
+}

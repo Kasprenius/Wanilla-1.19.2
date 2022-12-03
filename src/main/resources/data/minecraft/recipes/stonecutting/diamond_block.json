@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+      {"item": "wanilla:raw_diamond_block"}
+  ],
+  "result": "minecraft:diamond_block",
+  "count": 1
+}

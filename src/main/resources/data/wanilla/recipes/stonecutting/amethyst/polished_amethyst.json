@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+	{
+	  "item": "wanilla:melted_amethyst"
+	}
+  ],
+  "result": "wanilla:polished_amethyst",
+  "count": 1
+}
