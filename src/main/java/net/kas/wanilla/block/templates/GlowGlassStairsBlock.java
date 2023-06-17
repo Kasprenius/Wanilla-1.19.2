@@ -21,7 +21,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public final class GlowGlassStairsBlock extends StairsBlock
+public final class GlowGlassStairsBlock extends AlignedStairsBlock
 {
     public GlowGlassStairsBlock(Settings block$Settings_1) {
         super(Blocks.GLASS.getDefaultState(), block$Settings_1);
@@ -48,9 +48,9 @@ public final class GlowGlassStairsBlock extends StairsBlock
     private boolean isInvisibleToGlassSlab(BlockState blockState_1,
                                            BlockState blockState_2, Direction direction_1)
     {
-        BlockHalf half1 = blockState_1.get(StairsBlock.HALF);
-        Direction facing1 = blockState_1.get(StairsBlock.FACING);
-        StairShape shape1 = blockState_1.get(StairsBlock.SHAPE);
+        BlockHalf half1 = blockState_1.get(AlignedStairsBlock.HALF);
+        Direction facing1 = blockState_1.get(AlignedStairsBlock.FACING);
+        StairShape shape1 = blockState_1.get(AlignedStairsBlock.SHAPE);
         SlabType type2 = blockState_2.get(SlabBlock.TYPE);
 
         if(direction_1 == Direction.UP)
@@ -102,12 +102,12 @@ public final class GlowGlassStairsBlock extends StairsBlock
     private boolean isInvisibleToGlassStairs(BlockState blockState_1,
                                              BlockState blockState_2, Direction direction_1)
     {
-        BlockHalf half1 = blockState_1.get(StairsBlock.HALF);
-        BlockHalf half2 = blockState_2.get(StairsBlock.HALF);
-        Direction facing1 = blockState_1.get(StairsBlock.FACING);
-        Direction facing2 = blockState_2.get(StairsBlock.FACING);
-        StairShape shape1 = blockState_1.get(StairsBlock.SHAPE);
-        StairShape shape2 = blockState_2.get(StairsBlock.SHAPE);
+        BlockHalf half1 = blockState_1.get(AlignedStairsBlock.HALF);
+        BlockHalf half2 = blockState_2.get(AlignedStairsBlock.HALF);
+        Direction facing1 = blockState_1.get(AlignedStairsBlock.FACING);
+        Direction facing2 = blockState_2.get(AlignedStairsBlock.FACING);
+        StairShape shape1 = blockState_1.get(AlignedStairsBlock.SHAPE);
+        StairShape shape2 = blockState_2.get(AlignedStairsBlock.SHAPE);
 
         // up
         if(direction_1 == Direction.UP)
@@ -293,7 +293,6 @@ public final class GlowGlassStairsBlock extends StairsBlock
         return 1.0F;
     }
 
-    @Override
     public boolean isTranslucent(BlockState blockState_1, BlockView blockView_1,
                                  BlockPos blockPos_1)
     {

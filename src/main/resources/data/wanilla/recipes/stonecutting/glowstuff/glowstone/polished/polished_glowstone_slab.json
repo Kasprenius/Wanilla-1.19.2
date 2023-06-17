@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:polished_glowstone"
+  },
+  "result": "wanilla:polished_glowstone_slab",
+  "count": 2
+}

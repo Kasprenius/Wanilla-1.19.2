@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x  ",
+    "xx ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:calcite_bricks"
+    }
+  },
+  "result": {
+    "item": "wanilla:calcite_brick_stairs",
+    "count": 6
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "wanilla:raw_emerald_block",
+    "minecraft:emerald_block",
+    "wanilla:cut_emerald",
+    "wanilla:beveled_emerald",
+    "wanilla:emerald_pillar",
+    "wanilla:emerald_tile"
+  ]
+}

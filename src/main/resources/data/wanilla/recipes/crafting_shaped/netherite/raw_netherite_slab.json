@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:raw_netherite_block"
+    }
+  },
+  "result": {
+    "item": "wanilla:raw_netherite_slab",
+    "count": 6
+  }
+}

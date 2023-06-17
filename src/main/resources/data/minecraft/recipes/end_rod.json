@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "O"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:condensed_endlight"
+    },
+    "O": {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_rod",
+    "count": 16
+  }
+}

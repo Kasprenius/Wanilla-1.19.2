@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:blast_iron_block"
+  },
+  "result": "wanilla:blast_iron_wall",
+  "count": 1
+}

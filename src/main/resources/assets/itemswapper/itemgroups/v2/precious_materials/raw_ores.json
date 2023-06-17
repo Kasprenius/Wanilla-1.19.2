@@ -1,0 +1,40 @@
+{
+  "type": "palette",
+  "priority": 200,
+  "displayName": "text.itemswapper.palette.precious_materials.raw_ores",
+  "icon": "minecraft:raw_gold_block",
+  "items":
+
+  [
+    "minecraft:raw_copper",
+    "minecraft:raw_iron",
+    "minecraft:raw_gold",
+    "minecraft:netherite_scrap",
+    "minecraft:raw_copper_block",
+    "minecraft:raw_iron_block",
+    "minecraft:raw_gold_block",
+    "wanilla:raw_netherite_block",
+    "minecraft:amethyst_block",
+    "wanilla:raw_diamond_block",
+    "wanilla:raw_emerald_block",
+    "wanilla:raw_ruby_block"
+  ],
+  "shortcuts": [
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/ores"
+    },
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/raw_ores"
+    },
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/precious"
+    },
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/potion_brewing"
+    }
+  ]
+}

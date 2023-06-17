@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:stripped_bamboo_block"}
+  ],
+  "result": "wanilla:aligned_bamboo_plank_stairs",
+  "count": 1
+}

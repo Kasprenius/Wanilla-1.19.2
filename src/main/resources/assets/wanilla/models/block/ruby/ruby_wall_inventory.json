@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [48, 16],
+	"textures": {
+		"wall": "wanilla:block/ruby/ruby_wall"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 2.66667, 16], "texture": "#wall"},
+				"east": {"uv": [0, 0, 2.66667, 16], "texture": "#wall"},
+				"south": {"uv": [0, 16, 2.66667, 0], "texture": "#wall"},
+				"west": {"uv": [0, 0, 2.66667, 16], "texture": "#wall"},
+				"up": {"uv": [10, 8, 12.66667, 16], "texture": "#wall"},
+				"down": {"uv": [10, 8, 12.66667, 16], "texture": "#wall"}
+			}
+		},
+		{
+			"name": "Full wall",
+			"from": [5, 0.01, 0],
+			"to": [11, 14.01, 16],
+			"faces": {
+				"north": {"uv": [12.66667, 2, 14.66667, 16], "texture": "#wall", "cullface": "north"},
+				"east": {"uv": [4.66667, 2, 10, 16], "texture": "#wall"},
+				"south": {"uv": [12.66667, 2, 14.66667, 16], "texture": "#wall", "cullface": "south"},
+				"west": {"uv": [4.66667, 2, 10, 16], "texture": "#wall"},
+				"up": {"uv": [2.66667, 0, 4.66667, 16], "texture": "#wall"},
+				"down": {"uv": [2.66667, 0, 4.66667, 16], "texture": "#wall"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

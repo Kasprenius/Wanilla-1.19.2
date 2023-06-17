@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:iron_shovel"
+  },
+  "result": "wanilla:blast_iron_shovel",
+  "experience": 1.0,
+  "cookingtime": 400
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wanilla:block/sandstone/sandstone_pillar_horizontal_x"
+    },
+    "axis=y": {
+      "model": "wanilla:block/sandstone/sandstone_pillar"
+    },
+    "axis=z": {
+      "model": "wanilla:block/sandstone/sandstone_pillar_horizontal_z"
+    }
+  }
+}

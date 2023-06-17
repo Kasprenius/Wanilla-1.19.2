@@ -1,6 +1,22 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "wanilla:block/gold/cut_gold"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "wanilla:block/gold/cut_gold",
+		"particle": "wanilla:block/gold/cut_gold"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#all"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#all"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#all"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#all"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#all"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#all"}
+			}
+		}
+	]
 }

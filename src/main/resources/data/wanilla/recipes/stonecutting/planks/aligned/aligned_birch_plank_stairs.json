@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "wanilla:aligned_birch_planks"}
+  ],
+  "result": "wanilla:aligned_birch_plank_stairs",
+  "count": 1
+}

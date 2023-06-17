@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/mosaic_planks/cherry/mosaic_cherry_plank_slab_bottom"
+    },
+    "type=double": {
+      "model": "wanilla:block/mosaic_planks/cherry/mosaic_cherry_planks"
+    },
+    "type=top": {
+      "model": "wanilla:block/mosaic_planks/cherry/mosaic_cherry_plank_slab_top"
+    }
+  }
+}

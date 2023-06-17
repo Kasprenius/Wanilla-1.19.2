@@ -1,10 +1,8 @@
 package net.kas.wanilla.client.rendering;
 
-import net.kas.wanilla.access.PersistentProjectileEntityAccess;
-
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-
+import net.kas.wanilla.access.PersistentProjectileEntityAccess;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import net.minecraft.util.math.BlockPos;

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "wanilla:block/diamond/diamond_tile"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "wanilla:block/netherite/raw_netherite_block"
+  }
+}

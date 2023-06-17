@@ -10,295 +10,78 @@
     },
     {
       "apply": {
-        "model": "wanilla:block/gold/gold_wall_low_full",
-        "uvlock": false,
-        "y": 90
+        "model": "wanilla:block/gold/gold_wall_low_all"
       },
       "when": {
         "up": "false",
-        "east": "low",
-        "west": "low",
-        "north": "none",
-        "south": "none"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_low_full",
-        "uvlock": false,
-        "y": 180
-      },
-      "when": {
-        "up": "false",
-        "east": "none",
-        "west": "none",
         "north": "low",
-        "south": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_low_all",
-        "uvlock": true
-      },
-      "when": {
-        "up": "false",
+        "south": "low",
         "east": "low",
-        "west": "low",
-        "north": "low",
-        "south": "low"
+        "west": "low"
       }
     },
     {
       "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_low",
-        "uvlock": false
+        "model": "wanilla:block/gold/gold_wall_side_low"
       },
       "when": {
-        "up": "true",
         "north": "low"
       }
     },
     {
       "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_low",
-        "uvlock": false,
-        "y": 90
+        "model": "wanilla:block/gold/gold_wall_side_low_e"
       },
       "when": {
-        "up": "true",
         "east": "low"
       }
     },
     {
       "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_low",
-        "uvlock": false,
-        "y": 180
+        "model": "wanilla:block/gold/gold_wall_side_low_s"
       },
       "when": {
-        "up": "true",
         "south": "low"
       }
     },
     {
       "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_low",
-        "uvlock": false,
-        "y": 270
+        "model": "wanilla:block/gold/gold_wall_side_low_w"
       },
       "when": {
-        "up": "true",
-        "west": "low"
-      }
-    },
-
-
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_tall_full",
-        "uvlock": false
-      },
-      "when": {
-        "up": "false",
-        "north": "tall",
-        "south": "tall",
-        "east": "none",
-        "west": "none"
-      }
-    },
-
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_tall_full",
-        "uvlock": false,
-        "y": 90
-      },
-      "when": {
-        "up": "false",
-        "east": "tall",
-        "west": "tall",
-        "north": "none",
-        "south": "none"
-      }
-    },
-
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_tall",
-        "uvlock": true
-      },
-      "when": {
-        "north": "tall",
-        "up": "true"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_tall",
-        "uvlock": true,
-        "y": 90
-      },
-      "when": {
-        "east": "tall",
-        "up": "true"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_tall",
-        "uvlock": true,
-        "y": 180
-      },
-      "when": {
-        "south": "tall",
-        "up": "true"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_tall",
-        "uvlock": true,
-        "y": 270
-      },
-      "when": {
-        "west": "tall",
-        "up": "true"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_low",
-        "uvlock": true
-      },
-      "when": {
-        "west": "tall",
-        "east": "tall",
-        "north": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_low",
-        "uvlock": true,
-        "y": 180
-      },
-      "when": {
-        "west": "tall",
-        "east": "tall",
-        "south": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_low",
-        "uvlock": true,
-        "y": 180
-      },
-      "when": {
-        "north": "tall",
-        "south": "tall",
-        "east": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_low",
-        "uvlock": true,
-        "y": 270
-      },
-      "when": {
-        "north": "tall",
-        "south": "tall",
         "west": "low"
       }
     },
     {
       "apply": {
-        "model": "wanilla:block/gold/gold_wall_tall_all",
-        "uvlock": true,
-        "y": 180
+        "model": "wanilla:block/gold/gold_wall_side_tall"
       },
       "when": {
-        "north": "tall",
-        "south": "tall",
-        "east": "tall",
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/gold/gold_wall_side_tall_e"
+      },
+      "when": {
+        "east": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/gold/gold_wall_side_tall_s"
+      },
+      "when": {
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/gold/gold_wall_side_tall_w"
+      },
+      "when": {
         "west": "tall"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_post",
-        "uvlock": true
-      },
-      "when": {
-        "north": "low",
-        "south": "low",
-        "east": "tall",
-        "west": "tall"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_tall",
-        "uvlock": true,
-        "y": 90
-      },
-      "when": {
-        "north": "low",
-        "south": "low",
-        "east": "tall",
-        "west": "tall"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_tall",
-        "uvlock": true,
-        "y": 270
-      },
-      "when": {
-        "north": "low",
-        "south": "low",
-        "east": "tall",
-        "west": "tall"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_post",
-        "uvlock": true
-      },
-      "when": {
-        "north": "tall",
-        "south": "tall",
-        "east": "low",
-        "west": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_tall",
-        "uvlock": true
-      },
-      "when": {
-        "north": "tall",
-        "south": "tall",
-        "east": "low",
-        "west": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "wanilla:block/gold/gold_wall_side_tall",
-        "uvlock": true,
-        "y": 180
-      },
-      "when": {
-        "north": "tall",
-        "south": "tall",
-        "east": "low",
-        "west": "low"
       }
     }
   ]

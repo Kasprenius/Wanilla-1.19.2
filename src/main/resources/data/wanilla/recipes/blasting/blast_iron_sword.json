@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:iron_sword"
+  },
+  "result": "wanilla:blast_iron_sword",
+  "experience": 1.0,
+  "cookingtime": 400
+}

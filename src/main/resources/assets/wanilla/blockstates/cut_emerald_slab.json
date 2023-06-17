@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/emerald/cut/cut_emerald_slab"
+    },
+    "type=double": {
+      "model": "wanilla:block/emerald/cut/cut_emerald"
+    },
+    "type=top": {
+      "model": "wanilla:block/emerald/cut/cut_emerald_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/dimstone/polished/polished_dimstone_slab_bottom"
+    },
+    "type=double": {
+      "model": "wanilla:block/dimstone/polished/polished_dimstone_slab_double"
+    },
+    "type=top": {
+      "model": "wanilla:block/dimstone/polished/polished_dimstone_slab_top"
+    }
+  }
+}

@@ -2,6 +2,15 @@
   "replace": false,
   "values": [
     "wanilla:gold_fence",
-    "wanilla:amethyst_fence"
+    "wanilla:iron_fence",
+    "wanilla:oak_hedge",
+    "wanilla:spruce_hedge",
+    "wanilla:birch_hedge",
+    "wanilla:jungle_hedge",
+    "wanilla:acacia_hedge",
+    "wanilla:dark_oak_hedge",
+    "wanilla:mangrove_hedge",
+    "wanilla:azalea_hedge",
+    "wanilla:flowering_azalea_hedge"
   ]
 }

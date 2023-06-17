@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wanilla:block/aligned_planks/dark_oak/aligned_dark_oak_planks_horizontal_x"
+    },
+    "axis=y": {
+      "model": "wanilla:block/aligned_planks/dark_oak/aligned_dark_oak_planks"
+    },
+    "axis=z": {
+      "model": "wanilla:block/aligned_planks/dark_oak/aligned_dark_oak_planks_horizontal_z"
+    }
+  }
+}

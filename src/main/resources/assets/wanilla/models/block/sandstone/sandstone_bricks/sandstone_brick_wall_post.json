@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "wanilla:block/sandstone/sandstone_bricks",
+		"2": "wanilla:block/sandstone/polished_sandstone",
+		"particle": "wanilla:block/sandstone/polished_sandstone"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, -0.01, 4],
+			"to": [12, 16.01, 12],
+			"faces": {
+				"north": {"uv": [8, 0, 0, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"south": {"uv": [8, 0, 0, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 8, 8], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [0, 0, 8, 8], "rotation": 270, "texture": "#2"}
+			}
+		}
+	]
+}

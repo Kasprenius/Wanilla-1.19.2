@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "wanilla:block/amethyst/flush_amethyst_tile_pressure_plate"
+    },
+    "powered=true": {
+      "model": "wanilla:block/amethyst/flush_amethyst_tile_pressure_plate_down"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_side",
   "textures": {
-    "wall": "wanilla:block/dimstone/18"
+    "wall": "wanilla:block/dimstone/variation/18"
   }
 }

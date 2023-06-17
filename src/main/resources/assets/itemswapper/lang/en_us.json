@@ -1,0 +1,16 @@
+{
+  "text.itemswapper.palette.blast_iron.blast_iron": "Blast Iron",
+  "text.itemswapper.palette.gold.gold": "Gold",
+  "text.itemswapper.palette.gold.cut_gold": "Cut Gold",
+  "text.itemswapper.palette.gold.gold_bricks": "Gold Bricks",
+  "text.itemswapper.palette.gold.additional_gold": "Gold Misc",
+  "text.itemswapper.palette.precious_materials.ore": "Ore Blocks",
+  "text.itemswapper.palette.precious_materials.raw_ores": "Raw Ores",
+  "text.itemswapper.palette.raw.raw_netherite": "Raw Netherite",
+  "text.itemswapper.palette.raw.raw_diamond": "Raw Diamond",
+  "text.itemswapper.palette.raw.raw_emerald": "Raw Emerald",
+  "text.itemswapper.palette.raw.raw_ruby": "Raw Ruby",
+
+  "text.itemswapper.palette.nature.hedges": "Hedges",
+  "text.itemswapper.palette.the_depths.reinforced_deepslate": "Reinforced Deepslate"
+}

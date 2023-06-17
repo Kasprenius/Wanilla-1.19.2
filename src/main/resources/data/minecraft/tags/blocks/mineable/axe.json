@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
-    "wanilla:glow_campfire"
+    "wanilla:glow_campfire",
+    "wanilla:spruce_chiseled_bookshelf",
+    "wanilla:birch_chiseled_bookshelf",
+    "wanilla:jungle_chiseled_bookshelf",
+    "wanilla:acacia_chiseled_bookshelf",
+    "wanilla:dark_oak_chiseled_bookshelf",
+    "wanilla:mangrove_chiseled_bookshelf",
+    "wanilla:cherry_chiseled_bookshelf",
+    "wanilla:bamboo_chiseled_bookshelf",
+    "wanilla:crimson_chiseled_bookshelf",
+    "wanilla:warped_chiseled_bookshelf"
   ]
 }

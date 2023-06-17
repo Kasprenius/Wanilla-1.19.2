@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/emerald/raw_emerald_slab"
+    },
+    "type=double": {
+      "model": "wanilla:block/emerald/raw_emerald_block"
+    },
+    "type=top": {
+      "model": "wanilla:block/emerald/raw_emerald_slab_top"
+    }
+  }
+}

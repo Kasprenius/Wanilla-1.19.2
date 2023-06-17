@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:gold_block"},
+    {"item": "wanilla:cut_gold"}
+  ],
+  "result": "wanilla:gold_tile",
+  "count": 1
+}

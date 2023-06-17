@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "chiseled_bookshelf",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    },
+    "X": {
+      "item": "wanilla:gold_slab"
+    }
+  },
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "result": {
+    "item": "wanilla:gold_chiseled_bookshelf"
+  }
+}

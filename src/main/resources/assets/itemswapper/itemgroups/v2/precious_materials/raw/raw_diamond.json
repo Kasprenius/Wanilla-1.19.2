@@ -1,0 +1,15 @@
+{
+  "type": "palette",
+  "priority": 300,
+  "displayName": "text.itemswapper.palette.raw.raw_diamond",
+  "items": [
+
+    "wanilla:raw_diamond_block",
+    "wanilla:raw_diamond_stairs",
+    "wanilla:raw_diamond_slab",
+    "wanilla:raw_diamond_wall"
+
+  ],
+  "shortcuts": [
+  ]
+}

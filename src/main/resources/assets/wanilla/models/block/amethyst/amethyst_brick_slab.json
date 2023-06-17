@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "wanilla:block/amethyst/amethyst_bricks",
-    "top": "wanilla:block/amethyst/amethyst_bricks",
-    "side": "wanilla:block/amethyst/amethyst_bricks"
-  }
-}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:polished_dullstone"
+  },
+  "result": "wanilla:polished_dullstone_stairs",
+  "count": 1
+}

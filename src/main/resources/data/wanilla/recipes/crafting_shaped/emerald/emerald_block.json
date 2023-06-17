@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:raw_emerald_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:emerald_block",
+    "count": 4
+  }
+}

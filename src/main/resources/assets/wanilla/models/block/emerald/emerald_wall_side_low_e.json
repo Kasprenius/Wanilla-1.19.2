@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 16],
+	"textures": {
+		"particle": "wanilla:block/emerald/emerald_wall",
+		"wall": "wanilla:block/emerald/emerald_wall"
+	},
+	"elements": [
+		{
+			"name": "wall",
+			"from": [8, 0, 5],
+			"to": [16, 14, 11],
+			"faces": {
+				"north": {"uv": [7.33333, 16, 4.66666, 2], "rotation": 180, "texture": "#wall"},
+				"east": {"uv": [12.66667, 2, 14.66667, 16], "texture": "#wall"},
+				"south": {"uv": [10, 16, 7.33333, 2], "rotation": 180, "texture": "#wall"},
+				"west": {"uv": [12.66667, 2, 14.66667, 16], "texture": "#wall"},
+				"up": {"uv": [2.66666, 16, 4.66666, 8], "rotation": 90, "texture": "#wall"},
+				"down": {"uv": [2.66666, 16, 4.66666, 8], "rotation": 90, "texture": "#wall"}
+			}
+		}
+	]
+}

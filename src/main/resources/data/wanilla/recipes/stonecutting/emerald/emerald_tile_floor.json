@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "wanilla:emerald_tile"}
+  ],
+  "result": "wanilla:emerald_tile_floor",
+  "count": 6
+}

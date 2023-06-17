@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "type=bottom,axis=x": {
+      "model": "wanilla:block/aligned_planks/bamboo/aligned_bamboo_plank_slab_bottom_horizontal_x"
+    },
+    "type=bottom,axis=y": {
+      "model": "wanilla:block/aligned_planks/bamboo/aligned_bamboo_plank_slab_bottom"
+    },
+    "type=bottom,axis=z": {
+      "model": "wanilla:block/aligned_planks/bamboo/aligned_bamboo_plank_slab_bottom_horizontal_z"
+    },
+    "type=double,axis=x": {
+      "model": "minecraft:block/stripped_bamboo_block_x"
+    },
+    "type=double,axis=y": {
+      "model": "minecraft:block/stripped_bamboo_block_y"
+    },
+    "type=double,axis=z": {
+      "model": "minecraft:block/stripped_bamboo_block_z"
+    },
+    "type=top,axis=x": {
+      "model": "wanilla:block/aligned_planks/bamboo/aligned_bamboo_plank_slab_top_horizontal_x"
+    },
+    "type=top,axis=y": {
+      "model": "wanilla:block/aligned_planks/bamboo/aligned_bamboo_plank_slab_top"
+    },
+    "type=top,axis=z": {
+      "model": "wanilla:block/aligned_planks/bamboo/aligned_bamboo_plank_slab_top_horizontal_z"
+    }
+  }
+}

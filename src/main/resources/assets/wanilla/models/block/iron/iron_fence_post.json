@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [40, 16],
+	"textures": {
+		"0": "wanilla:block/iron/iron_fence",
+		"particle": "wanilla:block/iron/iron_fence"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 1.6, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 1.6, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 1.6, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 1.6, 16], "texture": "#0"},
+				"up": {"uv": [1.6, 7, 3.2, 11], "texture": "#0"},
+				"down": {"uv": [1.6, 7, 3.2, 11], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

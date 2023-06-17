@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:warped_planks"},
+    {"item": "wanilla:aligned_warped_planks"}
+  ],
+  "result": "wanilla:mosaic_warped_planks",
+  "count": 1
+}

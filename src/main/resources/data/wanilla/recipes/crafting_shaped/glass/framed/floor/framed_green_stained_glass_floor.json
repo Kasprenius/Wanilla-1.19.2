@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "framed_glass_floor",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:framed_green_stained_glass"
+    }
+  },
+  "result": {
+    "count": 12,
+    "item": "wanilla:framed_green_stained_glass_floor"
+  }
+}

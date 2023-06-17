@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/stairs",
+	"textures": {
+		"1": "wanilla:block/blast_iron/blast_iron_block_slabs",
+		"3": "wanilla:block/blast_iron/blast_iron_stairs",
+		"4": "wanilla:block/blast_iron/blast_iron_block_segmented",
+		"5": "wanilla:block/blast_iron/blast_iron_block_stairs_around",
+		"particle": "wanilla:block/blast_iron/blast_iron_block",
+		"bottom": "wanilla:block/blast_iron/blast_iron_block"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [16, 8, 0, 16], "texture": "#3"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0, 7.999, 0],
+			"to": [8, 16, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 0, 8.001], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 8.001], "texture": "#1"},
+				"south": {"uv": [0, 0, 8, 8.001], "texture": "#bottom"},
+				"west": {"uv": [0, 0, 16, 8.001], "texture": "#bottom"},
+				"up": {"uv": [0, 8, 4, 16], "texture": "#5"}
+			}
+		},
+		{
+			"from": [7.999, 7.999, 8],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8.001], "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 8.001], "texture": "#3"},
+				"south": {"uv": [8, 0, 16, 8.001], "texture": "#bottom"},
+				"up": {"uv": [4, 12, 8, 16], "texture": "#5"}
+			}
+		}
+	]
+}

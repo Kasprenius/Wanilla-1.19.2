@@ -3,11 +3,7 @@ package net.kas.wanilla.registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.sound.SoundEvents;
 
-import static net.kas.wanilla.registry.IESoundEvents.DULLSTONE_BREAK;
-import static net.kas.wanilla.registry.IESoundEvents.DULLSTONE_FALL;
-import static net.kas.wanilla.registry.IESoundEvents.DULLSTONE_HIT;
-import static net.kas.wanilla.registry.IESoundEvents.DULLSTONE_PLACE;
-import static net.kas.wanilla.registry.IESoundEvents.DULLSTONE_STEP;
+import static net.kas.wanilla.registry.IESoundEvents.*;
 
 public class IEBlockSoundGroups {
 

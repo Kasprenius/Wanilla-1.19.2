@@ -1,0 +1,15 @@
+{
+  "type": "palette",
+  "priority": 300,
+  "displayName": "text.itemswapper.palette.raw.raw_emerald",
+  "items": [
+
+    "wanilla:raw_emerald_block",
+    "wanilla:raw_emerald_stairs",
+    "wanilla:raw_emerald_slab",
+    "wanilla:raw_emerald_wall"
+
+  ],
+  "shortcuts": [
+  ]
+}

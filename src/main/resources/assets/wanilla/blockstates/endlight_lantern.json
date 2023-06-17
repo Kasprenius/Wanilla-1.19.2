@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "wanilla:block/endlight_lantern"
+    },
+    "hanging=true": {
+      "model": "wanilla:block/endlight_lantern_hanging"
+    }
+  }
+}

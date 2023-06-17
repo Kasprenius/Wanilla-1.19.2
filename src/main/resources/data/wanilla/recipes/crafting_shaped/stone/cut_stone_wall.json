@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:cut_stone"
+    }
+  },
+  "result": {
+    "item": "wanilla:cut_stone_wall",
+    "count": 6
+  }
+}

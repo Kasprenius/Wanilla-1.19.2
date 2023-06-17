@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "wanilla:block/glowstone/polished_glowstone",
+    "top": "wanilla:block/glowstone/polished_glowstone",
+    "side": "wanilla:block/glowstone/polished_glowstone"
+  }
+}

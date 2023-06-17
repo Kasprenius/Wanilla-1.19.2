@@ -1,0 +1,46 @@
+{
+    "type": "palette",
+    "priority": 100,
+    "displayName": "text.itemswapper.palette.wood.warped",
+    "items": [
+    "minecraft:warped_stem",
+    "minecraft:warped_hyphae",
+    "minecraft:stripped_warped_stem",
+    "minecraft:stripped_warped_hyphae",
+	
+    "minecraft:warped_planks",
+    "minecraft:warped_stairs",
+    "minecraft:warped_slab",
+
+        "wanilla:aligned_warped_planks",
+        "wanilla:aligned_warped_plank_stairs",
+        "wanilla:aligned_warped_plank_slab",
+
+        "wanilla:mosaic_warped_planks",
+        "wanilla:mosaic_warped_plank_stairs",
+        "wanilla:mosaic_warped_plank_slab",
+	
+    "minecraft:warped_trapdoor",
+    "minecraft:warped_door",
+    "minecraft:warped_fence_gate",	
+    "minecraft:warped_fence",
+
+    "minecraft:warped_sign",
+    "minecraft:warped_button",
+    "minecraft:warped_pressure_plate",
+
+        "minecraft:warped_wart_block",
+        "minecraft:warped_fungus"
+
+    ],   
+	"shortcuts": [
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/warped"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/crimson"
+        }			
+	]
+}

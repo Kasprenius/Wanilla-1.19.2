@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "wanilla:iron_wall",
+    "count": 6
+  }
+}

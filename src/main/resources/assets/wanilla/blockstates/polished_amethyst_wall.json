@@ -1,0 +1,88 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_post"
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_low_all"
+      },
+      "when": {
+        "up": "false",
+        "north": "low",
+        "south": "low",
+        "east": "low",
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_side_low"
+      },
+      "when": {
+        "north": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_side_low_e"
+      },
+      "when": {
+        "east": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_side_low_s"
+      },
+      "when": {
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_side_low_w"
+      },
+      "when": {
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_side_tall"
+      },
+      "when": {
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_side_tall_e"
+      },
+      "when": {
+        "east": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_side_tall_s"
+      },
+      "when": {
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/polished/polished_amethyst_wall_side_tall_w"
+      },
+      "when": {
+        "west": "tall"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "wanilla:block/ruby/cut_ruby_wall",
+		"particle": "wanilla:block/ruby/cut_ruby",
+		"wall": "wanilla:block/ruby/cut_ruby"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 8],
+			"to": [11, 15.99, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 15.99], "texture": "#wall"},
+				"east": {"uv": [0, 0, 2.66667, 15.99], "texture": "#1"},
+				"south": {"uv": [0, 0, 6, 15.99], "texture": "#wall"},
+				"west": {"uv": [8, 0.01, 16, 16], "texture": "#wall"},
+				"up": {"uv": [15, 8, 7, 14], "rotation": 90, "texture": "#wall"},
+				"down": {"uv": [7, 8, 15, 14], "rotation": 90, "texture": "#wall"}
+			}
+		}
+	]
+}

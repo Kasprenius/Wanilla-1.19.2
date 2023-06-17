@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "wanilla:block/netherite/lanterns/large_netherite_redstone_lantern_off"
+    },
+    "lit=true": {
+      "model": "wanilla:block/netherite/lanterns/large_netherite_redstone_lantern"
+    }
+  }
+}

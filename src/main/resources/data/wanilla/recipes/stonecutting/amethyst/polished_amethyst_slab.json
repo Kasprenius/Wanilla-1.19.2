@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:polished_amethyst"
+  },
+  "result": "wanilla:polished_amethyst_slab",
+  "count": 2
+}

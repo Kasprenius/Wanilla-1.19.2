@@ -1,0 +1,10 @@
+{
+  "values": [
+    "wanilla:raw_ruby_block",
+    "wanilla:ruby_block",
+    "wanilla:cut_ruby",
+    "wanilla:beveled_ruby",
+    "wanilla:ruby_pillar",
+    "wanilla:ruby_tile"
+  ]
+}

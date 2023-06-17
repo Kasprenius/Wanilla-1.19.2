@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+	{
+	  "item": "wanilla:ruby_block"
+	}
+  ],
+  "result": "wanilla:cut_ruby",
+  "count": 1
+}

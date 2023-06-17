@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "wanilla:block/ruby/ruby_tile" }
+  }
+}

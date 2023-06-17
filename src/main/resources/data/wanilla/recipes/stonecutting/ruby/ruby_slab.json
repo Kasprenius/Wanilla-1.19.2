@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:ruby_block"
+  },
+  "result": "wanilla:ruby_slab",
+  "count": 2
+}

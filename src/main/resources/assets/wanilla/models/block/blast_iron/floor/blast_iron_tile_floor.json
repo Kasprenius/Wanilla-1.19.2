@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "wanilla:block/blast_iron/blast_iron_tile"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/concrete/orange/concrete_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/orange_concrete"
+    },
+    "type=top": {
+      "model": "wanilla:block/concrete/orange/concrete_slab_top"
+    }
+  }
+}

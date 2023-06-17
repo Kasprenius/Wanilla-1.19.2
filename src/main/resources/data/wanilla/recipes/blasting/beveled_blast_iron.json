@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wanilla:beveled_iron"
+  },
+  "result": "wanilla:beveled_blast_iron",
+  "experience": 1.0,
+  "cookingtime": 200
+}

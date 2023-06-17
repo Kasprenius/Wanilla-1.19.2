@@ -1,20 +1,22 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [40, 16],
+	"texture_size": [48, 16],
 	"textures": {
-		"wall": "wanilla:block/gold/gold_wall",
-		"particle": "block/gold_block"
+		"particle": "wanilla:block/gold/gold_wall",
+		"wall": "wanilla:block/gold/gold_wall"
 	},
 	"elements": [
 		{
 			"name": "wall",
 			"from": [5, 0, 0],
-			"to": [11, 14, 4],
+			"to": [11, 14, 8],
 			"faces": {
-				"east": {"uv": [11.2, 16, 9.6, 2], "rotation": 180, "texture": "#wall"},
-				"west": {"uv": [6.4, 16, 4.8, 2], "rotation": 180, "texture": "#wall"},
-				"up": {"uv": [2.8, 0, 5.2, 4], "texture": "#wall"},
-				"down": {"uv": [2.8, 16, 5.2, 12], "rotation": 180, "texture": "#wall", "cullface": "down"}
+				"north": {"uv": [12.66667, 2, 14.66667, 16], "texture": "#wall"},
+				"east": {"uv": [10, 16, 7.33334, 2], "rotation": 180, "texture": "#wall"},
+				"south": {"uv": [12.66667, 2, 14.66667, 16], "texture": "#wall"},
+				"west": {"uv": [7.33333, 16, 4.66666, 2], "rotation": 180, "texture": "#wall"},
+				"up": {"uv": [2.66666, 0, 4.66666, 8], "texture": "#wall"},
+				"down": {"uv": [4.66666, 16, 2.66666, 8], "rotation": 180, "texture": "#wall", "cullface": "down"}
 			}
 		}
 	]

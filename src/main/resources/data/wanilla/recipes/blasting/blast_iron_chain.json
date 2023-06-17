@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wanilla:iron_chain"
+  },
+  "result": "minecraft:chain",
+  "experience": 0.5,
+  "cookingtime": 100
+}

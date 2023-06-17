@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/blast_iron/cut/cut_blast_iron_slab"
+    },
+    "type=double": {
+      "model": "wanilla:block/blast_iron/cut/cut_blast_iron"
+    },
+    "type=top": {
+      "model": "wanilla:block/blast_iron/cut/cut_blast_iron_slab_top"
+    }
+  }
+}

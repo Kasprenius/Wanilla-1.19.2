@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "wanilla:block/diamond/raw_diamond_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "wanilla:block/emerald/raw_emerald_block"
+  }
+}

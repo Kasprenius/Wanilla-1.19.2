@@ -1,8 +1,25 @@
 {
   "replace": false,
   "values": [
+    "wanilla:raw_netherite_block",
+    "wanilla:raw_netherite_stairs",
+    "wanilla:raw_netherite_slab",
+    "wanilla:raw_netherite_wall",
+    "wanilla:netherite_stairs",
+    "wanilla:netherite_slab",
+    "wanilla:netherite_wall",
+    "wanilla:beveled_netherite",
+    "wanilla:netherite_tile",
+    "wanilla:netherite_tile_floor",
     "wanilla:netherite_bars",
     "wanilla:netherite_chain",
-    "wanilla:big_netherite_chain"
+    "wanilla:big_netherite_chain",
+    "wanilla:large_netherite_lantern",
+    "wanilla:large_netherite_soul_lantern",
+    "wanilla:large_netherite_redstone_lantern",
+    "wanilla:large_netherite_ender_lantern",
+    "wanilla:large_netherite_amethyst_lantern",
+    "wanilla:large_netherite_glow_lantern",
+    "wanilla:infusion_table"
   ]
 }

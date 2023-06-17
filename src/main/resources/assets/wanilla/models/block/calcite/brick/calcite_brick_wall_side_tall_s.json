@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "wanilla:block/calcite/calcite_bricks",
+		"wall": "wanilla:block/calcite/calcite_bricks"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 8],
+			"to": [11, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 15.99], "texture": "#wall"},
+				"east": {"uv": [16, 0, 8, 15.99], "texture": "#wall"},
+				"south": {"uv": [0, 0, 6, 15.99], "texture": "#wall"},
+				"west": {"uv": [8, 0.01, 16, 16], "texture": "#wall"},
+				"up": {"uv": [15, 8, 7, 14], "rotation": 90, "texture": "#wall"},
+				"down": {"uv": [7, 8, 15, 14], "rotation": 90, "texture": "#wall"}
+			}
+		}
+	]
+}

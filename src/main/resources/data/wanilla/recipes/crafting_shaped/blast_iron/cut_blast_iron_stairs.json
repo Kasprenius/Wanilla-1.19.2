@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "wanilla:cut_blast_iron"
+    }
+  },
+  "result": {
+    "item": "wanilla:cut_blast_iron_stairs",
+    "count": 6
+  }
+}

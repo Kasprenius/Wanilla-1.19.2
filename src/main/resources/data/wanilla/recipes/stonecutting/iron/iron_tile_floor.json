@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:iron_tile"
+  },
+  "result": "wanilla:iron_tile_floor",
+  "count": 6
+}

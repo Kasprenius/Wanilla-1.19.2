@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "wanilla:block/iron/iron_tile" }
+  }
+}

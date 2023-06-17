@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"2": "wanilla:block/planks/cherry/shaped_cherry_planks_end",
+		"bottom": "wanilla:block/planks/cherry/cherry_planks_vertical",
+		"particle": "wanilla:block/planks/cherry/cherry_planks_vertical"
+	},
+	"elements": [
+		{
+			"from": [8, -0.001, 0],
+			"to": [16, 8, 8],
+			"faces": {
+				"north": {"uv": [7.99, 8.01, 0, 16], "texture": "#bottom"},
+				"east": {"uv": [7.99, 8.01, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [8.01, 8.01, 16, 16], "texture": "#bottom"},
+				"west": {"uv": [0, 8.01, 7.99, 16], "texture": "#bottom"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#2"},
+				"down": {"uv": [8, 8, 16, 0], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 8], "texture": "#bottom"},
+				"east": {"uv": [16, 0, 0, 8], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#bottom"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#bottom"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#2"}
+			}
+		}
+	]
+}

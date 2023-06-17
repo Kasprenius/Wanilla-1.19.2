@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_piston",
+  "textures": {
+    "bottom": "wanilla:block/deepslate/deepslate_piston/deepslate_piston_bottom",
+    "platform": "wanilla:block/deepslate/deepslate_piston/deepslate_piston_top",
+    "side": "wanilla:block/deepslate/deepslate_piston/deepslate_piston_side"
+  }
+}

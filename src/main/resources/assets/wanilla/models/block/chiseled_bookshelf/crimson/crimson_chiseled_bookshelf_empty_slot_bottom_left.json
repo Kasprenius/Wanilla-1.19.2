@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_chiseled_bookshelf_slot_bottom_left",
+  "textures": {
+    "texture": "wanilla:block/chiseled_bookshelf/crimson/crimson_chiseled_bookshelf_empty"
+  }
+}

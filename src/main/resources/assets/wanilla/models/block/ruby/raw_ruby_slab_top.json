@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "wanilla:block/ruby/raw_ruby_block",
+    "top": "wanilla:block/ruby/raw_ruby_block",
+    "side": "wanilla:block/ruby/raw_ruby_block"
+  }
+}

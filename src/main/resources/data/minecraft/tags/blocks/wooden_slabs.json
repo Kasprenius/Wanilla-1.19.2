@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "wanilla:mosaic_oak_plank_slab",
+    "wanilla:mosaic_spruce_plank_slab",
+    "wanilla:mosaic_birch_plank_slab",
+    "wanilla:mosaic_jungle_plank_slab",
+    "wanilla:mosaic_acacia_plank_slab",
+    "wanilla:mosaic_dark_oak_plank_slab",
+    "wanilla:mosaic_crimson_plank_slab",
+    "wanilla:mosaic_warped_plank_slab",
+    "wanilla:mosaic_mangrove_plank_slab",
+    "wanilla:mosaic_cherry_plank_slab",
+    "wanilla:aligned_oak_plank_slab",
+    "wanilla:aligned_spruce_plank_slab",
+    "wanilla:aligned_birch_plank_slab",
+    "wanilla:aligned_jungle_plank_slab",
+    "wanilla:aligned_acacia_plank_slab",
+    "wanilla:aligned_dark_oak_plank_slab",
+    "wanilla:aligned_crimson_plank_slab",
+    "wanilla:aligned_warped_plank_slab",
+    "wanilla:aligned_mangrove_plank_slab",
+    "wanilla:aligned_cherry_plank_slab",
+    "wanilla:aligned_bamboo_plank_slab"
+  ]
+}

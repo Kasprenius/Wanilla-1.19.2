@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/mosaic_planks/mangrove/mosaic_mangrove_plank_slab_bottom"
+    },
+    "type=double": {
+      "model": "wanilla:block/mosaic_planks/mangrove/mosaic_mangrove_planks"
+    },
+    "type=top": {
+      "model": "wanilla:block/mosaic_planks/mangrove/mosaic_mangrove_plank_slab_top"
+    }
+  }
+}

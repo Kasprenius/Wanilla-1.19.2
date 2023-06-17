@@ -1,0 +1,10 @@
+{
+  "values": [
+    "wanilla:raw_diamond_block",
+    "minecraft:diamond_block",
+    "wanilla:diamond_bricks",
+    "wanilla:beveled_diamond",
+    "wanilla:diamond_pillar",
+    "wanilla:diamond_tile"
+  ]
+}

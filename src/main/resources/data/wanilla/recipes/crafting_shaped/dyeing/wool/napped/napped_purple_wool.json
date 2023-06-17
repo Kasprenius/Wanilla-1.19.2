@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "napped_wool",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": [
+      {"item": "wanilla:napped_white_wool"},
+      {"item": "wanilla:napped_light_gray_wool"},
+      { "item": "wanilla:napped_gray_wool"  },
+      { "item": "wanilla:napped_black_wool"  },
+      { "item": "wanilla:napped_brown_wool"  },
+      { "item": "wanilla:napped_red_wool"  },
+      { "item": "wanilla:napped_orange_wool"  },
+      { "item": "wanilla:napped_yellow_wool"  },
+      { "item": "wanilla:napped_lime_wool"  },
+      { "item": "wanilla:napped_green_wool"  },
+      { "item": "wanilla:napped_cyan_wool"  },
+      { "item": "wanilla:napped_light_blue_wool"  },
+      { "item": "wanilla:napped_blue_wool"  },
+      { "item": "wanilla:napped_magenta_wool"  },
+      { "item": "wanilla:napped_pink_wool"  }
+    ],
+    "B": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "wanilla:napped_purple_wool",
+    "count": 8
+  }
+}

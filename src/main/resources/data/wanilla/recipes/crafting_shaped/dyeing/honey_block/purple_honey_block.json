@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "honey_blocks",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": [
+      {"item": "minecraft:honey_block"},
+      {"item": "wanilla:white_honey_block"},
+      {"item": "wanilla:light_gray_honey_block"},
+      { "item": "wanilla:gray_honey_block"  },
+      { "item": "wanilla:black_honey_block"  },
+      { "item": "wanilla:brown_honey_block"  },
+      { "item": "wanilla:red_honey_block"  },
+      { "item": "wanilla:orange_honey_block"  },
+      { "item": "wanilla:yellow_honey_block"  },
+      { "item": "wanilla:lime_honey_block"  },
+      { "item": "wanilla:green_honey_block"  },
+      { "item": "wanilla:cyan_honey_block"  },
+      { "item": "wanilla:light_blue_honey_block"  },
+      { "item": "wanilla:blue_honey_block"  },
+      { "item": "wanilla:magenta_honey_block"  },
+      { "item": "wanilla:pink_honey_block"  }
+    ],
+    "B": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "wanilla:purple_honey_block",
+    "count": 8
+  }
+}

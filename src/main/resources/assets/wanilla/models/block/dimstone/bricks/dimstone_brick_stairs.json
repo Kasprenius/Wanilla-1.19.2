@@ -1,8 +1,8 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "wanilla:block/dimstone_bricks",
-    "top": "wanilla:block/dimstone_bricks",
-    "side": "wanilla:block/dimstone_bricks"
+    "bottom": "wanilla:block/dimstone/dimstone_bricks",
+    "top": "wanilla:block/dimstone/dimstone_bricks",
+    "side": "wanilla:block/dimstone/dimstone_bricks"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "up": "true",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "wanilla:block/standing_bookshelf/oak/oak_standing_bookshelf"
+      }
+    }
+  ]
+}

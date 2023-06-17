@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "wanilla:mosaic_oak_plank_stairs",
+    "wanilla:mosaic_spruce_plank_stairs",
+    "wanilla:mosaic_birch_plank_stairs",
+    "wanilla:mosaic_jungle_plank_stairs",
+    "wanilla:mosaic_acacia_plank_stairs",
+    "wanilla:mosaic_dark_oak_plank_stairs",
+    "wanilla:mosaic_crimson_plank_stairs",
+    "wanilla:mosaic_warped_plank_stairs",
+    "wanilla:mosaic_mangrove_plank_stairs",
+    "wanilla:mosaic_cherry_plank_stairs",
+    "wanilla:aligned_oak_plank_stairs",
+    "wanilla:aligned_spruce_plank_stairs",
+    "wanilla:aligned_birch_plank_stairs",
+    "wanilla:aligned_jungle_plank_stairs",
+    "wanilla:aligned_acacia_plank_stairs",
+    "wanilla:aligned_dark_oak_plank_stairs",
+    "wanilla:aligned_crimson_plank_stairs",
+    "wanilla:aligned_warped_plank_stairs",
+    "wanilla:aligned_mangrove_plank_stairs",
+    "wanilla:aligned_cherry_plank_stairs",
+    "wanilla:aligned_bamboo_plank_stairs"
+  ]
+}

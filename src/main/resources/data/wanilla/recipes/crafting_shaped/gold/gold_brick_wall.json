@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:gold_bricks"
+    }
+  },
+  "result": {
+    "item": "wanilla:gold_brick_wall",
+    "count": 6
+  }
+}

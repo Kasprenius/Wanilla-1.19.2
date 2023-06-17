@@ -1,0 +1,57 @@
+{
+    "type": "palette",
+    "priority": 100,
+    "displayName": "text.itemswapper.palette.wood.birch",
+    "items": [
+
+        "minecraft:birch_log",
+        "minecraft:birch_wood",
+        "minecraft:stripped_birch_log",
+        "minecraft:stripped_birch_wood",
+
+        "minecraft:birch_planks",
+        "minecraft:birch_stairs",
+        "minecraft:birch_slab",
+
+        "wanilla:aligned_birch_planks",
+        "wanilla:aligned_birch_plank_stairs",
+        "wanilla:aligned_birch_plank_slab",
+
+        "wanilla:mosaic_birch_planks",
+        "wanilla:mosaic_birch_plank_stairs",
+        "wanilla:mosaic_birch_plank_slab",
+
+        "minecraft:birch_trapdoor",
+        "minecraft:birch_door",
+        "minecraft:birch_fence_gate",
+        "minecraft:birch_fence",
+
+        "minecraft:birch_sign",
+        "minecraft:birch_hanging_sign",
+        "minecraft:birch_button",
+        "minecraft:birch_pressure_plate",
+
+        "minecraft:birch_leaves",
+        "wanilla:birch_hedge",
+        "minecraft:birch_sapling"
+
+    ],   
+	"shortcuts": [
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/oak"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/spruce"
+        },		
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/birch"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/dark_oak"
+        }		
+	]
+}

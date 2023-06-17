@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:honey_block",
+        "wanilla:black_honey_block",
+        "wanilla:red_honey_block",
+        "wanilla:green_honey_block",
+        "wanilla:brown_honey_block",
+        "wanilla:blue_honey_block",
+        "wanilla:purple_honey_block",
+        "wanilla:cyan_honey_block",
+        "wanilla:light_gray_honey_block",
+        "wanilla:gray_honey_block",
+        "wanilla:pink_honey_block",
+        "wanilla:lime_honey_block",
+        "wanilla:yellow_honey_block",
+        "wanilla:light_blue_honey_block",
+        "wanilla:magenta_honey_block",
+        "wanilla:orange_honey_block",
+        "wanilla:white_honey_block"
+    ]
+}

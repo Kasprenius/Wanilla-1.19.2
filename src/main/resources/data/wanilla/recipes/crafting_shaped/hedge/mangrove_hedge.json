@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_leaves"
+    }
+  },
+  "result": {
+    "item": "wanilla:mangrove_hedge",
+    "count": 6
+  }
+}

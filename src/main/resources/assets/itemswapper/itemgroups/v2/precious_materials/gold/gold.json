@@ -1,0 +1,36 @@
+{
+  "type": "palette",
+  "priority": 100,
+  "displayName": "text.itemswapper.palette.gold.gold",
+  "items": [
+
+    "minecraft:gold_block",
+    "wanilla:gold_stairs",
+    "wanilla:gold_slab",
+    "wanilla:gold_wall",
+    "wanilla:cut_gold",
+    "wanilla:gold_bricks",
+    "wanilla:beveled_gold",
+    "wanilla:gold_pillar",
+    "wanilla:gold_tile"
+
+  ],
+  "shortcuts": [
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/gold/gold"
+    },
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/gold/cut_gold"
+    },
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/gold/gold_bricks"
+    },
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/gold/additional_gold"
+    }
+  ]
+}

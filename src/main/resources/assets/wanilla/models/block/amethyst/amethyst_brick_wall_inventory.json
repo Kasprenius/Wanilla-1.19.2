@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/wall_inventory",
-  "textures": {
-    "wall": "wanilla:block/amethyst/amethyst_bricks"
-  }
-}

@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "type=bottom,axis=x": {
+      "model": "wanilla:block/aligned_planks/cherry/aligned_cherry_plank_slab_bottom_horizontal_x"
+    },
+    "type=bottom,axis=y": {
+      "model": "wanilla:block/aligned_planks/cherry/aligned_cherry_plank_slab_bottom"
+    },
+    "type=bottom,axis=z": {
+      "model": "wanilla:block/aligned_planks/cherry/aligned_cherry_plank_slab_bottom_horizontal_z"
+    },
+    "type=double,axis=x": {
+      "model": "wanilla:block/aligned_planks/cherry/aligned_cherry_planks_horizontal_x"
+    },
+    "type=double,axis=y": {
+      "model": "wanilla:block/aligned_planks/cherry/aligned_cherry_planks"
+    },
+    "type=double,axis=z": {
+      "model": "wanilla:block/aligned_planks/cherry/aligned_cherry_planks_horizontal_z"
+    },
+    "type=top,axis=x": {
+      "model": "wanilla:block/aligned_planks/cherry/aligned_cherry_plank_slab_top_horizontal_x"
+    },
+    "type=top,axis=y": {
+      "model": "wanilla:block/aligned_planks/cherry/aligned_cherry_plank_slab_top"
+    },
+    "type=top,axis=z": {
+      "model": "wanilla:block/aligned_planks/cherry/aligned_cherry_plank_slab_top_horizontal_z"
+    }
+  }
+}

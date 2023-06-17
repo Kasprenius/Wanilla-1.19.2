@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "chiseled_bookshelf",
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_planks"
+    },
+    "X": {
+      "item": "minecraft:acacia_slab"
+    }
+  },
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "result": {
+    "item": "wanilla:acacia_chiseled_bookshelf"
+  }
+}

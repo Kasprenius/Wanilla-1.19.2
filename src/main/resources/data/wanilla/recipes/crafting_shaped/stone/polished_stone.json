@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "wanilla:polished_stone",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "wanilla:block/netherite/raw_netherite_block",
+    "top": "wanilla:block/netherite/raw_netherite_block",
+    "side": "wanilla:block/netherite/raw_netherite_block"
+  }
+}

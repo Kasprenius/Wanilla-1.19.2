@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 16],
+	"textures": {
+		"1": "wanilla:block/sandstone/sandstone_bricks",
+		"particle": "wanilla:block/sandstone/sandstone_brick_wall",
+		"wall": "wanilla:block/sandstone/sandstone_brick_wall"
+	},
+	"elements": [
+		{
+			"name": "wall",
+			"from": [8, 0, 5],
+			"to": [16, 14, 11],
+			"faces": {
+				"north": {"uv": [8, 16, 10.66667, 2], "rotation": 180, "texture": "#wall"},
+				"east": {"uv": [5.33334, 2, 7.33334, 16], "texture": "#wall"},
+				"south": {"uv": [10.66667, 16, 8, 2], "rotation": 180, "texture": "#wall"},
+				"west": {"uv": [5.33334, 2, 7.33334, 16], "texture": "#wall"},
+				"up": {"uv": [8, 0, 16, 6], "texture": "#1"},
+				"down": {"uv": [0, 0, 8, 6], "texture": "#1"}
+			}
+		}
+	]
+}

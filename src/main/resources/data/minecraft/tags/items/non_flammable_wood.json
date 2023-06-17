@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "wanilla:aligned_crimson_planks",
+    "wanilla:aligned_crimson_plank_stairs",
+    "wanilla:aligned_crimson_plank_slab",
+    "wanilla:aligned_warped_planks",
+    "wanilla:aligned_warped_plank_stairs",
+    "wanilla:aligned_warped_plank_slab",
+    "wanilla:mosaic_crimson_planks",
+    "wanilla:mosaic_crimson_plank_stairs",
+    "wanilla:mosaic_crimson_plank_slab",
+    "wanilla:mosaic_warped_planks",
+    "wanilla:mosaic_warped_plank_stairs",
+    "wanilla:mosaic_warped_plank_slab"
+  ]
+}

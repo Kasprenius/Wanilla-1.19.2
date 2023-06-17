@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"1": "block/stripped_bamboo_block_top",
+		"particle": "block/stripped_bamboo_block_top",
+		"bottom": "block/stripped_bamboo_block"
+	},
+	"elements": [
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 16]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 8], "texture": "#bottom"},
+				"east": {"uv": [16, 0, 0, 8], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#bottom"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#bottom"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, -0.001, 0],
+			"to": [8, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 16]},
+			"faces": {
+				"north": {"uv": [8, 7.999, 0, 16], "texture": "#bottom"},
+				"east": {"uv": [16, 7.999, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [8, 7.999, 16, 16], "texture": "#bottom"},
+				"west": {"uv": [0, 7.999, 16, 16], "texture": "#bottom"},
+				"up": {"uv": [0, 0, 8, 16], "texture": "#1"},
+				"down": {"uv": [0, 16, 8, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.999, -0.001, 8],
+			"to": [16, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 16]},
+			"faces": {
+				"north": {"uv": [16, 7.999, 8, 16], "texture": "#bottom"},
+				"east": {"uv": [16, 7.999, 8, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 7.999, 8, 16], "texture": "#bottom"},
+				"up": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"down": {"uv": [8, 8, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		}
+	]
+}

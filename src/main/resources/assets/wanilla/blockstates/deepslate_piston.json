@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "extended=false,facing=down": {
+      "model": "wanilla:block/deepslate_piston/piston",
+      "x": 90
+    },
+    "extended=false,facing=east": {
+      "model": "wanilla:block/deepslate_piston/piston",
+      "y": 90
+    },
+    "extended=false,facing=north": {
+      "model": "wanilla:block/deepslate_piston/piston"
+    },
+    "extended=false,facing=south": {
+      "model": "wanilla:block/deepslate_piston/piston",
+      "y": 180
+    },
+    "extended=false,facing=up": {
+      "model": "wanilla:block/deepslate_piston/piston",
+      "x": 270
+    },
+    "extended=false,facing=west": {
+      "model": "wanilla:block/deepslate_piston/piston",
+      "y": 270
+    },
+    "extended=true,facing=down": {
+      "model": "wanilla:block/deepslate_piston/piston_base",
+      "x": 90
+    },
+    "extended=true,facing=east": {
+      "model": "wanilla:block/deepslate_piston/piston_base",
+      "y": 90
+    },
+    "extended=true,facing=north": {
+      "model": "wanilla:block/deepslate_piston/piston_base"
+    },
+    "extended=true,facing=south": {
+      "model": "wanilla:block/deepslate_piston/piston_base",
+      "y": 180
+    },
+    "extended=true,facing=up": {
+      "model": "wanilla:block/deepslate_piston/piston_base",
+      "x": 270
+    },
+    "extended=true,facing=west": {
+      "model": "wanilla:block/deepslate_piston/piston_base",
+      "y": 270
+    }
+  }
+}

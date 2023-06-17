@@ -1,0 +1,43 @@
+{
+    "type": "palette",
+    "priority": 100,
+    "displayName": "text.itemswapper.palette.nature.hedges",
+    "items": 
+	
+		[
+		  "minecraft:flowering_azalea_hedge",
+		  "minecraft:azalea_hedge",
+		  "minecraft:oak_hedge",
+		  "minecraft:spruce_hedge",
+		  "minecraft:birch_hedge",
+		  "minecraft:dark_oak_hedge",
+		  "minecraft:acacia_hedge",
+		  "minecraft:jungle_hedge",
+		  "minecraft:mangrove_hedge",
+          "minecraft:cherry_hedge"
+		],
+
+    "shortcuts": [
+        {
+            "type": "link",
+            "target": "itemswapper:v2/nature/natural"
+        },	
+        {
+            "type": "link",
+            "target": "itemswapper:v2/nature/leaves"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/nature/hedges"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/nature/lush"
+        },		
+        {
+            "type": "link",
+            "target": "itemswapper:v2/nature/flowers"
+        }
+	
+    ]
+}

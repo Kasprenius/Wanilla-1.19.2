@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:raw_ruby_block"
+    }
+  },
+  "result": {
+    "item": "wanilla:raw_ruby_wall",
+    "count": 6
+  }
+}

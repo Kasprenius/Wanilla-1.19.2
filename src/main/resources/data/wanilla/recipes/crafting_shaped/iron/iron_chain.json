@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chains",
+  "pattern": [
+    "x",
+    "o",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_nugget"
+    },
+    "o": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "wanilla:iron_chain",
+    "count": 1
+  }
+}

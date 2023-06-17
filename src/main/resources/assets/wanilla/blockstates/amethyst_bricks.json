@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "wanilla:block/amethyst/amethyst_bricks" }
+    "": { "model": "wanilla:block/amethyst/bricks/amethyst_bricks" }
   }
 }

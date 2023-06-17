@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:blast_iron_block"
+  },
+  "result": "wanilla:beveled_blast_iron",
+  "count": 1
+}

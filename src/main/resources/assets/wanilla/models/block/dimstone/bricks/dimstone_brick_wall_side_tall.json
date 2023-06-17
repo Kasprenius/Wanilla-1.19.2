@@ -1,6 +1,6 @@
 {
   "parent": "block/template_wall_side_tall",
   "textures": {
-    "wall": "wanilla:block/dimstone_bricks"
+    "wall": "wanilla:block/dimstone/dimstone_bricks"
   }
 }

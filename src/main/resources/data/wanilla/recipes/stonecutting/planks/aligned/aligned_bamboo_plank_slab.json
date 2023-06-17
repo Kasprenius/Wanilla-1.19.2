@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "wanilla:aligned_cherry_planks"}
+  ],
+  "result": "wanilla:aligned_cherry_plank_slab",
+  "count": 2
+}

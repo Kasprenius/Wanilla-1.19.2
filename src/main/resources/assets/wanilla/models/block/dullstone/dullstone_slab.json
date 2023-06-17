@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "bottom": "wanilla:block/dullstone",
-    "top": "wanilla:block/dullstone",
-    "side": "wanilla:block/dullstone"
+    "bottom": "wanilla:block/dullstone/dullstone",
+    "top": "wanilla:block/dullstone/dullstone",
+    "side": "wanilla:block/dullstone/dullstone"
   }
 }

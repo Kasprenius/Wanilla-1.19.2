@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+	{
+	  "item": "wanilla:ruby_tile"
+	}
+  ],
+  "result": "wanilla:ruby_tile_floor",
+  "count": 6
+}

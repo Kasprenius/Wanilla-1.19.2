@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wanilla:glow_glass"
+    }
+  },
+  "result": {
+    "count": 12,
+    "item": "wanilla:glow_glass_floor"
+  }
+}

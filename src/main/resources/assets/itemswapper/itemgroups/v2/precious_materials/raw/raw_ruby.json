@@ -1,0 +1,15 @@
+{
+  "type": "palette",
+  "priority": 300,
+  "displayName": "text.itemswapper.palette.raw.raw_ruby",
+  "items": [
+
+    "wanilla:raw_ruby_block",
+    "wanilla:raw_ruby_stairs",
+    "wanilla:raw_ruby_slab",
+    "wanilla:raw_ruby_wall"
+
+  ],
+  "shortcuts": [
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/diamond/bricks/diamond_brick_slab"
+    },
+    "type=double": {
+      "model": "wanilla:block/diamond/bricks/diamond_bricks"
+    },
+    "type=top": {
+      "model": "wanilla:block/diamond/bricks/diamond_brick_slab_top"
+    }
+  }
+}

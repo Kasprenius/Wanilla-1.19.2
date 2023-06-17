@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_column",
+	"textures": {
+		"3": "wanilla:block/planks/oak/shaped_oak_planks_end",
+		"particle": "wanilla:block/planks/oak/shaped_oak_planks_end",
+		"all": "wanilla:block/planks/oak/oak_planks_vertical"
+	},
+	"elements": [
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 0], "rotation": 180, "texture": "#3"},
+				"east": {"uv": [0, 0, 8, 16], "rotation": 90, "texture": "#all"},
+				"south": {"uv": [16, 8, 0, 0], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [8, 0, 0, 16], "rotation": 270, "texture": "#all"},
+				"up": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#all"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#all"}
+			}
+		}
+	]
+}

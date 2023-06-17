@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "wanilla:block/netherite/lanterns/large_netherite_glow_lantern_top",
+    "north": "wanilla:block/netherite/lanterns/large_netherite_glow_lantern",
+    "south": "wanilla:block/netherite/lanterns/large_netherite_glow_lantern",
+    "east": "wanilla:block/netherite/lanterns/large_netherite_glow_lantern",
+    "west": "wanilla:block/netherite/lanterns/large_netherite_glow_lantern",
+    "up": "wanilla:block/netherite/lanterns/large_netherite_glow_lantern_top",
+    "down": "wanilla:block/netherite/lanterns/large_netherite_lantern_bottom"
+  }
+}

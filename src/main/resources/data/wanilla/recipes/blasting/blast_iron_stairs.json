@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wanilla:iron_stairs"
+  },
+  "result": "wanilla:blast_iron_stairs",
+  "experience": 1.0,
+  "cookingtime": 175
+}

@@ -1,11 +1,9 @@
 package net.kas.wanilla.mixin.client.world;
 
 import net.kas.wanilla.client.rendering.DynamicLightingHandler;
-
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
-
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;

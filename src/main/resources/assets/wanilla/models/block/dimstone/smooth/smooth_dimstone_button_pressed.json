@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_pressed",
-  "textures": {
-    "texture": "wanilla:block/smooth_dimstone"
-  }
-}

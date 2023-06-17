@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "condensed_endlight",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": [
+      { "item": "wanilla:condensed_endlight"  },
+      { "item": "wanilla:light_gray_condensed_endlight"  },
+      { "item": "wanilla:gray_condensed_endlight"  },
+      { "item": "wanilla:red_condensed_endlight"  },
+      { "item": "wanilla:orange_condensed_endlight"  },
+      { "item": "wanilla:yellow_condensed_endlight"  },
+      { "item": "wanilla:lime_condensed_endlight"  },
+      { "item": "wanilla:green_condensed_endlight"  },
+      { "item": "wanilla:cyan_condensed_endlight"  },
+      { "item": "wanilla:light_blue_condensed_endlight"  },
+      { "item": "wanilla:blue_condensed_endlight"  },
+      { "item": "wanilla:purple_condensed_endlight"  },
+      { "item": "wanilla:magenta_condensed_endlight"  },
+      { "item": "wanilla:pink_condensed_endlight"  }
+    ],
+    "B": {
+      "tag": "minecraft:dyes/brown_dye"
+    }
+  },
+  "result": {
+    "item": "wanilla:brown_condensed_endlight",
+    "count": 8
+  }
+}

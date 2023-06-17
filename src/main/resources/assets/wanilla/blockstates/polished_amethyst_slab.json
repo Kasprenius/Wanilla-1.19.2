@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/amethyst/polished/polished_amethyst_slab_bottom"
+    },
+    "type=double": {
+      "model": "wanilla:block/amethyst/polished/polished_amethyst_slab_double"
+    },
+    "type=top": {
+      "model": "wanilla:block/amethyst/polished/polished_amethyst_slab_top"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:oak_planks"},
+    {"item": "wanilla:aligned_oak_planks"}
+  ],
+  "result": "wanilla:mosaic_oak_planks",
+  "count": 1
+}

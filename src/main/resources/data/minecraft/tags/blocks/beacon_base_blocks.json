@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "wanilla:cut_iron",
+    "wanilla:beveled_iron",
+    "wanilla:iron_pillar",
+    "wanilla:iron_tile",
+    "wanilla:blast_iron_block",
+    "wanilla:cut_blast_iron",
+    "wanilla:beveled_blast_iron",
+    "wanilla:blast_iron_tile",
+    "wanilla:gold_pillar",
+    "wanilla:cut_gold",
+    "wanilla:beveled_gold",
+    "wanilla:gold_bricks",
+    "wanilla:gold_tile",
+    "wanilla:beveled_netherite",
+    "wanilla:netherite_tile",
+    "wanilla:diamond_bricks",
+    "wanilla:beveled_diamond",
+    "wanilla:diamond_pillar",
+    "wanilla:diamond_tile",
+    "wanilla:cut_emerald",
+    "wanilla:beveled_emerald",
+    "wanilla:emerald_pillar",
+    "wanilla:emerald_tile",
+    "wanilla:ruby_block",
+    "wanilla:cut_ruby",
+    "wanilla:beveled_ruby",
+    "wanilla:ruby_pillar",
+    "wanilla:ruby_tile"
+  ]
+}

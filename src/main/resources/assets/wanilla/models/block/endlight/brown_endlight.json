@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "wanilla:block/endlight/brown_endlight"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 15.5, 15.5], "texture": "#all"},
+				"east": {"uv": [0.5, 0.5, 15.5, 15.5], "texture": "#all"},
+				"south": {"uv": [0.5, 0.5, 15.5, 15.5], "texture": "#all"},
+				"west": {"uv": [0.5, 0.5, 15.5, 15.5], "texture": "#all"},
+				"up": {"uv": [0.5, 0.5, 15.5, 15.5], "texture": "#all"},
+				"down": {"uv": [0.5, 0.5, 15.5, 15.5], "texture": "#all"}
+			}
+		}
+	]
+}

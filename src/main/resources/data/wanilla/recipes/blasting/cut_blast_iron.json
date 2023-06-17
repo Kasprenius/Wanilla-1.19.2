@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wanilla:cut_iron"
+  },
+  "result": "wanilla:cut_blast_iron",
+  "experience": 1.0,
+  "cookingtime": 200
+}

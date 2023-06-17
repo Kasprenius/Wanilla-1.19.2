@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "wanilla:block/blast_iron/cut_blast_iron",
+		"wall": "wanilla:block/blast_iron/cut_blast_iron"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 0],
+			"to": [11, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 15.99], "texture": "#wall"},
+				"east": {"uv": [8, 0.01, 0, 16], "texture": "#wall"},
+				"south": {"uv": [0, 0, 6, 15.99], "texture": "#wall"},
+				"west": {"uv": [0, 0.01, 8, 16], "texture": "#wall"},
+				"up": {"uv": [6, 8, 0, 16], "texture": "#wall"},
+				"down": {"uv": [6, 8, 0, 0], "texture": "#wall", "cullface": "down"}
+			}
+		}
+	]
+}

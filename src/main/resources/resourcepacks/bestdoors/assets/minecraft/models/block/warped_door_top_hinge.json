@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "block/warped_door_sides_v",
+		"3": "block/warped_door_sides_h",
+		"particle": "block/warped_door_top",
+		"top": "block/warped_door_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [13, 0, 16, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"south": {"uv": [6, 0, 3, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#top", "cullface": "west"},
+				"up": {"uv": [3, 16, 0, 0], "texture": "#3", "cullface": "up"}
+			}
+		}
+	]
+}

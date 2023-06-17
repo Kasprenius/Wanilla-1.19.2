@@ -1,0 +1,38 @@
+{
+    "type": "palette",
+    "priority": 100,
+    "displayName": "text.itemswapper.palette.sand.sand",	
+    "items": [
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:sandstone_stairs",
+    "minecraft:sandstone_slab",
+    "minecraft:sandstone_wall",
+        "wanilla:polished_sandstone",
+        "wanilla:polished_sandstone_stairs",
+        "wanilla:polished_sandstone_slab",
+        "wanilla:polished_sandstone_wall",
+        "minecraft:smooth_sandstone",
+        "minecraft:smooth_sandstone_stairs",
+        "minecraft:smooth_sandstone_slab",
+        "wanilla:sandstone_bricks",
+        "wanilla:sandstone_brick_stairs",
+        "wanilla:sandstone_brick_slab",
+        "wanilla:sandstone_brick_wall",
+        "minecraft:cut_sandstone",
+        "minecraft:cut_sandstone_slab",
+        "minecraft:chiseled_sandstone",
+        "wanilla:sandstone_pillar"
+
+    ],   
+	"shortcuts": [
+	    {
+            "type": "link",
+            "target": "itemswapper:v2/sand/sand"
+        },	
+        {
+            "type": "link",
+            "target": "itemswapper:v2/sand/redsand"
+        }		
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:iron_hoe"
+  },
+  "result": "wanilla:blast_iron_hoe",
+  "experience": 1.0,
+  "cookingtime": 400
+}

@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"1": "wanilla:block/planks/oak/shaped_oak_planks_end",
+		"particle": "wanilla:block/planks/oak/shaped_oak_planks_end",
+		"bottom": "wanilla:block/planks/oak/oak_planks_vertical"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 16]},
+			"faces": {
+				"north": {"uv": [16, 8, 0, 16], "texture": "#bottom"},
+				"east": {"uv": [16, 8, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 7.999, 0],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 16]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 8.001], "texture": "#bottom"},
+				"east": {"uv": [8, 0, 0, 8.001], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 16, 8.001], "texture": "#bottom"},
+				"west": {"uv": [8, 0, 16, 8.001], "texture": "#bottom"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 7.999, 7.999],
+			"to": [8, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 16]},
+			"faces": {
+				"east": {"uv": [16, 0, 8, 8.001], "texture": "#bottom"},
+				"south": {"uv": [8, 0, 16, 8.001], "texture": "#bottom"},
+				"west": {"uv": [0, 0, 8, 8.001], "texture": "#bottom"},
+				"up": {"uv": [0, 8, 8, 16], "texture": "#1"}
+			}
+		}
+	]
+}

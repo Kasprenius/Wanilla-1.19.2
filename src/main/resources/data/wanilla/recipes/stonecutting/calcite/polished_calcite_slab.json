@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:polished_calcite"
+      },
+  "result": "wanilla:polished_calcite_slab",
+  "count": 2
+}

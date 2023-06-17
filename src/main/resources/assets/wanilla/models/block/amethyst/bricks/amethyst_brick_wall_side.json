@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "particle": "wanilla:block/amethyst/amethyst_brick_wall",
+    "wall": "wanilla:block/amethyst/amethyst_bricks"
+  }
+}

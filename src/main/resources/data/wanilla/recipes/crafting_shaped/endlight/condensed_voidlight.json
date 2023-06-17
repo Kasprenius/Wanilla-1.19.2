@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "wanilla:voidlight_glass_jar"
+    }
+  },
+  "result": {
+    "item": "wanilla:condensed_voidlight",
+    "count": 2
+  }
+}

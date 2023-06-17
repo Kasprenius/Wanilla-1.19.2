@@ -1,209 +1,124 @@
 {
   "variants": {
     "facing=east,half=bottom,shape=inner_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_ne"
     },
     "facing=east,half=bottom,shape=inner_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner"
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_se"
     },
     "facing=east,half=bottom,shape=outer_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_ne"
     },
     "facing=east,half=bottom,shape=outer_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer"
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_se"
     },
     "facing=east,half=bottom,shape=straight": {
       "model": "wanilla:block/gold/cut/cut_gold_stairs"
     },
     "facing=east,half=top,shape=inner_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "x": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_une"
     },
     "facing=east,half=top,shape=inner_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "x": 180,
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_use"
     },
     "facing=east,half=top,shape=outer_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "x": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_une"
     },
     "facing=east,half=top,shape=outer_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "x": 180,
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_use"
     },
     "facing=east,half=top,shape=straight": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs",
-      "x": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_ue"
     },
     "facing=north,half=bottom,shape=inner_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_nw"
     },
     "facing=north,half=bottom,shape=inner_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_ne"
     },
     "facing=north,half=bottom,shape=outer_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_nw"
     },
     "facing=north,half=bottom,shape=outer_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_ne"
     },
     "facing=north,half=bottom,shape=straight": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs",
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_n"
     },
     "facing=north,half=top,shape=inner_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "x": 180,
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_unw"
     },
     "facing=north,half=top,shape=inner_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "x": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_une"
     },
     "facing=north,half=top,shape=outer_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "x": 180,
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_unw"
     },
     "facing=north,half=top,shape=outer_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "x": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_une"
     },
     "facing=north,half=top,shape=straight": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs",
-      "x": 180,
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_un"
     },
     "facing=south,half=bottom,shape=inner_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner"
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_se"
     },
     "facing=south,half=bottom,shape=inner_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_sw"
     },
     "facing=south,half=bottom,shape=outer_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer"
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_se"
     },
     "facing=south,half=bottom,shape=outer_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_sw"
     },
     "facing=south,half=bottom,shape=straight": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs",
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_s"
     },
     "facing=south,half=top,shape=inner_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "x": 180,
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_use"
     },
     "facing=south,half=top,shape=inner_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "x": 180,
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_usw"
     },
     "facing=south,half=top,shape=outer_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "x": 180,
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_use"
     },
     "facing=south,half=top,shape=outer_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "x": 180,
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_usw"
     },
     "facing=south,half=top,shape=straight": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs",
-      "x": 180,
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_us"
     },
     "facing=west,half=bottom,shape=inner_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_sw"
     },
     "facing=west,half=bottom,shape=inner_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_nw"
     },
     "facing=west,half=bottom,shape=outer_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "y": 90,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_sw"
     },
     "facing=west,half=bottom,shape=outer_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_nw"
     },
     "facing=west,half=bottom,shape=straight": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs",
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_w"
     },
     "facing=west,half=top,shape=inner_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "x": 180,
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_usw"
     },
     "facing=west,half=top,shape=inner_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner",
-      "x": 180,
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_inner_unw"
     },
     "facing=west,half=top,shape=outer_left": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "x": 180,
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_usw"
     },
     "facing=west,half=top,shape=outer_right": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer",
-      "x": 180,
-      "y": 270,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_outer_unw"
     },
     "facing=west,half=top,shape=straight": {
-      "model": "wanilla:block/gold/cut/cut_gold_stairs",
-      "x": 180,
-      "y": 180,
-      "uvlock": true
+      "model": "wanilla:block/gold/cut/cut_gold_stairs_uw"
     }
   }
 }

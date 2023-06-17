@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/wall_inventory",
 	"textures": {
 		"0": "wanilla:block/reinforced_deepslate/reinforced_deepslate_wall_post",
 		"1": "wanilla:block/reinforced_deepslate/reinforced_deepslate_stairs_corner_top",

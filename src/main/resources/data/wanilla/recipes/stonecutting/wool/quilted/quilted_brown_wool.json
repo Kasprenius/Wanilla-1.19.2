@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:brown_wool"
+      },
+  "result": "wanilla:quilted_brown_wool",
+  "count": 1
+}

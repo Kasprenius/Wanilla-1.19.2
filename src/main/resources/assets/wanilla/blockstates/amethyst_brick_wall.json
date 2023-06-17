@@ -1,89 +1,87 @@
 {
   "multipart": [
     {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_post"
+      },
       "when": {
         "up": "true"
-      },
-      "apply": {
-        "model": "wanilla:block/amethyst/amethyst_brick_wall_post"
       }
     },
     {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_low_all"
+      },
+      "when": {
+        "up": "false",
+        "north": "low",
+        "south": "low",
+        "east": "low",
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_side_low"
+      },
       "when": {
         "north": "low"
-      },
-      "apply": {
-        "model": "wanilla:block/amethyst/amethyst_brick_wall_side",
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_side_low_e"
+      },
       "when": {
         "east": "low"
-      },
-      "apply": {
-        "model": "wanilla:block/amethyst/amethyst_brick_wall_side",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_side_low_s"
+      },
       "when": {
         "south": "low"
-      },
-      "apply": {
-        "model": "wanilla:block/amethyst/amethyst_brick_wall_side",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_side_low_w"
+      },
       "when": {
         "west": "low"
-      },
-      "apply": {
-        "model": "wanilla:block/amethyst/amethyst_brick_wall_side",
-        "y": 270,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_side_tall"
+      },
       "when": {
         "north": "tall"
-      },
-      "apply": {
-        "model": "wanilla:block/amethyst/amethyst_brick_wall_side_tall",
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_side_tall_e"
+      },
       "when": {
         "east": "tall"
-      },
-      "apply": {
-        "model": "wanilla:block/amethyst/amethyst_brick_wall_side_tall",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_side_tall_s"
+      },
       "when": {
         "south": "tall"
-      },
-      "apply": {
-        "model": "wanilla:block/amethyst/amethyst_brick_wall_side_tall",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "wanilla:block/amethyst/bricks/amethyst_brick_wall_side_tall_w"
+      },
       "when": {
         "west": "tall"
-      },
-      "apply": {
-        "model": "wanilla:block/amethyst/amethyst_brick_wall_side_tall",
-        "y": 270,
-        "uvlock": true
       }
     }
   ]

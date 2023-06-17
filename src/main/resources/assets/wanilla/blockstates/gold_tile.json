@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wanilla:block/gold/gold_tile"
+    }
+  }
+}

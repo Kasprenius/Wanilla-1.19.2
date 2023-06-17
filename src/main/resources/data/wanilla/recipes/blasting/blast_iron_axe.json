@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:iron_axe"
+  },
+  "result": "wanilla:blast_iron_axe",
+  "experience": 1.0,
+  "cookingtime": 400
+}

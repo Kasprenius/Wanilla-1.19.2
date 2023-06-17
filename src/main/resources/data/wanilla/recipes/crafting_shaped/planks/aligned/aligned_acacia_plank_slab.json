@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "aligned_slabs",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "wanilla:aligned_acacia_planks"
+    }
+  },
+  "result": {
+    "item": "wanilla:aligned_acacia_plank_slab",
+    "count": 6
+  }
+}

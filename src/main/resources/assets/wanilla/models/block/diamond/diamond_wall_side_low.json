@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 16],
+	"textures": {
+		"particle": "wanilla:block/diamond/diamond_wall",
+		"wall": "wanilla:block/diamond/diamond_wall"
+	},
+	"elements": [
+		{
+			"name": "wall",
+			"from": [5, 0, 0],
+			"to": [11, 14, 8],
+			"faces": {
+				"north": {"uv": [12.66667, 2, 14.66667, 16], "texture": "#wall"},
+				"east": {"uv": [10, 16, 7.33334, 2], "rotation": 180, "texture": "#wall"},
+				"south": {"uv": [12.66667, 2, 14.66667, 16], "texture": "#wall"},
+				"west": {"uv": [7.33333, 16, 4.66666, 2], "rotation": 180, "texture": "#wall"},
+				"up": {"uv": [2.66666, 0, 4.66666, 8], "texture": "#wall"},
+				"down": {"uv": [4.66666, 16, 2.66666, 8], "rotation": 180, "texture": "#wall", "cullface": "down"}
+			}
+		}
+	]
+}

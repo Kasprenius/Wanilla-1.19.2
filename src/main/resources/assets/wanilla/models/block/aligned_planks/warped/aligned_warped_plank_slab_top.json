@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_column",
+	"textures": {
+		"3": "wanilla:block/planks/warped/shaped_warped_planks_end",
+		"particle": "wanilla:block/planks/warped/shaped_warped_planks_end",
+		"all": "wanilla:block/planks/warped/warped_planks_vertical"
+	},
+	"elements": [
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 8], "texture": "#all"},
+				"east": {"uv": [16, 0, 0, 8], "texture": "#all"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#all"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#all"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"down": {"uv": [16, 16, 0, 0], "rotation": 90, "texture": "#3"}
+			}
+		}
+	]
+}

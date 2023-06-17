@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:custom/cut_block_template",
+  "textures": {
+    "all": "minecraft:block/cut_copper"
+  }
+}

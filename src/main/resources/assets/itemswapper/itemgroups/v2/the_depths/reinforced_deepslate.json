@@ -1,0 +1,36 @@
+{
+    "type": "palette",
+    "priority": 100,
+    "displayName": "text.itemswapper.palette.the_depths.reinforced_deepslate",
+	"icon": "minecraft:reinforced_deepslate",
+    "items": [ 
+        "minecraft:reinforced_deepslate",
+        "wanilla:reinforced_deepslate",
+        "wanilla:reinforced_deepslate_stairs",
+        "wanilla:reinforced_deepslate_slab",
+        "wanilla:reinforced_deepslate_wall",
+        "wanilla:reinforced_deepslate_pillar"
+    ],   
+	"shortcuts": [
+	    {
+            "type": "link",
+            "target": "itemswapper:v2/the_depths/basalt"
+        },	
+        {
+            "type": "link",
+            "target": "itemswapper:v2/the_depths/deepslate"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/the_depths/reinforced_deepslate"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/the_depths/blackstone"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/the_depths/sculk"
+        }		
+	]
+}

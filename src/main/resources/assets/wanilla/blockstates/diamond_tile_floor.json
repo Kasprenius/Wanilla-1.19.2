@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wanilla:block/diamond/floor/diamond_tile_floor"
+    }
+  }
+}

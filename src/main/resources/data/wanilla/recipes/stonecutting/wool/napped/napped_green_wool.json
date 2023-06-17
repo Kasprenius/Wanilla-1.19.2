@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:green_wool"
+      },
+  "result": "wanilla:napped_green_wool",
+  "count": 1
+}

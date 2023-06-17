@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 16],
+	"textures": {
+		"1": "wanilla:block/amethyst/polished_amethyst_wall",
+		"particle": "wanilla:block/amethyst/polished_amethyst",
+		"wall": "wanilla:block/amethyst/polished_amethyst"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 5],
+			"to": [8, 16, 11],
+			"faces": {
+				"north": {"uv": [8, 0.01, 16, 16], "texture": "#wall"},
+				"east": {"uv": [2.66667, 0, 4.66667, 16], "texture": "#1"},
+				"south": {"uv": [0, 0.01, 8, 16], "texture": "#wall"},
+				"west": {"uv": [2.66667, 0, 4.66667, 16], "texture": "#1"},
+				"up": {"uv": [4.66667, 0, 2.66667, 8], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [4.66667, 0, 2.66667, 8], "rotation": 270, "texture": "#1"}
+			}
+		}
+	]
+}

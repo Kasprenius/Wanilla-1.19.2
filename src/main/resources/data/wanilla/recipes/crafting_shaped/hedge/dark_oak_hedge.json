@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_leaves"
+    }
+  },
+  "result": {
+    "item": "wanilla:dark_oak_hedge",
+    "count": 6
+  }
+}

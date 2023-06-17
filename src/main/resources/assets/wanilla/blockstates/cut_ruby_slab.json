@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/ruby/cut/cut_ruby_slab"
+    },
+    "type=double": {
+      "model": "wanilla:block/ruby/cut/cut_ruby"
+    },
+    "type=top": {
+      "model": "wanilla:block/ruby/cut/cut_ruby_slab_top"
+    }
+  }
+}

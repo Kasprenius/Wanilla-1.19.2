@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wanilla:block/calcite/brick/calcite_bricks"
+    }
+  }
+}

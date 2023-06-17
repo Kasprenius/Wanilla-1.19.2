@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wanilla:block/emerald/floor/emerald_tile_floor"
+    }
+  }
+}

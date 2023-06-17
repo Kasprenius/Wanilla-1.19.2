@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.0-SNAPSHOT'
+	id 'fabric-loom' version '1.1-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -11,7 +11,7 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
-
+	//maven { url "https://api.modrinth.com/maven" }
 }
 
 dependencies {
@@ -29,6 +29,8 @@ dependencies {
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 
+	//modImplementation "maven.modrinth:stonecutter_recipe_tags:5.0.0-fabric"
+	//include "maven.modrinth:stonecutter_recipe_tags:5.0.0-fabric"
 }
 
 processResources {
@@ -38,6 +40,24 @@ processResources {
 		expand "version": project.version
 	}
 }
+
+def dataOutput = 'src/main/generated'
+
+loom {
+	runs {
+		datagen {
+			server()
+
+			name "Data Generation"
+			vmArg "-Dfabric-api.datagen"
+			vmArg "-Dfabric-api.datagen.output-dir=${file(dataOutput)}"
+
+			runDir "build/datagen"
+		}
+	}
+}
+
+sourceSets { main { resources { srcDirs += dataOutput } } }
 
 tasks.withType(JavaCompile).configureEach {
 	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.

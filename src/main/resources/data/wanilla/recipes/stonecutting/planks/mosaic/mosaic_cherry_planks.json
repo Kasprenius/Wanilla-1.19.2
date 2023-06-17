@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:cherry_planks"},
+    {"item": "wanilla:aligned_cherry_planks"}
+  ],
+  "result": "wanilla:mosaic_cherry_planks",
+  "count": 1
+}

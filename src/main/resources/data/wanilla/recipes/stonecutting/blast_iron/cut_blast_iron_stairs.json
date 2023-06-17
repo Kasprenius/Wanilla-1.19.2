@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:cut_blast_iron"
+  },
+  "result": "wanilla:cut_blast_iron_stairs",
+  "count": 1
+}

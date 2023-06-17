@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wanilla:block/ruby/raw_ruby_block"
+    }
+  }
+}

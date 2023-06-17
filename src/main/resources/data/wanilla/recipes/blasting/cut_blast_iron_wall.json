@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wanilla:cut_iron_wall"
+  },
+  "result": "wanilla:cut_blast_iron_wall",
+  "experience": 1.0,
+  "cookingtime": 150
+}

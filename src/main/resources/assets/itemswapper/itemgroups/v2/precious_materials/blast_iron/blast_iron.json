@@ -1,0 +1,25 @@
+{
+  "type": "palette",
+  "priority": 100,
+  "displayName": "text.itemswapper.palette.blast_iron.blast_iron",
+  "items": [
+
+    "wanilla:blast_iron_block",
+    "wanilla:blast_iron_stairs",
+    "wanilla:blast_iron_slab",
+    "wanilla:blast_iron_wall",
+    "wanilla:cut_blast_iron",
+    "wanilla:cut_blast_iron_stairs",
+    "wanilla:cut_blast_iron_slab",
+    "wanilla:cut_blast_iron_wall",
+    "wanilla:beveled_blast_iron",
+    "wanilla:blast_iron_tile",
+    "wanilla:blast_iron_bars",
+    "wanilla:blast_iron_door",
+    "wanilla:big_blast_iron_chain",
+    "minecraft:chain"
+
+  ],
+  "shortcuts": [
+  ]
+}

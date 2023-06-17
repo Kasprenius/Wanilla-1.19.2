@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "wanilla:block/deepslate/deepslate_furnace_top",
+    "front": "wanilla:block/deepslate/deepslate_furnace_front",
+    "side": "wanilla:block/deepslate/deepslate_furnace_side"
+  }
+}

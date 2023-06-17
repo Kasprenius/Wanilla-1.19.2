@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 16],
+	"textures": {
+		"wall": "wanilla:block/iron/cut_iron_wall",
+		"particle": "#wall"
+	},
+	"elements": [
+		{
+			"name": "wall",
+			"from": [5, 0, 8],
+			"to": [11, 14, 16],
+			"faces": {
+				"north": {"uv": [5.33334, 2, 7.33334, 16], "texture": "#wall"},
+				"east": {"uv": [8, 16, 10.66667, 2], "rotation": 180, "texture": "#wall"},
+				"south": {"uv": [5.33334, 2, 7.33334, 16], "texture": "#wall"},
+				"west": {"uv": [10.66667, 16, 8, 2], "rotation": 180, "texture": "#wall"},
+				"up": {"uv": [2.99999, 7, 4.99999, 15], "rotation": 180, "texture": "#wall"},
+				"down": {"uv": [2.99999, 7, 4.99999, 15], "texture": "#wall", "cullface": "down"}
+			}
+		}
+	]
+}

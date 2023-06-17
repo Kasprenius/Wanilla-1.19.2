@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "wanilla:block/gold/lanterns/large_gold_glow_lantern_3d" }
+    "": { "model": "wanilla:block/gold/lanterns/large_gold_glow_lantern" }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wanilla:block/aligned_planks/birch/aligned_birch_planks_horizontal_x"
+    },
+    "axis=y": {
+      "model": "wanilla:block/aligned_planks/birch/aligned_birch_planks"
+    },
+    "axis=z": {
+      "model": "wanilla:block/aligned_planks/birch/aligned_birch_planks_horizontal_z"
+    }
+  }
+}

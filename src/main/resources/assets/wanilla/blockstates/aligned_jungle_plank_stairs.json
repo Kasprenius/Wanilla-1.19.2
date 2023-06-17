@@ -1,0 +1,364 @@
+{
+  "variants": {
+    "facing=east,half=bottom,shape=inner_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_ne_y"
+    },
+    "facing=east,half=bottom,shape=inner_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_se_y"
+    },
+    "facing=east,half=bottom,shape=outer_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_ne_y"
+    },
+    "facing=east,half=bottom,shape=outer_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_se_y"
+    },
+    "facing=east,half=bottom,shape=straight,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_e_y"
+    },
+    "facing=north,half=bottom,shape=inner_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_nw_y"
+    },
+    "facing=north,half=bottom,shape=inner_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_ne_y"
+    },
+    "facing=north,half=bottom,shape=outer_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_nw_y"
+    },
+    "facing=north,half=bottom,shape=outer_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_ne_y"
+    },
+    "facing=north,half=bottom,shape=straight,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_n_y"
+    },
+    "facing=south,half=bottom,shape=inner_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_se_y"
+    },
+    "facing=south,half=bottom,shape=inner_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_sw_y"
+    },
+    "facing=south,half=bottom,shape=outer_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_se_y"
+    },
+    "facing=south,half=bottom,shape=outer_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_sw_y"
+    },
+    "facing=south,half=bottom,shape=straight,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_s_y"
+    },
+    "facing=west,half=bottom,shape=inner_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_sw_y"
+    },
+    "facing=west,half=bottom,shape=inner_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_nw_y"
+    },
+    "facing=west,half=bottom,shape=outer_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_sw_y"
+    },
+    "facing=west,half=bottom,shape=outer_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_nw_y"
+    },
+    "facing=west,half=bottom,shape=straight,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_w_y"
+    },
+    "facing=east,half=top,shape=inner_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_ne_y"
+    },
+    "facing=east,half=top,shape=inner_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_se_y"
+    },
+    "facing=east,half=top,shape=outer_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_ne_y"
+    },
+    "facing=east,half=top,shape=outer_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_se_y"
+    },
+    "facing=east,half=top,shape=straight,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_e_y"
+    },
+    "facing=north,half=top,shape=inner_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_nw_y"
+    },
+    "facing=north,half=top,shape=inner_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_ne_y"
+    },
+    "facing=north,half=top,shape=outer_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_nw_y"
+    },
+    "facing=north,half=top,shape=outer_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_ne_y"
+    },
+    "facing=north,half=top,shape=straight,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_n_y"
+    },
+    "facing=south,half=top,shape=inner_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_se_y"
+    },
+    "facing=south,half=top,shape=inner_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_sw_y"
+    },
+    "facing=south,half=top,shape=outer_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_se_y"
+    },
+    "facing=south,half=top,shape=outer_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_sw_y"
+    },
+    "facing=south,half=top,shape=straight,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_s_y"
+    },
+    "facing=west,half=top,shape=inner_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_sw_y"
+    },
+    "facing=west,half=top,shape=inner_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_nw_y"
+    },
+    "facing=west,half=top,shape=outer_left,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_sw_y"
+    },
+    "facing=west,half=top,shape=outer_right,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_nw_y"
+    },
+    "facing=west,half=top,shape=straight,axis=y": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_w_y"
+    },
+    "facing=east,half=bottom,shape=inner_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_ne_x"
+    },
+    "facing=east,half=bottom,shape=inner_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_se_x"
+    },
+    "facing=east,half=bottom,shape=outer_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_ne_x"
+    },
+    "facing=east,half=bottom,shape=outer_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_se_x"
+    },
+    "facing=east,half=bottom,shape=straight,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_e_x"
+    },
+    "facing=north,half=bottom,shape=inner_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_nw_x"
+    },
+    "facing=north,half=bottom,shape=inner_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_ne_x"
+    },
+    "facing=north,half=bottom,shape=outer_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_nw_x"
+    },
+    "facing=north,half=bottom,shape=outer_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_ne_x"
+    },
+    "facing=north,half=bottom,shape=straight,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_n_x"
+    },
+    "facing=south,half=bottom,shape=inner_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_se_x"
+    },
+    "facing=south,half=bottom,shape=inner_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_sw_x"
+    },
+    "facing=south,half=bottom,shape=outer_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_se_x"
+    },
+    "facing=south,half=bottom,shape=outer_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_sw_x"
+    },
+    "facing=south,half=bottom,shape=straight,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_s_x"
+    },
+    "facing=west,half=bottom,shape=inner_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_sw_x"
+    },
+    "facing=west,half=bottom,shape=inner_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_nw_x"
+    },
+    "facing=west,half=bottom,shape=outer_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_sw_x"
+    },
+    "facing=west,half=bottom,shape=outer_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_nw_x"
+    },
+    "facing=west,half=bottom,shape=straight,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_w_x"
+    },
+    "facing=east,half=top,shape=inner_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_ne_x"
+    },
+    "facing=east,half=top,shape=inner_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_se_x"
+    },
+    "facing=east,half=top,shape=outer_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_ne_x"
+    },
+    "facing=east,half=top,shape=outer_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_se_x"
+    },
+    "facing=east,half=top,shape=straight,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_e_x"
+    },
+    "facing=north,half=top,shape=inner_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_nw_x"
+    },
+    "facing=north,half=top,shape=inner_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_ne_x"
+    },
+    "facing=north,half=top,shape=outer_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_nw_x"
+    },
+    "facing=north,half=top,shape=outer_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_ne_x"
+    },
+    "facing=north,half=top,shape=straight,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_n_x"
+    },
+    "facing=south,half=top,shape=inner_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_se_x"
+    },
+    "facing=south,half=top,shape=inner_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_sw_x"
+    },
+    "facing=south,half=top,shape=outer_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_se_x"
+    },
+    "facing=south,half=top,shape=outer_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_sw_x"
+    },
+    "facing=south,half=top,shape=straight,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_s_x"
+    },
+    "facing=west,half=top,shape=inner_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_sw_x"
+    },
+    "facing=west,half=top,shape=inner_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_nw_x"
+    },
+    "facing=west,half=top,shape=outer_left,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_sw_x"
+    },
+    "facing=west,half=top,shape=outer_right,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_nw_x"
+    },
+    "facing=west,half=top,shape=straight,axis=x": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_w_x"
+    },
+    "facing=east,half=bottom,shape=inner_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_ne_z"
+    },
+    "facing=east,half=bottom,shape=inner_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_se_z"
+    },
+    "facing=east,half=bottom,shape=outer_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_ne_z"
+    },
+    "facing=east,half=bottom,shape=outer_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_se_z"
+    },
+    "facing=east,half=bottom,shape=straight,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_e_z"
+    },
+    "facing=north,half=bottom,shape=inner_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_nw_z"
+    },
+    "facing=north,half=bottom,shape=inner_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_ne_z"
+    },
+    "facing=north,half=bottom,shape=outer_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_nw_z"
+    },
+    "facing=north,half=bottom,shape=outer_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_ne_z"
+    },
+    "facing=north,half=bottom,shape=straight,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_n_z"
+    },
+    "facing=south,half=bottom,shape=inner_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_se_z"
+    },
+    "facing=south,half=bottom,shape=inner_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_sw_z"
+    },
+    "facing=south,half=bottom,shape=outer_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_se_z"
+    },
+    "facing=south,half=bottom,shape=outer_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_sw_z"
+    },
+    "facing=south,half=bottom,shape=straight,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_s_z"
+    },
+    "facing=west,half=bottom,shape=inner_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_sw_z"
+    },
+    "facing=west,half=bottom,shape=inner_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_nw_z"
+    },
+    "facing=west,half=bottom,shape=outer_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_sw_z"
+    },
+    "facing=west,half=bottom,shape=outer_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_nw_z"
+    },
+    "facing=west,half=bottom,shape=straight,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_w_z"
+    },
+    "facing=east,half=top,shape=inner_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_ne_z"
+    },
+    "facing=east,half=top,shape=inner_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_se_z"
+    },
+    "facing=east,half=top,shape=outer_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_ne_z"
+    },
+    "facing=east,half=top,shape=outer_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_se_z"
+    },
+    "facing=east,half=top,shape=straight,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_e_z"
+    },
+    "facing=north,half=top,shape=inner_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_nw_z"
+    },
+    "facing=north,half=top,shape=inner_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_ne_z"
+    },
+    "facing=north,half=top,shape=outer_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_nw_z"
+    },
+    "facing=north,half=top,shape=outer_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_ne_z"
+    },
+    "facing=north,half=top,shape=straight,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_n_z"
+    },
+    "facing=south,half=top,shape=inner_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_se_z"
+    },
+    "facing=south,half=top,shape=inner_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_sw_z"
+    },
+    "facing=south,half=top,shape=outer_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_se_z"
+    },
+    "facing=south,half=top,shape=outer_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_sw_z"
+    },
+    "facing=south,half=top,shape=straight,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_s_z"
+    },
+    "facing=west,half=top,shape=inner_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_sw_z"
+    },
+    "facing=west,half=top,shape=inner_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_inner_u_nw_z"
+    },
+    "facing=west,half=top,shape=outer_left,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_sw_z"
+    },
+    "facing=west,half=top,shape=outer_right,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_outer_u_nw_z"
+    },
+    "facing=west,half=top,shape=straight,axis=z": {
+      "model": "wanilla:block/aligned_planks/jungle/stairs/aligned_plank_stairs_u_w_z"
+    }
+  }
+}

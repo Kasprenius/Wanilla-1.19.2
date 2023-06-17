@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "big_chains",
+  "pattern": [
+    "x",
+    "o",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:gold_ingot"
+    },
+    "o": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "wanilla:big_gold_chain",
+    "count": 4
+  }
+}

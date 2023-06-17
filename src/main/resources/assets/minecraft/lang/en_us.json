@@ -1,3 +1,18 @@
 {
-  "block.minecraft.chain": "Blast Iron Chain"
+  "block.minecraft.chiseled_bookshelf": "Chiseled Oak Bookshelf",
+  "block.minecraft.chain": "Blast Iron Chain",
+  "block.minecraft.reinforced_deepslate": "Ancient Reinforced Deepslate",
+
+  "block.minecraft.gold_block": "Gold Block",
+  "block.minecraft.iron_block": "Iron Block",
+  "block.minecraft.netherite_block": "Netherite Block",
+  "block.minecraft.diamond_block": "Diamond Block",
+  "block.minecraft.emerald_block": "Emerald Block",
+  "block.minecraft.lapis_block": "Lapis Lazuli Block",
+  "block.minecraft.redstone_block": "Redstone Block",
+  "block.minecraft.quartz_block": "Quartz Block",
+  "block.minecraft.chiseled_quartz": "Chiseled Quartz",
+  "block.minecraft.smooth_quartz": "Smooth Quartz",
+  "block.minecraft.copper_block": "Copper Block",
+  "block.minecraft.waxed_copper_block": "Waxed Copper Block"
 }

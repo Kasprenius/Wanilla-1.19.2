@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "result": "wanilla:blast_iron_pickaxe",
+  "experience": 1.0,
+  "cookingtime": 400
+}

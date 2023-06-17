@@ -1,0 +1,60 @@
+{
+    "type": "palette",
+    "priority": 100,
+    "displayName": "text.itemswapper.palette.wood.acacia",
+    "items": [
+
+        "minecraft:acacia_log",
+        "minecraft:acacia_wood",
+        "minecraft:stripped_acacia_log",
+        "minecraft:stripped_acacia_wood",
+
+        "minecraft:acacia_planks",
+        "minecraft:acacia_stairs",
+        "minecraft:acacia_slab",
+
+        "wanilla:aligned_acacia_planks",
+        "wanilla:aligned_acacia_plank_stairs",
+        "wanilla:aligned_acacia_plank_slab",
+
+        "wanilla:mosaic_acacia_planks",
+        "wanilla:mosaic_acacia_plank_stairs",
+        "wanilla:mosaic_acacia_plank_slab",
+
+        "minecraft:acacia_trapdoor",
+        "minecraft:acacia_door",
+        "minecraft:acacia_fence_gate",
+        "minecraft:acacia_fence",
+
+        "minecraft:acacia_sign",
+        "minecraft:acacia_hanging_sign",
+        "minecraft:acacia_button",
+        "minecraft:acacia_pressure_plate",
+
+        "minecraft:acacia_leaves",
+        "wanilla:acacia_hedge",
+        "minecraft:acacia_sapling"
+    ],
+    "shortcuts": [
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/acacia"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/jungle"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/mangrove"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/bamboo"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/cherry"
+        }
+    ]
+}

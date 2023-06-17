@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"1": "wanilla:block/calcite/polished_calcite_stairs",
+		"2": "wanilla:block/calcite/polished_calcite_slabs",
+		"particle": "wanilla:block/calcite/polished_calcite_stairs",
+		"bottom": "wanilla:block/calcite/polished_calcite"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#1"},
+				"south": {"uv": [16, 8, 0, 16], "texture": "#1"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [8, 7.999, 8],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 0.005, 8.01, 7.995], "texture": "#bottom"},
+				"east": {"uv": [0.005, 0.005, 7.995, 7.995], "texture": "#1"},
+				"south": {"uv": [7.995, 0.005, 0.005, 7.995], "texture": "#1"},
+				"west": {"uv": [8.01, 0, 16, 7.99], "texture": "#bottom"},
+				"up": {"uv": [8, 8, 16, 16], "texture": "#bottom"}
+			}
+		}
+	]
+}

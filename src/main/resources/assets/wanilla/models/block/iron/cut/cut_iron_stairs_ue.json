@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/stairs",
+	"textures": {
+		"particle": "wanilla:block/iron/cut_iron",
+		"bottom": "wanilla:block/iron/cut_iron"
+	},
+	"elements": [
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 8], "texture": "#bottom"},
+				"east": {"uv": [16, 0, 0, 8], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#bottom"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#bottom"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [16, 8, 8, 16], "texture": "#bottom"},
+				"east": {"uv": [16, 8, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#bottom"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"down": {"uv": [0, 0, 16, 8], "rotation": 270, "texture": "#bottom"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "e",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

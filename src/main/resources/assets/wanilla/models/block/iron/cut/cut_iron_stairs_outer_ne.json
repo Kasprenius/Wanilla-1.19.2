@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/outer_stairs",
+	"textures": {
+		"bottom": "wanilla:block/iron/cut_iron",
+		"particle": "wanilla:block/iron/cut_iron"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [16, 8, 0, 16], "texture": "#bottom"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#bottom"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [8, 7.999, 0],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [16, 0, 8.01, 7.99], "texture": "#bottom"},
+				"east": {"uv": [8.01, 0, 16, 7.99], "texture": "#bottom"},
+				"south": {"uv": [8.01, 0, 16, 7.99], "texture": "#bottom"},
+				"west": {"uv": [0, 0, 7.99, 7.99], "texture": "#bottom"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#bottom"}
+			}
+		}
+	]
+}

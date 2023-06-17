@@ -1,0 +1,30 @@
+{
+  "type": "palette",
+  "priority": 50,
+  "displayName": "text.itemswapper.palette.gold.gold_bricks",
+  "items": [
+
+    "wanilla:gold_bricks",
+    "wanilla:gold_brick_slab",
+    "wanilla:gold_brick_wall"
+
+  ],
+  "shortcuts": [
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/gold/gold"
+    },
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/gold/cut_gold"
+    },
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/gold/gold_bricks"
+    },
+    {
+      "type": "link",
+      "target": "itemswapper:v2/precious_materials/gold/additional_gold"
+    }
+  ]
+}

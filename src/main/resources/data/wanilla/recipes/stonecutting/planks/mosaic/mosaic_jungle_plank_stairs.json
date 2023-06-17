@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "wanilla:mosaic_jungle_planks"}
+  ],
+  "result": "wanilla:mosaic_jungle_plank_stairs",
+  "count": 1
+}

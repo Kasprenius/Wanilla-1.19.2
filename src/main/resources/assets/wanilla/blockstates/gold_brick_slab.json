@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/gold/bricks/gold_brick_slab_bottom"
+    },
+    "type=double": {
+      "model": "wanilla:block/gold/bricks/gold_brick_slab_double"
+    },
+    "type=top": {
+      "model": "wanilla:block/gold/bricks/gold_brick_slab_top"
+    }
+  }
+}

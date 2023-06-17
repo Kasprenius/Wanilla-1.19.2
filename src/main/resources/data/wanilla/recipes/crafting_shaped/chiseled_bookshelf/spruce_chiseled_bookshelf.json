@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "chiseled_bookshelf",
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_planks"
+    },
+    "X": {
+      "item": "minecraft:spruce_slab"
+    }
+  },
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "result": {
+    "item": "wanilla:spruce_chiseled_bookshelf"
+  }
+}

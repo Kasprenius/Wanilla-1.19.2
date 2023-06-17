@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "big_chains",
+  "pattern": [
+    "x",
+    "o",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_ingot"
+    },
+    "o": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "wanilla:big_iron_chain",
+    "count": 4
+  }
+}

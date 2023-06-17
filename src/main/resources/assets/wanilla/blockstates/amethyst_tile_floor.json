@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wanilla:block/amethyst/floor/amethyst_tile_floor"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:mangrove_leaves"
+  },
+  "result": "wanilla:mangrove_hedge",
+  "count": 1
+}

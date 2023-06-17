@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/concrete/brown/concrete_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/brown_concrete"
+    },
+    "type=top": {
+      "model": "wanilla:block/concrete/brown/concrete_slab_top"
+    }
+  }
+}

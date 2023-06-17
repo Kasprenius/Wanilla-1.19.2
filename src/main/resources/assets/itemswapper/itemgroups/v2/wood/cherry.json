@@ -1,0 +1,60 @@
+{
+    "type": "palette",
+    "priority": 100,
+    "displayName": "text.itemswapper.palette.wood.cherry",
+    "items": [
+
+        "minecraft:cherry_log",
+        "minecraft:cherry_wood",
+        "minecraft:stripped_cherry_log",
+        "minecraft:stripped_cherry_wood",
+	
+        "minecraft:cherry_planks",
+        "minecraft:cherry_stairs",
+        "minecraft:cherry_slab",
+
+        "wanilla:aligned_cherry_planks",
+        "wanilla:aligned_cherry_plank_stairs",
+        "wanilla:aligned_cherry_plank_slab",
+
+        "wanilla:mosaic_cherry_planks",
+        "wanilla:mosaic_cherry_plank_stairs",
+        "wanilla:mosaic_cherry_plank_slab",
+
+        "minecraft:cherry_trapdoor",
+        "minecraft:cherry_door",
+        "minecraft:cherry_fence_gate",
+        "minecraft:cherry_fence",
+
+        "minecraft:cherry_sign",
+        "minecraft:cherry_hanging_sign",
+        "minecraft:cherry_button",
+        "minecraft:cherry_pressure_plate",
+
+        "minecraft:cherry_leaves",
+	    "wanilla:cherry_hedge",
+        "minecraft:cherry_sapling"
+    ],   
+	"shortcuts": [
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/acacia"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/jungle"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/mangrove"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/bamboo"
+        },
+        {
+            "type": "link",
+            "target": "itemswapper:v2/wood/cherry"
+        }
+	]
+}

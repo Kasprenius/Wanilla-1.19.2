@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "slime_blocks",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": [
+      {"item": "minecraft:slime_block"},
+      {"item": "wanilla:white_slime_block"},
+      {"item": "wanilla:light_gray_slime_block"},
+      { "item": "wanilla:gray_slime_block"  },
+      { "item": "wanilla:brown_slime_block"  },
+      { "item": "wanilla:red_slime_block"  },
+      { "item": "wanilla:orange_slime_block"  },
+      { "item": "wanilla:yellow_slime_block"  },
+      { "item": "wanilla:lime_slime_block"  },
+      { "item": "wanilla:green_slime_block"  },
+      { "item": "wanilla:cyan_slime_block"  },
+      { "item": "wanilla:light_blue_slime_block"  },
+      { "item": "wanilla:purple_slime_block"  },
+      { "item": "wanilla:magenta_slime_block"  },
+      { "item": "wanilla:pink_slime_block"  }
+    ],
+    "B": {
+      "tag": "minecraft:dyes/black_dye"
+    }
+  },
+  "result": {
+    "item": "wanilla:black_slime_block",
+    "count": 8
+  }
+}

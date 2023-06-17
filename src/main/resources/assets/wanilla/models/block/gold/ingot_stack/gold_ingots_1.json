@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "wanilla:block/gold/gold_ingot",
+		"particle": "wanilla:block/gold/gold_ingot"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 4.5],
+			"to": [10, 2, 11.5],
+			"faces": {
+				"north": {"uv": [10, 4, 6, 2], "texture": "#0"},
+				"east": {"uv": [10, 4, 12, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 11, 10, 13], "texture": "#0"},
+				"west": {"uv": [4, 4, 6, 11], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [6, 4, 10, 11], "texture": "#0"},
+				"down": {"uv": [10, 4, 6, 11], "texture": "#0"}
+			}
+		}
+	]
+}

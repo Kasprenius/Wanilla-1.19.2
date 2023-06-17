@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "wanilla:mosaic_birch_planks"}
+  ],
+  "result": "wanilla:mosaic_birch_plank_slab",
+  "count": 2
+}

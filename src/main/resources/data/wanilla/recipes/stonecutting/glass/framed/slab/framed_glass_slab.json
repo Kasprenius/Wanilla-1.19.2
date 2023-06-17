@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:framed_glass"
+  },
+  "result": "wanilla:framed_glass_slab",
+  "count": 2
+}

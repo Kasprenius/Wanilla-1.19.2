@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/diamond/raw_diamond_slab"
+    },
+    "type=double": {
+      "model": "wanilla:block/diamond/raw_diamond_block"
+    },
+    "type=top": {
+      "model": "wanilla:block/diamond/raw_diamond_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wanilla:block/sandstone/polished/polished_sandstone_slab_bottom"
+    },
+    "type=double": {
+      "model": "wanilla:block/sandstone/polished/polished_sandstone_slab_double"
+    },
+    "type=top": {
+      "model": "wanilla:block/sandstone/polished/polished_sandstone_slab_top"
+    }
+  }
+}

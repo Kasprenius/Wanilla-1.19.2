@@ -1,6 +1,9 @@
 package net.kas.wanilla.block.templates;
 
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.CandleBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.util.math.BlockPos;
@@ -20,7 +23,7 @@ public class Glowstones extends CandleBlock {
     private static final VoxelShape FOUR_GLOWSTONE_SHAPE;
 
 
-    public Glowstones(AbstractBlock.Settings settings) {
+    public Glowstones(Settings settings) {
         super(settings);
         this.setDefaultState((BlockState)((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(CANDLES, 1)).with(LIT, true)).with(WATERLOGGED, false));
     }
@@ -31,7 +34,7 @@ public class Glowstones extends CandleBlock {
             BlockState blockState = (BlockState)state.with(WATERLOGGED, true);
             world.setBlockState(pos, blockState, 3);
 
-            world.createAndScheduleFluidTick(pos, fluidState.getFluid(), fluidState.getFluid().getTickRate(world));
+            world.scheduleFluidTick(pos, fluidState.getFluid(), fluidState.getFluid().getTickRate(world));
             return true;
         } else {
             return false;

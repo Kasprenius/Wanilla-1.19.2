@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:slime_block",
+    "wanilla:black_slime_block",
+    "wanilla:red_slime_block",
+    "wanilla:green_slime_block",
+    "wanilla:brown_slime_block",
+    "wanilla:blue_slime_block",
+    "wanilla:purple_slime_block",
+    "wanilla:cyan_slime_block",
+    "wanilla:light_gray_slime_block",
+    "wanilla:gray_slime_block",
+    "wanilla:pink_slime_block",
+    "wanilla:lime_slime_block",
+    "wanilla:yellow_slime_block",
+    "wanilla:light_blue_slime_block",
+    "wanilla:magenta_slime_block",
+    "wanilla:orange_slime_block",
+    "wanilla:white_slime_block"
+  ]
+}

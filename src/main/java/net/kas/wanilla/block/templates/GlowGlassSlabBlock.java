@@ -12,7 +12,6 @@ package net.kas.wanilla.block.templates;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.kas.wanilla.block.GlowGlassBlocks;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.block.SlabBlock;
@@ -127,7 +126,6 @@ public final class GlowGlassSlabBlock extends SlabBlock
         return 1.0F;
     }
 
-    @Override
     public boolean isTranslucent(BlockState blockState_1, BlockView blockView_1,
                                  BlockPos blockPos_1)
     {

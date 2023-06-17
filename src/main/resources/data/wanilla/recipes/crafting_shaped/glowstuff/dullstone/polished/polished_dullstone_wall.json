@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "wanilla:polished_dullstone"
+    }
+  },
+  "result": {
+    "item": "wanilla:polished_dullstone_wall",
+    "count": 6
+  }
+}

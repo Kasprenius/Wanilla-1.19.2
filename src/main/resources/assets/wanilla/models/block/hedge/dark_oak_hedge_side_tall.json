@@ -1,0 +1,6 @@
+{
+  "parent": "wanilla:block/hedge/template_hedge_side_tall",
+  "textures": {
+    "hedge": "block/dark_oak_leaves"
+  }
+}

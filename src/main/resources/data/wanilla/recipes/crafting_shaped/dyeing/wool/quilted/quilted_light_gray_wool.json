@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "quilted_wool",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": [
+      {"item": "wanilla:quilted_white_wool"},
+      { "item": "wanilla:quilted_gray_wool"  },
+      { "item": "wanilla:quilted_black_wool"  },
+      { "item": "wanilla:quilted_brown_wool"  },
+      { "item": "wanilla:quilted_red_wool"  },
+      { "item": "wanilla:quilted_orange_wool"  },
+      { "item": "wanilla:quilted_yellow_wool"  },
+      { "item": "wanilla:quilted_lime_wool"  },
+      { "item": "wanilla:quilted_green_wool"  },
+      { "item": "wanilla:quilted_cyan_wool"  },
+      { "item": "wanilla:quilted_light_blue_wool"  },
+      { "item": "wanilla:quilted_blue_wool"  },
+      { "item": "wanilla:quilted_purple_wool"  },
+      { "item": "wanilla:quilted_magenta_wool"  },
+      { "item": "wanilla:quilted_pink_wool"  }
+    ],
+    "B": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result": {
+    "item": "wanilla:quilted_light_gray_wool",
+    "count": 8
+  }
+}

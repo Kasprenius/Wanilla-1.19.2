@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "AEA",
+    "OOO"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "E": {
+      "item": "wanilla:condensed_endlight"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "wanilla:infusion_table"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wanilla:diamond_bricks"
+  },
+  "result": "wanilla:diamond_brick_slab",
+  "count": 2
+}

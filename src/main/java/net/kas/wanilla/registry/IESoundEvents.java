@@ -1,10 +1,10 @@
 package net.kas.wanilla.registry;
 
 import net.kas.wanilla.Wanilla;
-
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 
 public class IESoundEvents {
@@ -30,6 +30,6 @@ public class IESoundEvents {
 
     public static SoundEvent register(String ID) {
         Identifier identifier = new Identifier(Wanilla.MOD_ID, ID);
-        return Registry.register(Registry.SOUND_EVENT, identifier, new SoundEvent(identifier));
+        return Registry.register(Registries.SOUND_EVENT, identifier, SoundEvent.of(identifier));
     }
 }

@@ -1,7 +1,7 @@
 package net.kas.wanilla.block.templates;
 
 
-import net.kas.wanilla.block.ModBlocks;
+import net.kas.wanilla.block.GlowBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SnowBlock;
 import net.minecraft.item.ItemPlacementContext;
@@ -21,7 +21,7 @@ public class GlowdustBlock extends SnowBlock {
             if (i < 7) {
                 return blockState.with(LAYERS, Math.min(8, i + 1));
             } else {
-                return ModBlocks.GLOWDUST_SAND.getDefaultState();
+                return GlowBlocks.GLOWDUST_SAND.getDefaultState();
             }
         } else {
             return super.getPlacementState(ctx);

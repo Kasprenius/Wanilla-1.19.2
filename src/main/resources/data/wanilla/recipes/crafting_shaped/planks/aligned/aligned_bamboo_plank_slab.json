@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "aligned_slabs",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stripped_bamboo_block"
+    }
+  },
+  "result": {
+    "item": "wanilla:aligned_bamboo_plank_slab",
+    "count": 6
+  }
+}
