@@ -12,6 +12,12 @@ import net.minecraft.world.BlockView;
 
 public class EndRods {
 
+    //----------------------------------ANCIENT GREEN-----------------------------------------------------------------------------
+    public static final Block ANCIENT_GREEN_END_ROD = Wanilla.registerBlock("ancient_green_end_rod",
+            new EndRodBlock(FabricBlockSettings.copy(Blocks.END_ROD)));
+
+    //----------------------------------------------------------------------------------------------------------------------------
+
     public static final Block WHITE_END_ROD = Wanilla.registerBlock("white_end_rod",
             new EndRodBlock(FabricBlockSettings.copy(Blocks.END_ROD)));
     public static final Block LIGHT_GRAY_END_ROD = Wanilla.registerBlock("light_gray_end_rod",

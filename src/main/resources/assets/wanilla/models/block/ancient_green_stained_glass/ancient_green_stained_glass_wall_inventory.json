@@ -1,0 +1,6 @@
+{
+	"parent": "wanilla:block/glass/glass_wall_inventory",
+	"textures": {
+		"wall": "wanilla:block/glass/stained/ancient_green/ancient_green_stained_glass_wall"
+	}
+}

@@ -3,15 +3,20 @@ package net.kas.wanilla.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.kas.wanilla.Wanilla;
 import net.kas.wanilla.block.EndlightBlocks;
+import net.kas.wanilla.block.materials.ModDyeColors;
 import net.kas.wanilla.block.materials.ModToolMaterials;
 import net.kas.wanilla.item.custom.*;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
 public class ModItems {
+
+    public static final Item ANCIENT_GREEN_DYE = registerItem("ancient_green_dye",
+            new ModDyeItem(ModDyeColors.ANCIENT_GREEN, new FabricItemSettings()));
 
     public static final Item EMPTY_GLASS_JAR = registerItem("empty_glass_jar",
             new EmptyGlassJarItem(new FabricItemSettings()));
@@ -42,6 +47,8 @@ public class ModItems {
 
     public static final Item TUNING_FORK = registerItem("tuning_fork",
             new DebugStickItem(new FabricItemSettings().rarity(Rarity.UNCOMMON).maxCount(1)));
+    public static final Item INTERSPACIAL_COMPASS = registerItem("interspacial_compass",
+            new CompassItem(new Item.Settings().rarity(Rarity.RARE).maxCount(1)));
 
     public static final Item BLAST_IRON_SWORD = registerItem("blast_iron_sword",
             new SwordItem(ModToolMaterials.BLAST_IRON, 3, -2.4F, new Item.Settings()));

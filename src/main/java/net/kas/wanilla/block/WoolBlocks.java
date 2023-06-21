@@ -5,8 +5,23 @@ import net.kas.wanilla.Wanilla;
 import net.kas.wanilla.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.CarpetBlock;
+import net.minecraft.block.MapColor;
 
 public class WoolBlocks {
+
+    //----------------------------------ANCIENT GREEN-----------------------------------------------------------------------------
+    public static final Block ANCIENT_GREEN_WOOL = Wanilla.registerBlock("ancient_green_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).mapColor(MapColor.GREEN)));
+
+    public static final Block ANCIENT_GREEN_CARPET = Wanilla.registerBlock("ancient_green_carpet",
+            new CarpetBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CARPET).mapColor(MapColor.GREEN)));
+    public static final Block NAPPED_ANCIENT_GREEN_WOOL = Wanilla.registerBlock("napped_ancient_green_wool",
+            new Block(FabricBlockSettings.copyOf(WoolBlocks.ANCIENT_GREEN_WOOL)));
+    public static final Block QUILTED_ANCIENT_GREEN_WOOL = Wanilla.registerBlock("quilted_ancient_green_wool",
+            new Block(FabricBlockSettings.copyOf(WoolBlocks.ANCIENT_GREEN_WOOL)));
+
+    //----------------------------------------------------------------------------------------------------------------------------
 
     public static final Block NAPPED_WHITE_WOOL = Wanilla.registerBlock("napped_white_wool",
             new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));

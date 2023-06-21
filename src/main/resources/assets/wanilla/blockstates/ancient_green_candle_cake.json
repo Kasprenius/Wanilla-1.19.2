@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "wanilla:block/candles/ancient_green_candle_cake"
+    },
+    "lit=true": {
+      "model": "wanilla:block/candles/ancient_green_candle_cake_lit"
+    }
+  }
+}

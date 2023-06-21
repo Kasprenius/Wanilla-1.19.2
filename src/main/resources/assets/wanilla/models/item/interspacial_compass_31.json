@@ -1,0 +1,6 @@
+{
+  "parent": "wanilla:item/generated",
+  "textures": {
+    "layer0": "wanilla:item/interspacial_compass_31"
+  }
+}

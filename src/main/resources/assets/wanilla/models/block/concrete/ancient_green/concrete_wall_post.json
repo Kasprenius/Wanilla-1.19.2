@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "wanilla:block/concrete/ancient_green/ancient_green_concrete"
+  }
+}

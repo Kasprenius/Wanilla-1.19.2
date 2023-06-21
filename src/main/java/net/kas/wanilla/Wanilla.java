@@ -13,18 +13,26 @@ import net.kas.wanilla.item.ModItemGroup;
 import net.kas.wanilla.item.ModItems;
 import net.kas.wanilla.world.gen.ModWorldGen;
 import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
 import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.GlobalPos;
+import net.minecraft.util.math.Vec3d;
+import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 
 public class Wanilla implements ModInitializer {
 	public static final String MOD_ID = "wanilla";
@@ -35,7 +43,6 @@ public class Wanilla implements ModInitializer {
 	public static BlockEntityType<CustomFurnaceEntity> CUSTOM_FURNACE_ENTITY;
 
 	private static long lastTime = 0;
-
 
 	@Override
 	public void onInitialize() {

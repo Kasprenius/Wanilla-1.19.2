@@ -38,6 +38,11 @@ public class EndlightBlocks {
                     })
                     .mapColor(MapColor.BLACK)));
 
+    //----------------------------------ANCIENT GREEN-----------------------------------------------------------------------------
+    public static final Block ANCIENT_GREEN_CONDENSED_ENDLIGHT = Wanilla.registerBlock("ancient_green_condensed_endlight",
+            new Block(FabricBlockSettings.copyOf(CONDENSED_ENDLIGHT)
+                    .mapColor(MapColor.GREEN)));
+    //----------------------------------------------------------------------------------------------------------------------------
     public static final Block LIGHT_GRAY_CONDENSED_ENDLIGHT = Wanilla.registerBlock("light_gray_condensed_endlight",
             new Block(FabricBlockSettings.copyOf(CONDENSED_ENDLIGHT)
                     .mapColor(MapColor.LIGHT_GRAY)));

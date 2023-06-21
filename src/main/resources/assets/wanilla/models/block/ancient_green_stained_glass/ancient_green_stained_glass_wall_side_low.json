@@ -1,0 +1,7 @@
+{
+	"parent": "wanilla:block/glass/glass_wall_side_low",
+	"textures": {
+		"wall": "wanilla:block/glass/stained/ancient_green/ancient_green_stained_glass_wall",
+		"particle": "minecraft:block/ancient_green_stained_glass"
+	}
+}

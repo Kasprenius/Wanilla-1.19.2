@@ -12,6 +12,42 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
 
 public class GlassBlocks {
+
+    //----------------------------------ANCIENT GREEN-----------------------------------------------------------------------------
+    public static final Block ANCIENT_GREEN_STAINED_GLASS = Wanilla.registerBlock("ancient_green_stained_glass",
+            new StainedGlassBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS))
+    );
+            public static final Block ANCIENT_GREEN_STAINED_GLASS_SLAB = Wanilla.registerBlock("ancient_green_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(ANCIENT_GREEN_STAINED_GLASS))
+            );
+            public static final Block ANCIENT_GREEN_STAINED_GLASS_PANE = Wanilla.registerBlock("ancient_green_stained_glass_pane",
+                    new StainedGlassPaneBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS_PANE))
+            );
+            public static final Block ANCIENT_GREEN_STAINED_GLASS_FLOOR = Wanilla.registerBlock("ancient_green_stained_glass_floor",
+                    new FloorBlock(AbstractBlock.Settings.copy(Blocks.GLASS_PANE))
+            );
+    /*
+    public static final Block GREEN_STAINED_GLASS_WALL = Wanilla.registerBlock("green_stained_glass_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.GLASS))
+    );
+     */
+
+    public static final Block FRAMED_ANCIENT_GREEN_STAINED_GLASS = Wanilla.registerBlock("framed_ancient_green_stained_glass",
+            new StainedGlassBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS).strength(2.0F, 12.0F))
+    );
+            public static final Block FRAMED_ANCIENT_GREEN_STAINED_GLASS_SLAB = Wanilla.registerBlock("framed_ancient_green_stained_glass_slab",
+                    new StainedGlassSlabBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(FRAMED_ANCIENT_GREEN_STAINED_GLASS).strength(2.0F, 12.0F))
+            );
+            public static final Block FRAMED_ANCIENT_GREEN_STAINED_GLASS_PANE = Wanilla.registerBlock("framed_ancient_green_stained_glass_pane",
+                    new StainedGlassPaneBlock(DyeColor.GREEN, AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS_PANE).strength(2.0F, 12.0F))
+            );
+            public static final Block FRAMED_ANCIENT_GREEN_STAINED_GLASS_FLOOR = Wanilla.registerBlock("framed_ancient_green_stained_glass_floor",
+                    new FloorBlock(AbstractBlock.Settings.copy(Blocks.GREEN_STAINED_GLASS_PANE).strength(2.0F, 12.0F))
+            );
+
+    //----------------------------------------------------------------------------------------------------------------------------
+
+
     public static final Block FRAMED_GLASS = Wanilla.registerBlock("framed_glass",
             new GlassBlock(AbstractBlock.Settings.copy(Blocks.GLASS).strength(2.0F, 12.0F))
             );
@@ -27,6 +63,8 @@ public class GlassBlocks {
             public static final Block FRAMED_GLASS_FLOOR = Wanilla.registerBlock("framed_glass_floor",
                     new FloorBlock(AbstractBlock.Settings.copy(Blocks.GLASS_PANE).strength(2.0F, 12.0F))
                     );
+
+
     public static final Block FRAMED_WHITE_STAINED_GLASS = Wanilla.registerBlock("framed_white_stained_glass",
             new StainedGlassBlock(DyeColor.WHITE, AbstractBlock.Settings.copy(Blocks.WHITE_STAINED_GLASS).strength(2.0F, 12.0F))
             );

@@ -2,13 +2,13 @@ package net.kas.wanilla.block;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kas.wanilla.Wanilla;
+import net.kas.wanilla.block.materials.ModDyeColors;
 import net.kas.wanilla.block.templates.BlastrodBlock;
 import net.kas.wanilla.block.templates.CustomFurnaceBlock;
 import net.kas.wanilla.block.templates.InfusionTableBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.*;
 import net.minecraft.state.property.Properties;
+import net.minecraft.util.DyeColor;
 
 import java.util.function.ToIntFunction;
 
@@ -21,6 +21,16 @@ public class MiscStuff {
 
     public static final Block INFUSION_TABLE = Wanilla.registerBlock("infusion_table",
             new InfusionTableBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).strength(4.0f).luminance(13)));
+
+    public static final Block ANCIENT_GREEN_CANDLE = Wanilla.registerBlock("ancient_green_candle",
+            new CandleBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CANDLE)));
+
+
+    public static final Block ANCIENT_GREEN_CANDLE_CAKE = Wanilla.registerBlock("ancient_green_candle_cake",
+            new CandleCakeBlock(ANCIENT_GREEN_CANDLE, FabricBlockSettings.copyOf(Blocks.GREEN_CANDLE_CAKE)));
+
+    public static final Block ANCIENT_GREEN_TERRACOTTA = Wanilla.registerBlock("ancient_green_terracotta",
+            new Block(FabricBlockSettings.copyOf(Blocks.GREEN_TERRACOTTA)));
 
 
     //-------------------------------------------------------------------------------------------------------------------

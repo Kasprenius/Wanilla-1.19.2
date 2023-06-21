@@ -1,12 +1,24 @@
 package net.kas.wanilla.block;
 
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kas.wanilla.Wanilla;
 import net.kas.wanilla.block.templates.ColoredHoneyBlock;
 import net.kas.wanilla.block.templates.ColoredSlimeBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.EndRodBlock;
 import net.minecraft.util.DyeColor;
 
 public class SlimeHoneyBlocks {
+
+    //----------------------------------ANCIENT GREEN-----------------------------------------------------------------------------
+    public static final Block ANCIENT_GREEN_SLIME_BLOCK = Wanilla.registerBlock("ancient_green_slime_block",
+            new ColoredSlimeBlock(DyeColor.GREEN));
+
+    public static final Block ANCIENT_GREEN_HONEY_BLOCK = Wanilla.registerBlock("ancient_green_honey_block",
+            new ColoredHoneyBlock(DyeColor.GREEN));
+
+    //----------------------------------------------------------------------------------------------------------------------------
     
     public static final Block WHITE_SLIME_BLOCK = Wanilla.registerBlock("white_slime_block",
             new ColoredSlimeBlock(DyeColor.WHITE));

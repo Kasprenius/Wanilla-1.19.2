@@ -9,6 +9,25 @@ import net.minecraft.world.BlockView;
 
 public class ConcreteBlocks {
 
+    //----------------------------------ANCIENT GREEN-----------------------------------------------------------------------------
+
+    public static final Block ANCIENT_GREEN_CONCRETE_POWDER = Wanilla.registerBlock("ancient_green_concrete_powder",
+            new Block(FabricBlockSettings.copy(Blocks.GREEN_CONCRETE_POWDER))
+    );
+    public static final Block ANCIENT_GREEN_CONCRETE = Wanilla.registerBlock("ancient_green_concrete",
+            new Block(FabricBlockSettings.copy(Blocks.GREEN_CONCRETE).requiresTool())
+    );
+            public static final Block ANCIENT_GREEN_CONCRETE_STAIRS = Wanilla.registerBlock("ancient_green_concrete_stairs",
+                    new StairsBlock(ConcreteBlocks.ANCIENT_GREEN_CONCRETE.getDefaultState(), FabricBlockSettings.copy(ConcreteBlocks.ANCIENT_GREEN_CONCRETE).requiresTool())
+            );
+            public static final Block ANCIENT_GREEN_CONCRETE_SLAB = Wanilla.registerBlock("ancient_green_concrete_slab",
+                    new SlabBlock(FabricBlockSettings.copy(ConcreteBlocks.ANCIENT_GREEN_CONCRETE).requiresTool())
+            );
+            public static final Block ANCIENT_GREEN_CONCRETE_WALL = Wanilla.registerBlock("ancient_green_concrete_wall",
+                    new WallBlock(AbstractBlock.Settings.copy(ConcreteBlocks.ANCIENT_GREEN_CONCRETE))
+            );
+    //----------------------------------------------------------------------------------------------------------------------------
+
     public static final Block WHITE_CONCRETE_STAIRS = Wanilla.registerBlock("white_concrete_stairs",
             new StairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(), FabricBlockSettings.copy(Blocks.WHITE_CONCRETE).requiresTool())
             );

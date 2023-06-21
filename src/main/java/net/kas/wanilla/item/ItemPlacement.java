@@ -109,15 +109,19 @@ public class ItemPlacement {
                     GlowBlocks.CHISELED_DULLSTONE_BRICKS);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(entries -> {
+            entries.addAfter(Blocks.GREEN_WOOL, WoolBlocks.ANCIENT_GREEN_WOOL);
             entries.addAfter(Blocks.PINK_WOOL, WoolBlocks.QUILTED_WHITE_WOOL, WoolBlocks.QUILTED_LIGHT_GRAY_WOOL, WoolBlocks.QUILTED_GRAY_WOOL, WoolBlocks.QUILTED_BLACK_WOOL,
                     WoolBlocks.QUILTED_BROWN_WOOL, WoolBlocks.QUILTED_RED_WOOL, WoolBlocks.QUILTED_ORANGE_WOOL, WoolBlocks.QUILTED_YELLOW_WOOL,
-                    WoolBlocks.QUILTED_LIME_WOOL, WoolBlocks.QUILTED_GREEN_WOOL, WoolBlocks.QUILTED_CYAN_WOOL, WoolBlocks.QUILTED_LIGHT_BLUE_WOOL, WoolBlocks.QUILTED_BLUE_WOOL,
+                    WoolBlocks.QUILTED_LIME_WOOL, WoolBlocks.QUILTED_GREEN_WOOL, WoolBlocks.QUILTED_ANCIENT_GREEN_WOOL, WoolBlocks.QUILTED_CYAN_WOOL, WoolBlocks.QUILTED_LIGHT_BLUE_WOOL, WoolBlocks.QUILTED_BLUE_WOOL,
                     WoolBlocks.QUILTED_PURPLE_WOOL, WoolBlocks.QUILTED_MAGENTA_WOOL, WoolBlocks.QUILTED_PINK_WOOL,
 
                     WoolBlocks.NAPPED_WHITE_WOOL, WoolBlocks.NAPPED_LIGHT_GRAY_WOOL, WoolBlocks.NAPPED_GRAY_WOOL, WoolBlocks.NAPPED_BLACK_WOOL,
                     WoolBlocks.NAPPED_BROWN_WOOL, WoolBlocks.NAPPED_RED_WOOL, WoolBlocks.NAPPED_ORANGE_WOOL, WoolBlocks.NAPPED_YELLOW_WOOL,
-                    WoolBlocks.NAPPED_LIME_WOOL, WoolBlocks.NAPPED_GREEN_WOOL, WoolBlocks.NAPPED_CYAN_WOOL, WoolBlocks.NAPPED_LIGHT_BLUE_WOOL,
+                    WoolBlocks.NAPPED_LIME_WOOL, WoolBlocks.NAPPED_GREEN_WOOL, WoolBlocks.NAPPED_ANCIENT_GREEN_WOOL, WoolBlocks.NAPPED_CYAN_WOOL, WoolBlocks.NAPPED_LIGHT_BLUE_WOOL,
                     WoolBlocks.NAPPED_BLUE_WOOL, WoolBlocks.NAPPED_PURPLE_WOOL, WoolBlocks.NAPPED_MAGENTA_WOOL, WoolBlocks.NAPPED_PINK_WOOL);
+            entries.addAfter(Blocks.GREEN_CARPET, WoolBlocks.ANCIENT_GREEN_CARPET);
+            entries.addAfter(Blocks.GREEN_TERRACOTTA, MiscStuff.ANCIENT_GREEN_TERRACOTTA);
+            entries.addAfter(Blocks.GREEN_CONCRETE_POWDER, ConcreteBlocks.ANCIENT_GREEN_CONCRETE_POWDER);
             entries.addAfter(Blocks.WHITE_CONCRETE, ConcreteBlocks.WHITE_CONCRETE_STAIRS, ConcreteBlocks.WHITE_CONCRETE_SLAB, ConcreteBlocks.WHITE_CONCRETE_WALL,
                     Blocks.LIGHT_GRAY_CONCRETE, ConcreteBlocks.LIGHT_GRAY_CONCRETE_STAIRS, ConcreteBlocks.LIGHT_GRAY_CONCRETE_SLAB, ConcreteBlocks.LIGHT_GRAY_CONCRETE_WALL,
                     Blocks.GRAY_CONCRETE, ConcreteBlocks.GRAY_CONCRETE_STAIRS, ConcreteBlocks.GRAY_CONCRETE_SLAB, ConcreteBlocks.GRAY_CONCRETE_WALL,
@@ -128,39 +132,43 @@ public class ItemPlacement {
                     Blocks.YELLOW_CONCRETE, ConcreteBlocks.YELLOW_CONCRETE_STAIRS, ConcreteBlocks.YELLOW_CONCRETE_SLAB, ConcreteBlocks.YELLOW_CONCRETE_WALL,
                     Blocks.LIME_CONCRETE, ConcreteBlocks.LIME_CONCRETE_STAIRS, ConcreteBlocks.LIME_CONCRETE_SLAB, ConcreteBlocks.LIME_CONCRETE_WALL,
                     Blocks.GREEN_CONCRETE, ConcreteBlocks.GREEN_CONCRETE_STAIRS, ConcreteBlocks.GREEN_CONCRETE_SLAB, ConcreteBlocks.GREEN_CONCRETE_WALL,
+                    ConcreteBlocks.ANCIENT_GREEN_CONCRETE, ConcreteBlocks.ANCIENT_GREEN_CONCRETE_STAIRS, ConcreteBlocks.ANCIENT_GREEN_CONCRETE_SLAB, ConcreteBlocks.ANCIENT_GREEN_CONCRETE_WALL,
                     Blocks.CYAN_CONCRETE, ConcreteBlocks.CYAN_CONCRETE_STAIRS, ConcreteBlocks.CYAN_CONCRETE_SLAB, ConcreteBlocks.CYAN_CONCRETE_WALL,
                     Blocks.LIGHT_BLUE_CONCRETE, ConcreteBlocks.LIGHT_BLUE_CONCRETE_STAIRS, ConcreteBlocks.LIGHT_BLUE_CONCRETE_SLAB, ConcreteBlocks.LIGHT_BLUE_CONCRETE_WALL,
                     Blocks.BLUE_CONCRETE, ConcreteBlocks.BLUE_CONCRETE_STAIRS, ConcreteBlocks.BLUE_CONCRETE_SLAB, ConcreteBlocks.BLUE_CONCRETE_WALL,
                     Blocks.PURPLE_CONCRETE, ConcreteBlocks.PURPLE_CONCRETE_STAIRS, ConcreteBlocks.PURPLE_CONCRETE_SLAB, ConcreteBlocks.PURPLE_CONCRETE_WALL,
                     Blocks.MAGENTA_CONCRETE, ConcreteBlocks.MAGENTA_CONCRETE_STAIRS, ConcreteBlocks.MAGENTA_CONCRETE_SLAB, ConcreteBlocks.MAGENTA_CONCRETE_WALL,
                     Blocks.PINK_CONCRETE, ConcreteBlocks.PINK_CONCRETE_STAIRS, ConcreteBlocks.PINK_CONCRETE_SLAB, ConcreteBlocks.PINK_CONCRETE_WALL);
+            entries.addAfter(Blocks.GREEN_STAINED_GLASS, GlassBlocks.ANCIENT_GREEN_STAINED_GLASS);
+            entries.addAfter(Blocks.GREEN_STAINED_GLASS_PANE, GlassBlocks.ANCIENT_GREEN_STAINED_GLASS_PANE);
             entries.addAfter(Blocks.PINK_STAINED_GLASS_PANE, GlassBlocks.GLASS_FLOOR, GlassBlocks.WHITE_STAINED_GLASS_FLOOR, GlassBlocks.LIGHT_GRAY_STAINED_GLASS_FLOOR, GlassBlocks.GRAY_STAINED_GLASS_FLOOR,
                     GlassBlocks.BLACK_STAINED_GLASS_FLOOR, GlassBlocks.BROWN_STAINED_GLASS_FLOOR, GlassBlocks.RED_STAINED_GLASS_FLOOR, GlassBlocks.ORANGE_STAINED_GLASS_FLOOR, GlassBlocks.YELLOW_STAINED_GLASS_FLOOR,
-                    GlassBlocks.LIME_STAINED_GLASS_FLOOR, GlassBlocks.GREEN_STAINED_GLASS_FLOOR, GlassBlocks.CYAN_STAINED_GLASS_FLOOR, GlassBlocks.LIGHT_BLUE_STAINED_GLASS_FLOOR, GlassBlocks.BLUE_STAINED_GLASS_FLOOR,
+                    GlassBlocks.LIME_STAINED_GLASS_FLOOR, GlassBlocks.GREEN_STAINED_GLASS_FLOOR, GlassBlocks.ANCIENT_GREEN_STAINED_GLASS_FLOOR, GlassBlocks.CYAN_STAINED_GLASS_FLOOR, GlassBlocks.LIGHT_BLUE_STAINED_GLASS_FLOOR, GlassBlocks.BLUE_STAINED_GLASS_FLOOR,
                     GlassBlocks.PURPLE_STAINED_GLASS_FLOOR, GlassBlocks.MAGENTA_STAINED_GLASS_FLOOR, GlassBlocks.PINK_STAINED_GLASS_FLOOR,
 
                     GlassBlocks.GLASS_WALL, GlassBlocks.WHITE_STAINED_GLASS_WALL, GlassBlocks.LIGHT_GRAY_STAINED_GLASS_WALL, GlassBlocks.GRAY_STAINED_GLASS_WALL,
                     GlassBlocks.BLACK_STAINED_GLASS_WALL, GlassBlocks.BROWN_STAINED_GLASS_WALL, GlassBlocks.RED_STAINED_GLASS_WALL, GlassBlocks.ORANGE_STAINED_GLASS_WALL, GlassBlocks.YELLOW_STAINED_GLASS_WALL,
-                    GlassBlocks.LIME_STAINED_GLASS_WALL, GlassBlocks.GREEN_STAINED_GLASS_WALL, GlassBlocks.CYAN_STAINED_GLASS_WALL, GlassBlocks.LIGHT_BLUE_STAINED_GLASS_WALL, GlassBlocks.BLUE_STAINED_GLASS_WALL,
+                    GlassBlocks.LIME_STAINED_GLASS_WALL, GlassBlocks.GREEN_STAINED_GLASS_WALL, /*GlassBlocks.ANCIENT_GREEN_STAINED_GLASS_WALL,*/ GlassBlocks.CYAN_STAINED_GLASS_WALL, GlassBlocks.LIGHT_BLUE_STAINED_GLASS_WALL, GlassBlocks.BLUE_STAINED_GLASS_WALL,
                     GlassBlocks.PURPLE_STAINED_GLASS_WALL, GlassBlocks.MAGENTA_STAINED_GLASS_WALL, GlassBlocks.PINK_STAINED_GLASS_WALL
                     );
             entries.addAfter(Blocks.PINK_SHULKER_BOX, Blocks.SLIME_BLOCK, SlimeHoneyBlocks.WHITE_SLIME_BLOCK, SlimeHoneyBlocks.LIGHT_GRAY_SLIME_BLOCK, SlimeHoneyBlocks.GRAY_SLIME_BLOCK,
                     SlimeHoneyBlocks.BLACK_SLIME_BLOCK, SlimeHoneyBlocks.BROWN_SLIME_BLOCK, SlimeHoneyBlocks.RED_SLIME_BLOCK, SlimeHoneyBlocks.ORANGE_SLIME_BLOCK, SlimeHoneyBlocks.YELLOW_SLIME_BLOCK,
-                    SlimeHoneyBlocks.LIME_SLIME_BLOCK, SlimeHoneyBlocks.GREEN_SLIME_BLOCK, SlimeHoneyBlocks.CYAN_SLIME_BLOCK, SlimeHoneyBlocks.LIGHT_BLUE_SLIME_BLOCK, SlimeHoneyBlocks.BLUE_SLIME_BLOCK,
+                    SlimeHoneyBlocks.LIME_SLIME_BLOCK, SlimeHoneyBlocks.GREEN_SLIME_BLOCK, SlimeHoneyBlocks.ANCIENT_GREEN_SLIME_BLOCK, SlimeHoneyBlocks.CYAN_SLIME_BLOCK, SlimeHoneyBlocks.LIGHT_BLUE_SLIME_BLOCK, SlimeHoneyBlocks.BLUE_SLIME_BLOCK,
                     SlimeHoneyBlocks.PURPLE_SLIME_BLOCK, SlimeHoneyBlocks.MAGENTA_SLIME_BLOCK, SlimeHoneyBlocks.PINK_SLIME_BLOCK,
 
                     Blocks.HONEY_BLOCK, SlimeHoneyBlocks.WHITE_HONEY_BLOCK, SlimeHoneyBlocks.LIGHT_GRAY_HONEY_BLOCK, SlimeHoneyBlocks.GRAY_HONEY_BLOCK,
                     SlimeHoneyBlocks.BLACK_HONEY_BLOCK, SlimeHoneyBlocks.BROWN_HONEY_BLOCK, SlimeHoneyBlocks.RED_HONEY_BLOCK, SlimeHoneyBlocks.ORANGE_HONEY_BLOCK, SlimeHoneyBlocks.YELLOW_HONEY_BLOCK,
-                    SlimeHoneyBlocks.LIME_HONEY_BLOCK, SlimeHoneyBlocks.GREEN_HONEY_BLOCK, SlimeHoneyBlocks.CYAN_HONEY_BLOCK, SlimeHoneyBlocks.LIGHT_BLUE_HONEY_BLOCK, SlimeHoneyBlocks.BLUE_HONEY_BLOCK,
+                    SlimeHoneyBlocks.LIME_HONEY_BLOCK, SlimeHoneyBlocks.GREEN_HONEY_BLOCK, SlimeHoneyBlocks.ANCIENT_GREEN_HONEY_BLOCK, SlimeHoneyBlocks.CYAN_HONEY_BLOCK, SlimeHoneyBlocks.LIGHT_BLUE_HONEY_BLOCK, SlimeHoneyBlocks.BLUE_HONEY_BLOCK,
                     SlimeHoneyBlocks.PURPLE_HONEY_BLOCK, SlimeHoneyBlocks.MAGENTA_HONEY_BLOCK, SlimeHoneyBlocks.PINK_HONEY_BLOCK
                     );
+            entries.addAfter(Blocks.GREEN_CANDLE, MiscStuff.ANCIENT_GREEN_CANDLE);
             entries.addAfter(Blocks.PINK_BANNER, EndlightBlocks.CONDENSED_ENDLIGHT, EndlightBlocks.CONDENSED_VOIDLIGHT, EndlightBlocks.LIGHT_GRAY_CONDENSED_ENDLIGHT, EndlightBlocks.GRAY_CONDENSED_ENDLIGHT, EndlightBlocks.BROWN_CONDENSED_ENDLIGHT,
                     EndlightBlocks.RED_CONDENSED_ENDLIGHT, EndlightBlocks.ORANGE_CONDENSED_ENDLIGHT, EndlightBlocks.YELLOW_CONDENSED_ENDLIGHT, EndlightBlocks.LIME_CONDENSED_ENDLIGHT, EndlightBlocks.GREEN_CONDENSED_ENDLIGHT,
-                    EndlightBlocks.CYAN_CONDENSED_ENDLIGHT, EndlightBlocks.LIGHT_BLUE_CONDENSED_ENDLIGHT, EndlightBlocks.BLUE_CONDENSED_ENDLIGHT, EndlightBlocks.PURPLE_CONDENSED_ENDLIGHT, EndlightBlocks.MAGENTA_CONDENSED_ENDLIGHT,
-                    EndlightBlocks. PINK_CONDENSED_ENDLIGHT,
+                    EndlightBlocks.ANCIENT_GREEN_CONDENSED_ENDLIGHT, EndlightBlocks.CYAN_CONDENSED_ENDLIGHT, EndlightBlocks.LIGHT_BLUE_CONDENSED_ENDLIGHT, EndlightBlocks.BLUE_CONDENSED_ENDLIGHT, EndlightBlocks.PURPLE_CONDENSED_ENDLIGHT,
+                    EndlightBlocks.MAGENTA_CONDENSED_ENDLIGHT, EndlightBlocks. PINK_CONDENSED_ENDLIGHT,
 
                     Blocks.END_ROD, EndRods.WHITE_END_ROD, EndRods.LIGHT_GRAY_END_ROD, EndRods.GRAY_END_ROD, EndRods.BLACK_END_ROD, EndRods.BROWN_END_ROD, EndRods.RED_END_ROD,
-                    EndRods.ORANGE_END_ROD, EndRods.YELLOW_END_ROD, EndRods.LIME_END_ROD, EndRods.GREEN_END_ROD, EndRods.CYAN_END_ROD, EndRods.LIGHT_BLUE_END_ROD, EndRods.BLUE_END_ROD,
+                    EndRods.ORANGE_END_ROD, EndRods.YELLOW_END_ROD, EndRods.LIME_END_ROD, EndRods.GREEN_END_ROD, EndRods.ANCIENT_GREEN_END_ROD, EndRods.CYAN_END_ROD, EndRods.LIGHT_BLUE_END_ROD, EndRods.BLUE_END_ROD,
                     EndRods.PURPLE_END_ROD, EndRods.MAGENTA_END_ROD, EndRods.PINK_END_ROD);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
@@ -203,6 +211,8 @@ public class ItemPlacement {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.addAfter(Items.IRON_HOE, ModItems.BLAST_IRON_SHOVEL, ModItems.BLAST_IRON_PICKAXE, ModItems.BLAST_IRON_AXE, ModItems.BLAST_IRON_HOE);
             entries.addAfter(Items.MILK_BUCKET, ModItems.EMPTY_GLASS_JAR, ModItems.ENDLIGHT_GLASS_JAR, ModItems.VOIDLIGHT_GLASS_JAR, ModItems.ALLAY_GLASS_JAR);
+            entries.addAfter(Items.BONE_MEAL, ModItems.TUNING_FORK);
+            entries.addAfter(Items.RECOVERY_COMPASS, ModItems.INTERSPACIAL_COMPASS);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.addAfter(Items.IRON_SWORD, ModItems.BLAST_IRON_SWORD);
@@ -215,6 +225,7 @@ public class ItemPlacement {
             entries.addAfter(Items.EMERALD, ModItems.RUBY);
             entries.addAfter(Items.GLASS_BOTTLE, ModItems.EMPTY_GLASS_JAR);
             entries.addAfter(Items.GUNPOWDER, Items.GLOWSTONE_DUST, GlowBlocks.GLOWSTONES);
+            entries.addAfter(Items.GREEN_DYE, ModItems.ANCIENT_GREEN_DYE);
         });
     }
 }

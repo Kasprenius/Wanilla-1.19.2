@@ -2,6 +2,7 @@ package net.kas.wanilla;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
@@ -10,13 +11,33 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.kas.wanilla.block.*;
 import net.kas.wanilla.block.entities.InfusionTableEntityRenderer;
 import net.kas.wanilla.event.ModEvents;
+import net.kas.wanilla.item.ModItems;
+import net.kas.wanilla.item.custom.InterspacialCompassItem;
+import net.kas.wanilla.mixin.ServerPlayerEntityMixin;
 import net.kas.wanilla.network.ModNetworking;
+import net.kas.wanilla.util.ServerPlayerGetters;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.color.block.BlockColorProvider;
 import net.minecraft.client.color.item.ItemColorProvider;
+import net.minecraft.client.item.ClampedModelPredicateProvider;
+import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.decoration.ItemFrameEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.GlobalPos;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.math.Vec3d;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 public class WanillaClient implements ClientModInitializer {
     @Override
@@ -50,6 +71,15 @@ public class WanillaClient implements ClientModInitializer {
                 GlowGlassBlocks.GLOW_GLASS_PANE,
                 GlowGlassBlocks.GLOW_GLASS_FLOOR,
                 GlowGlassBlocks.GLOW_GLASS_WALL,
+
+                GlassBlocks.ANCIENT_GREEN_STAINED_GLASS,
+                GlassBlocks.ANCIENT_GREEN_STAINED_GLASS_PANE,
+                GlassBlocks.ANCIENT_GREEN_STAINED_GLASS_FLOOR,
+                GlassBlocks.FRAMED_ANCIENT_GREEN_STAINED_GLASS,
+                GlassBlocks.FRAMED_ANCIENT_GREEN_STAINED_GLASS_PANE,
+                GlassBlocks.FRAMED_ANCIENT_GREEN_STAINED_GLASS_FLOOR,
+                SlimeHoneyBlocks.ANCIENT_GREEN_SLIME_BLOCK,
+                SlimeHoneyBlocks.ANCIENT_GREEN_HONEY_BLOCK,
 
                 GlassBlocks.GLASS_FLOOR,
                 GlassBlocks.GLASS_WALL,
@@ -236,7 +266,78 @@ public class WanillaClient implements ClientModInitializer {
         registerBlockColor(Hedges.DARK_OAK_HEDGE, Blocks.DARK_OAK_LEAVES);
         registerBlockColor(Hedges.MANGROVE_HEDGE, Blocks.ACACIA_LEAVES);
         registerBlockColor(Hedges.CHERRY_HEDGE, Blocks.CHERRY_LEAVES);
+
+
+        ModelPredicateProviderRegistry.register(ModItems.INTERSPACIAL_COMPASS, new Identifier("angle"), new ClampedModelPredicateProvider() {
+            private double rotation;
+            private double rota;
+            private long lastUpdateTick;
+
+            @Override
+            public float unclampedCall(ItemStack stack, ClientWorld world, LivingEntity entityLiving, int seed) {
+                if (entityLiving == null && !stack.isInFrame()) {
+                    return 0.0F;
+                } else {
+                    final boolean entityExists = entityLiving != null;
+                    final Entity entity = (Entity) (entityExists ? entityLiving : stack.getFrame());
+                    if (world == null && entity.getWorld() instanceof ClientWorld) {
+                        world = (ClientWorld) entity.getWorld();
+                    }
+
+                    double rotation = entityExists ? (double) entity.getYaw() : getFrameRotation((ItemFrameEntity) entity);
+                    rotation = rotation % 360.0D;
+                    double adjusted = Math.PI - ((rotation - 90.0D) * 0.01745329238474369D - getAngle(world, entity, stack));
+
+                    if (entityExists) {
+                        adjusted = wobble(world, adjusted);
+                    }
+
+                    final float f = (float) (adjusted / (Math.PI * 2D));
+                    return MathHelper.floorMod(f, 1.0F);
+                }
+            }
+
+            private double wobble(ClientWorld world, double amount) {
+                if (world.getTime() != lastUpdateTick) {
+                    lastUpdateTick = world.getTime();
+                    double d0 = amount - rotation;
+                    d0 = d0 % (Math.PI * 2D);
+                    d0 = MathHelper.clamp(d0, -1.0D, 1.0D);
+                    rota += d0 * 0.1D;
+                    rota *= 0.8D;
+                    rotation += rota;
+                }
+
+                return rotation;
+            }
+
+            private double getFrameRotation(ItemFrameEntity itemFrame) {
+                return (double) MathHelper.wrapDegrees(180 + itemFrame.getHorizontalFacing().getHorizontal() * 90);
+            }
+
+            private double getAngle(ClientWorld world, Entity entity, ItemStack stack) {
+                if (stack.getItem() == ModItems.INTERSPACIAL_COMPASS) {
+                    //InterspacialCompassItem compassItem = (InterspacialCompassItem) stack.getItem();
+                    BlockPos pos = world.getSpawnPos();
+
+                    /*
+                    if (entity.isPlayer()) {
+                        PlayerEntity player = (PlayerEntity) entity;
+                        pos = ((ServerPlayerGetters) player).getServerPlayerSpawnPosition();
+                    } else {
+                        pos = world.getSpawnPos();
+                    }
+
+                     */
+
+                    return Math.atan2((double) pos.getZ() - entity.getPos().z, (double) pos.getX() - entity.getPos().x);
+                }
+                return 0.0D;
+            }
+        });
     }
+
+
 
     public void registerBlockColor(Block block, Block templateBlock) {
         ColorProviderRegistry.BLOCK.register((block1, pos, world, layer) -> {

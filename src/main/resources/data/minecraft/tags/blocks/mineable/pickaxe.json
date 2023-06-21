@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "wanilla:ancient_green_terracotta",
+    "wanilla:ancient_green_condensed_endlight",
+    "wanilla:ancient_green_concrete",
+    "wanilla:ancient_green_concrete_stairs",
+    "wanilla:ancient_green_concrete_slab",
+    "wanilla:ancient_green_concrete_wall",
     "wanilla:black_concrete_stairs",
     "wanilla:black_concrete_slab",
     "wanilla:black_concrete_wall",

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "wanilla:ancient_green_wool",
+    "wanilla:napped_ancient_green_wool",
+    "wanilla:quilted_ancient_green_wool",
     "wanilla:napped_white_wool",
     "wanilla:napped_orange_wool",
     "wanilla:napped_magenta_wool",

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "wanilla:block/ancient_green_stained_glass/slab/ancient_green_stained_glass_slab_bottom" },
+    "type=top": { "model": "wanilla:block/ancient_green_stained_glass/slab/ancient_green_stained_glass_slab_top" },
+    "type=double": { "model": "wanilla:block/ancient_green_stained_glass/slab/ancient_green_stained_glass_slab_double" }
+  }
+}

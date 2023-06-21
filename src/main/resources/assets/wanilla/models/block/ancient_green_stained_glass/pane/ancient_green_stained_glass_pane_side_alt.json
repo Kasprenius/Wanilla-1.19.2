@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "wanilla:block/glass/stained/ancient_green/ancient_green_stained_glass_pane_top",
+    "pane": "wanilla:block/glass/stained/ancient_green/ancient_green_stained_glass"
+  }
+}

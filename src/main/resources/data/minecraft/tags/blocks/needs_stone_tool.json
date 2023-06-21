@@ -121,6 +121,10 @@
     "wanilla:green_concrete_stairs",
     "wanilla:green_concrete_slab",
     "wanilla:green_concrete_wall",
+    "wanilla:ancient_green_concrete",
+    "wanilla:ancient_green_concrete_stairs",
+    "wanilla:ancient_green_concrete_slab",
+    "wanilla:ancient_green_concrete_wall",
     "wanilla:cyan_concrete_stairs",
     "wanilla:cyan_concrete_slab",
     "wanilla:cyan_concrete_wall",
@@ -138,6 +142,7 @@
     "wanilla:magenta_concrete_wall",
     "wanilla:pink_concrete_stairs",
     "wanilla:pink_concrete_slab",
-    "wanilla:pink_concrete_wall"
+    "wanilla:pink_concrete_wall",
+    "wanilla:ancient_green_terracotta"
   ]
 }
